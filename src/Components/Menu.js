@@ -47,11 +47,30 @@ const MenuItemStyled = styled.div`
     }
     .grid-item{
         .portfolio-content{
+            border: 3px solid black;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+            border-radius: 2.5px;
+            transform-style: preserve-3d;
             display: block;
             position: relative;
             overflow: hidden;
+            &:hover{
+                transform: scale(1.1);
+                transform: translate(7px, -7px);
+                // border-right: 9px solid black;
+                // border-bottom: 9px solid black;
+                transform-style: preserve-3d;
+                transition: all 0.2s ease-in-out;
+                box-shadow: 5px 10px black;
+            }
             h6{
                 font-size: 1.5rem;
+                border-top: 4px solid black;
+            }
+            p{
+                font-size: 1rem;
+                border-top: 4px solid black;
             }
             img{
                 width: 100%;
