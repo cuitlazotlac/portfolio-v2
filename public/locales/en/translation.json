@@ -1,0 +1,24 @@
+{
+    "NavBar": {
+        "MadeWith": "Built with ",
+        "English": "English",
+        "French": "French",
+        "Spanish": "Spanish",
+        "Home": "HOME",
+        "About": "ABOUT",
+        "Portfolios": "PORTFOLIO",
+        "Blogs": "BLOGS",
+        "Contact": "CONTACT"
+    },
+    "Cat1": {
+        "Text1": "Text1"
+    },
+    "Cat2": {
+        "Text1": "Text2"
+    },
+    "AboutPage": {
+        "resume-title": "MY EXPERIENCES",
+        "resume-btn": "DOWNLOAD RESUME"
+    }
+
+}
