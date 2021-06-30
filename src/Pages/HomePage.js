@@ -6,15 +6,26 @@ import YoutubeIcon from "@material-ui/icons/YouTube";
 import Particle from "../Components/Particle";
 
 import HomeItem from "../Components/HomeItem";
+import MainTitle  from "../Components/ MainTitle";
 import img from "../resources/img/hve_favicon.svg";
 
+import { useTranslation } from "react-i18next";
+
 function HomePage() {
+  const { t, i18n } = useTranslation();
+
   return (
     <HomePageStyled>
       <div className="particle-con">
         <Particle />
       </div>
       <div className="typography">
+        <MainTitle
+          msg_1={t("Cat1.Text1")}
+          msg_2={t("Cat2.Text1")}
+          msg_3={t("Cat1.Text1")}
+          msg_4={t("Cat1.Text1")}
+        />
         <h1>
           Hi, I'm <span>Lorem Ipsum</span>
         </h1>
