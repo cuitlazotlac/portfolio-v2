@@ -96,11 +96,17 @@ function Navigation() {
         <li className="nav-item">
           <NavLink to="/portfolios" activeClassName="active-class" exact>
             Portfolios
+            <Badge pill variant="secondary">
+              14
+            </Badge>
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/blogs" activeClassName="active-class" exact>
             Blogs
+            <Badge pill variant="secondary">
+              14
+            </Badge>
           </NavLink>
         </li>
         <li className="nav-item">
@@ -115,26 +121,26 @@ function Navigation() {
         </p>
       </footer> */}
       <div className="footer-div">
-          <div className="social-btn">
-            <a href={linkedin_link} target="_blank">
-              <img src={linkedin} alt="linkedin" />
-            </a>
-            <a href={github_link} target="_blank">
-              <img src={github} alt="github" />
-            </a>
-            <a href={behance_link} target="_blank">
-              <img src={behance} alt="behance" />
-            </a>
-            <a href={mail_link} target="_blank">
-              <img src={mail} alt="mail" />
-            </a>
-          </div>
-          <p className="copyright">
-            {" "}
-            {t("NavBar.MadeWith")}
-            <img className="social-btn" src={react_logo} alt="" />
-          </p>
+        <div className="social-btn">
+          <a href={linkedin_link} target="_blank">
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          <a href={github_link} target="_blank">
+            <img src={github} alt="github" />
+          </a>
+          <a href={behance_link} target="_blank">
+            <img src={behance} alt="behance" />
+          </a>
+          <a href={mail_link} target="_blank">
+            <img src={mail} alt="mail" />
+          </a>
         </div>
+        <p className="copyright">
+          {" "}
+          {t("NavBar.MadeWith")}
+          <img className="social-btn" src={react_logo} alt="" />
+        </p>
+      </div>
     </NavigationStyled>
   );
 }
@@ -258,9 +264,9 @@ const NavigationStyled = styled.nav`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  height: 95%;
+  height: 100%;
   width: 100%;
-  border-right: 1px solid var(--border-color);
+  border-right: 2px solid var(--border-color);
   .profile {
     width: 100%;
     height: 15%;
@@ -356,7 +362,7 @@ const NavigationStyled = styled.nav`
         letter-spacing: 1px;
         &:hover {
           cursor: pointer;
-          color: var(--white-color);
+          color: var(--border-color);
         }
         &::before {
           content: "";
@@ -365,7 +371,7 @@ const NavigationStyled = styled.nav`
           left: 0;
           width: 0;
           height: 50%;
-          background-color: var(--primary-color);
+          background-color: var(--border-color);
           transition: All 0.4s cubic-bezier(1, -0.2, 0.25, 0.95);
           opacity: 0.21;
           z-index: -1;
@@ -389,7 +395,7 @@ const NavigationStyled = styled.nav`
   }
   .footer-div {
     width: 100%;
-    height: 13%;
+    // height: 13%;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);

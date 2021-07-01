@@ -16,8 +16,10 @@ function BlogsPage() {
                 <div className="image">
                   <img src={blog.image} alt="" />
                 </div>
-                <div className="title">
-                  <a href={blog.link}>{blog.title}</a>
+                <div>
+                  <a href={blog.link}>
+                    <h6>{blog.title}</h6>
+                  </a>
                 </div>
               </div>
             );
@@ -28,60 +30,22 @@ function BlogsPage() {
   );
 }
 
-// const BlogsStyled = styled.div`
-//   .blog {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-column-gap: 2rem;
-//     grid-row-gap: 3rem;
-//     @media screen and (max-width: 770px) {
-//       grid-template-columns: repeat(1, 1fr);
-//     }
-//     .blog-item {
-//       background-color: var(--background-dark-grey);
-//       padding: 1rem 1rem;
-//     }
-//     .image {
-//       width: 100%;
-//       overflow: hidden;
-//       padding-bottom: 0.5rem;
-//       img {
-//         width: 100%;
-//         height: 90%;
-//         object-fit: cover;
-//         transition: all 0.4s ease-in-out;
-//         &:hover {
-//           cursor: pointer;
-//           transform: rotate(3deg) scale(1.1);
-//         }
-//       }
-//     }
-//     .title {
-//       a {
-//         font-size: 1.8rem;
-//         padding: 2rem 0;
-//         color: var(--white-color);
-//         cursor: pointer;
-//         transition: all 0.4s ease-in-out;
-//         &:hover {
-//           color: var(--primary-color);
-//         }
-//       }
-//     }
-//   }
-// `;
-
 const BlogsStyled = styled.div`
   .blog {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 3rem;
     @media screen and (max-width: 770px) {
       grid-template-columns: repeat(1, 1fr);
     }
+    h6{
+      font-size: 1.5rem;
+      margin-top: 10px;
+      text-align: left
+  }
   .blog-item {
-    border: 3px solid black;
+    border: 3px solid var(--border-color);
     transition: all 0.3s ease-in-out;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
     border-radius: 2.5px;
@@ -96,12 +60,13 @@ const BlogsStyled = styled.div`
       // border-bottom: 9px solid black;
       transform-style: preserve-3d;
       transition: all 0.2s ease-in-out;
-      box-shadow: 5px 10px black;
+      box-shadow: 5px 10px var(--border-color);
     }
     .image {
               width: 100%;
               overflow: hidden;
-              padding-bottom: 0.5rem;
+              padding-bottom: 0.5rem;      
+              border-bottom: 4px solid var(--border-color);
               img {
                 width: 100%;
                 height: 90%;
