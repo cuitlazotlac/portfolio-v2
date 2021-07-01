@@ -1,38 +1,38 @@
-import React from 'react'
-import styled from 'styled-components';
-import GitHub from '@material-ui/icons/GitHub';
-import Pinterest from '@material-ui/icons/Pinterest';
+import React from "react";
+import styled from "styled-components";
+import GitHub from "@material-ui/icons/GitHub";
+import Pinterest from "@material-ui/icons/Pinterest";
 
-function Menu({menuItem}) {
-    return (
-        <MenuItemStyled >
-            {
-                menuItem.map((item)=>{
-                    return <div className="grid-item" key={item.id}>
-                        <div className="portfolio-content">
-                            <div className="portfolio-image">
-                                <img src={item.image} alt=""/>
-                                <ul>
-                                    <li>
-                                        <a href={item.link1}>
-                                            <GitHub />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={item.link2}>
-                                            <Pinterest />
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h6>{item.title}</h6>
-                            <p>{item.text}</p>
-                        </div>
-                    </div>
-                })
-            }
-        </MenuItemStyled>
-    )
+function Menu({ menuItem }) {
+  return (
+    <MenuItemStyled>
+      {menuItem.map((item) => {
+        return (
+          <div className="grid-item" key={item.id}>
+            <div className="portfolio-content">
+              <div className="portfolio-image">
+                <img src={item.image} alt="" />
+                <ul>
+                  <li>
+                    <a href={item.link1}>
+                      <GitHub />
+                    </a>
+                  </li>
+                  <li>
+                    <a href={item.link2}>
+                      <Pinterest />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h6>{item.title}</h6>
+              <p>{item.text}</p>
+            </div>
+          </div>
+        );
+      })}
+    </MenuItemStyled>
+  );
 }
 
 const MenuItemStyled = styled.div`
@@ -47,7 +47,7 @@ const MenuItemStyled = styled.div`
     }
     .grid-item{
         .portfolio-content{
-            border: 3px solid black;
+            border: 3px solid var(--border-color);
             transition: all 0.3s ease-in-out;
             box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
             border-radius: 2.5px;
@@ -58,19 +58,22 @@ const MenuItemStyled = styled.div`
             &:hover{
                 transform: scale(1.1);
                 transform: translate(7px, -7px);
-                // border-right: 9px solid black;
-                // border-bottom: 9px solid black;
                 transform-style: preserve-3d;
                 transition: all 0.2s ease-in-out;
-                box-shadow: 5px 10px black;
+                box-shadow: 5px 10px var(--border-color);
             }
             h6{
                 font-size: 1.5rem;
-                border-top: 4px solid black;
+                border-top: 4px solid var(--border-color);
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-align: left
             }
             p{
                 font-size: 1rem;
-                border-top: 4px solid black;
+                border-top: 4px solid var(--border-color);
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
             img{
                 width: 100%;

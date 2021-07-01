@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --border-color: #383838;
 } */
 .light-theme{
     --primary-color: #007bff;
@@ -38,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --border-color: #383838;
 }
 .dark-theme{
     --primary-color: #007bff;
@@ -56,6 +58,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --border-color: white;
 }
 *{
     margin: 0;
