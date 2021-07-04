@@ -6,11 +6,16 @@ import Skills from "../Components/Skills";
 import Resume from "../Components/Resume";
 import ImageSection from "../Components/ImageSection";
 
+import { useTranslation } from "react-i18next";
+
 function ResumePage() {
+  const { t, i18n } = useTranslation();
+
   return (
     <MainLayout>
-      <Title title={"About Me + Resume"} span={"About Me + Resume"} />
+      <Title title={t("AboutPage.Title")} span={t("AboutPage.Title")} />
       <ImageSection />
+      <br/>
       <Skills />
       <Resume />
     </MainLayout>
