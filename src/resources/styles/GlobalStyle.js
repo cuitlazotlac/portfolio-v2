@@ -1,6 +1,4 @@
-
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
@@ -97,6 +95,21 @@ a{
     font-size: inherit;
     font-size: 1rem;
 }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 h1{
     font-size: 4rem;
     color: var(--white-color);

@@ -6,7 +6,7 @@ import YoutubeIcon from "@material-ui/icons/YouTube";
 import Particle from "../Components/Particle";
 
 import HomeItem from "../Components/HomeItem";
-import MainTitle  from "../Components/ MainTitle";
+import MainTitle from "../Components/ MainTitle";
 import img from "../resources/img/hve_favicon.svg";
 
 import { useTranslation } from "react-i18next";
@@ -20,123 +20,101 @@ function HomePage() {
         <Particle />
       </div>
       <div className="typography">
-        <MainTitle
-          msg_1={t("Cat1.Text1")}
-          msg_2={t("Cat2.Text1")}
-          msg_3={t("Cat1.Text1")}
-          msg_4={t("Cat1.Text1")}
-        />
-        <h1>
-          Hi, I'm <span>Lorem Ipsum</span>
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil
-          voluptates ea dolore vel repellat? Quia tenetur non quam
-          exercitationem. Lorem ipsum dolor sit amet. Lorem Ipsum is simply
-          dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an
-          unknown printer took a galley of type and scrambled it to make a type
-          specimen book. It has survived not only five centuries, but also the
-          leap into electronic typesetting, remaining essentially unchanged. It
-          was popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil
-          voluptates ea dolore vel repellat? Quia tenetur non quam
-          exercitationem. Lorem ipsum dolor sit amet. Lorem Ipsum is simply
-          dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an
-          unknown printer took a galley of type and scrambled it to make a type
-          specimen book. It has survived not only five centuries, but also the
-          leap into electronic typesetting, remaining essentially unchanged. It
-          was popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil
-          voluptates ea dolore vel repellat? Quia tenetur non quam
-          exercitationem. Lorem ipsum dolor sit amet. Lorem Ipsum is simply
-          dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an
-          unknown printer took a galley of type and scrambled it to make a type
-          specimen book. It has survived not only five centuries, but also the
-          leap into electronic typesetting, remaining essentially unchanged. It
-          was popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
-        </p>
+        {/* <div class="typical">
+          <MainTitle
+            msg_1={t("Cat1.Text1")}
+            msg_2={t("Cat2.Text1")}
+            msg_3={t("Cat1.Text1")}
+            msg_4={t("Cat1.Text1")}
+          />{" "}
+        </div> */}
+        <h1 className="main-title">{t("HomePage.Title")}</h1>
+        <p>{t("HomePage.Desc_Part1")}</p>
+        <p>{t("HomePage.Desc_Part2")}</p>
+        <a className="more" href="/about">
+          {t("HomePage.More")} <i class="fas fa-id-badge"></i>
+        </a>
         <div className="icons">
-          <a href="https://codepen.io/pen/" className="icon i-facebook">
+          <a
+            href="https://codepen.io/pen/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon i-facebook"
+          >
             <FacebookIcon />
           </a>
-          <a href="https://codepen.io/pen/" className="icon i-github">
+          <a
+            href="https://codepen.io/pen/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon i-facebook"
+          >
+            <FacebookIcon />
+          </a>
+          <a
+            href="https://codepen.io/pen/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon i-facebook"
+          >
+            <FacebookIcon />
+          </a>
+          <a
+            href="https://codepen.io/pen/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon i-github"
+          >
             <GithubIcon />
           </a>
-          <a href="https://codepen.io/pen/" className="icon i-youtube">
+          <a
+            href="https://codepen.io/pen/"
+            target="_blank"
+            rel="noreferrer"
+            className="icon i-youtube"
+          >
             <YoutubeIcon />
           </a>
         </div>
         <br />
         <br />
         <div className="HomeItems">
-          <a href="/about">
+          <a href="https://confsquare.com/" target="_blank" rel="noreferrer">
             <HomeItem
               icon={img}
-              title={"Title."}
-              cont1={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-              }
-              cont2={
-                " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              }
+              title={t("HomePage.Form1_Title")}
+              cont1={t("HomePage.Form1_Desc1")}
+              cont2={t("HomePage.Form1_Desc2")}
             />
           </a>
           <br />
           <br />
           <br />
           <br />
-          <a href="/about">
+          <a href="/portfolios">
             <HomeItem
               icon={img}
-              title={"Title."}
-              cont1={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-              }
-              cont2={
-                " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              }
+              title={t("HomePage.Form2_Title")}
+              cont1={t("HomePage.Form2_Desc1")}
+              cont2={t("HomePage.Form2_Desc2")}
+            />
+          </a>
+          <br />
+          <a href="/blogs">
+            <HomeItem
+              icon={img}
+              title={t("HomePage.Form3_Title")}
+              cont1={t("HomePage.Form3_Desc1")}
+              cont2={t("HomePage.Form3_Desc2")}
             />
           </a>
           <br />
           <a href="/about">
             <HomeItem
               icon={img}
-              title={"Title."}
-              cont1={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-              }
-              cont2={
-                " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              }
-            />
-          </a>
-          <br />
-          <a href="/about">
-            <HomeItem
-              icon={img}
-              title={"Title."}
-              cont1={
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-              }
-              cont2={
-                " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-              }
+              title={t("HomePage.Form4_Title")}
+              cont1={t("HomePage.Form4_Desc1")}
+              cont2={t("HomePage.Form4_Desc2")}
             />
           </a>
         </div>
@@ -154,12 +132,27 @@ const HomePageStyled = styled.header`
     width: 100%;
   }
   .typography {
+    .main-title {
+      font-family: "Dela Gothic One", cursive;
+      color: var(--white-color);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 3.1rem;
+      font-weight: bold;
+      position: relative;
+      padding-bottom: 1rem;
+      letter-spacing: 3px;
+    }
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -10%);
     text-align: center;
     width: 80%;
+    .more {
+      justify-content: left;
+      font-weight: 600;
+    }
     .icons {
       display: flex;
       justify-content: center;

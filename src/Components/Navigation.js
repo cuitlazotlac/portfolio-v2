@@ -80,7 +80,7 @@ function Navigation() {
       <ul className="nav-items">
         <li className="nav-item">
           <NavLink to="/" activeClassName="active-class" exact>
-            Home
+            {t("NavBar.Home")}
           </NavLink>
         </li>
         {/* <li className="nav-item">
@@ -90,12 +90,12 @@ function Navigation() {
         </li> */}
         <li className="nav-item">
           <NavLink to="/resume" activeClassName="active-class" exact>
-            Resume
+            {t("NavBar.About")}
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/portfolios" activeClassName="active-class" exact>
-            Portfolios
+            {t("NavBar.Portfolios")}{" "}
             <Badge pill variant="secondary">
               14
             </Badge>
@@ -103,15 +103,15 @@ function Navigation() {
         </li>
         <li className="nav-item">
           <NavLink to="/blogs" activeClassName="active-class" exact>
-            Blogs
+            {t("NavBar.Blogs")}{" "}
             <Badge pill variant="secondary">
-              14
+              5
             </Badge>
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/contact" activeClassName="active-class" exact>
-            Contact
+            {t("NavBar.Contact")}
           </NavLink>
         </li>
       </ul>
@@ -327,7 +327,7 @@ const NavigationStyled = styled.nav`
     .lang-list {
       grid-column-start: 3;
       grid-column-end: 4;
-      margin-top: 0.01rem;
+      margin-top: 1.1rem;
       margin-left: 1.1rem;
       .dropdown-toggle::after {
         display: none;
