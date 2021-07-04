@@ -3,7 +3,7 @@ import Typical from "react-typical";
 
 import styled from "styled-components";
 
-function MainTitle({ msg_1, msg_2, msg_3, msg_4, span }) {
+function MainTitle({ msg_1, msg_2, msg_3, msg_4 }) {
   return (
     <MainTitleStyled>
       <h2>
@@ -19,7 +19,23 @@ function MainTitle({ msg_1, msg_2, msg_3, msg_4, span }) {
 
 const MainTitleStyled = styled.div`
   position: relative;
-  h2 {
+  .h2 {
+    font-family: "Dela Gothic One", cursive;
+    color: var(--white-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3.1rem;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+    &:hover {
+      color: white;
+      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: black;
+    }
+  }
+  h1 {
     font-family: "Dela Gothic One", cursive;
     color: var(--white-color);
     font-size: 3.1rem;
