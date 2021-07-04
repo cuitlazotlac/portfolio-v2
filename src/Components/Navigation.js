@@ -266,7 +266,7 @@ const NavigationStyled = styled.nav`
   align-items: center;
   height: 100%;
   width: 100%;
-  border-right: 2px solid var(--border-color);
+  border-right: 2px solid var(--sidebar-dark-border);
   .profile {
     width: 100%;
     height: 15%;
