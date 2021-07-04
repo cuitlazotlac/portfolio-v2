@@ -22,50 +22,40 @@ function ContactPage() {
               <ContactItem
                 title={"Phone"}
                 icon={phone}
-                cont1={"+66-789675637"}
-                cont2={"07663520283"}
+                cont={"+66-789675637"}
               />
             </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Email"}
                 icon={email}
-                cont1={"loremipsum@gmail.com"}
-                cont2={"info.lorem.ipsum@gmail.com"}
+                cont={"+66-789675637"}
               />
             </a>{" "}
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Address"}
                 icon={location}
-                cont1={"27 Aldrich Road, London, England"}
-                cont2={"United Kingdom"}
+                cont={"+66-789675637"}
               />
             </a>
           </div>
           <div className="right-content">
             <a href="https://about.twitter.com/" target="_blank">
-              <ContactItem
-                title={"Phone"}
-                icon={phone}
-                cont1={"+66-789675637"}
-                cont2={"07663520283"}
-              />
+              <ContactItem title={"Phone"} icon={phone} cont={"07663520283"} />
             </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Email"}
                 icon={email}
-                cont1={"loremipsum@gmail.com"}
-                cont2={"info.lorem.ipsum@gmail.com"}
+                cont={"loremipsum@gmail.com"}
               />
-            </a>{" "}
+            </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Address"}
                 icon={location}
-                cont1={"27 Aldrich Road, London, England"}
-                cont2={"United Kingdom"}
+                cont={"United Kingdom"}
               />
             </a>
           </div>
