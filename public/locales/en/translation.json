@@ -33,6 +33,31 @@
         "Form4_Title": "Contact Me!",
         "Form4_Desc1": "Feel free to contact",
         "Form4_Desc2": "Or write me an email"
+    },
+    "AboutPage": {
+        "Title": "About + Resume",
+        "Subtitle": "I am Hayssem Elsayed",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.",
+        "Description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.",
+        "SkillsTitle": "My Skills",
+        "ResumeTitle": "Resume",
+        "WorkingExperienceTitle": "Working Experience"
+    },
+    "Experience1": {
+        "Year": "2015-2020",
+        "Title": "Product Manager",
+        "SubTitle": "Societe Generale",
+        "Region": "Montreal, CA - Canada",
+        "Perimeter": "Perimeter: New Products",
+        "Text": "Lorem Ipsum",
+        "Task1": "Task1",
+        "Task2": "Task2",
+        "Task3": "Task3",
+        "Task4": "Task4",
+        "Task5": "Task5",
+        "Task6": "Task6",
+        "Achievement": "Achievement",
+        "Technologies": "React, Javascript, HTML, CSS, Docker, Firebase"
     }
 
 }
