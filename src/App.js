@@ -38,7 +38,7 @@ function App() {
     <div className="App">
         <Sidebar navToggle={navToggle} />
 
-        <div className="theme">
+        {/* <div className="theme">
           <div className="light-dark-mode">
               <div className="left-content">
                 <Brightness4Icon />
@@ -50,11 +50,10 @@ function App() {
                   inputProps={{ 'aria-label': '' }}
                   size="medium"
                   onClick={themeToggler}
-                  
                 />
               </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="ham-burger-menu">
           <IconButton onClick={() => setNavToggle(!navToggle)}>

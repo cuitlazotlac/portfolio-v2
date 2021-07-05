@@ -6,7 +6,7 @@ import YoutubeIcon from "@material-ui/icons/YouTube";
 import Particle from "../Components/Particle";
 
 import HomeItem from "../Components/HomeItem";
-import MainTitle from "../Components/ MainTitle";
+import MainTitle from "../Components/MainTitle";
 import img from "../resources/img/hve_favicon.svg";
 
 import { useTranslation } from "react-i18next";

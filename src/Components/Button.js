@@ -27,7 +27,7 @@ const ButtonStyled = styled.button`
   margin-right: 1rem;
   margin-bottom: .6rem;
   padding: 0.6rem 2rem;
-  border: 3px solid var(--border-color);
+  border: 2.5px solid var(--border-color);
   background: none;
   font-weight: 900;
   transition: all 0.3s ease-in-out;
