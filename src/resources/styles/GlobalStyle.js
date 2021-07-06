@@ -70,7 +70,11 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     // font-family: 'Cabin', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    // font-family: 'Sora', sans-serif;
+    // font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    // font-family: 'Syne', sans-serif;
     font-size: 1.1rem;
     
 }
