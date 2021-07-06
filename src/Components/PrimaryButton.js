@@ -32,7 +32,7 @@ function PrimaryButton({ title }) {
 // `;
 
 const PrimaryButtonStyled = styled.a`
-  border: 3px solid black;
+  border: 3px solid var(--border-color);
   background: none;
   font-weight: 900;
   transition: all 0.3s ease-in-out;
@@ -47,7 +47,7 @@ const PrimaryButtonStyled = styled.a`
     transform: translate(7px, -7px);
     transform-style: preserve-3d;
     transition: all 0.2s ease-in-out;
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 10px var(--border-color);
   }
   i {
     margin-right: 15px;

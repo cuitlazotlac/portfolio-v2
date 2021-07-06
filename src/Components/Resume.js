@@ -143,6 +143,35 @@ function Resume() {
           />
         </div>
         <div className="small-title u-small-title-margin">
+          <SmallTitle icon={school} title={"Certifications"} />
+        </div>
+        <div className="resume-content">
+          <ResumeItem
+            year={"2021 - 2022"}
+            title={"Computer Science Degree"}
+            subTitle={"Sussex University"}
+            text={
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+            }
+          />
+          <ResumeItem
+            year={"2015 - 2017"}
+            title={"A - Levels"}
+            subTitle={"Church Hill High"}
+            text={
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+            }
+          />
+          <ResumeItem
+            year={"2015 - 2017"}
+            title={"High School Graduation"}
+            subTitle={"ABC School"}
+            text={
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+            }
+          />
+        </div>
+        <div className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
         </div>
         <div className="resume-content ">

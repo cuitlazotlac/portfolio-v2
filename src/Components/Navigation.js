@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -33,6 +33,24 @@ function Navigation() {
     setValue(e);
   };
 
+  const [theme, setTheme] = useState("dark-theme");
+  const [checked, setChecked] = useState(false);
+  const [navToggle, setNavToggle] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
+  const themeToggler = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+      setChecked(false);
+    } else {
+      setTheme("light-theme");
+      setChecked(true);
+    }
+  };
+
   const [darkMode, setDarkMode] = useState(false);
 
   return (
@@ -47,7 +65,9 @@ function Navigation() {
             type="checkbox"
             id="chk"
             className="checkbox"
-            onChange={() => setDarkMode(!darkMode)}
+            // onChange={() => setDarkMode(!darkMode)}
+            onChange={themeToggler}
+            // onClick={themeToggler}
           />
           <label htmlFor="chk" className="label">
             <i className="fas fa-moon"></i>
@@ -303,12 +323,12 @@ const NavigationStyled = styled.nav`
         position: relative;
         padding: 5px;
         height: 26px;
-        width: 50px;
+        width: 53px;
         transform: scale(1);
       }
       .ball {
         height: 22px;
-        width: 22px;
+        width: 24px;
         top: 2px;
         left: 2px;
         border-radius: 50px;
@@ -327,7 +347,7 @@ const NavigationStyled = styled.nav`
     .lang-list {
       grid-column-start: 3;
       grid-column-end: 4;
-      margin-top: 1.1rem;
+      margin-top: 0.9rem;
       margin-left: 1.1rem;
       .dropdown-toggle::after {
         display: none;

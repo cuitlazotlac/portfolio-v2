@@ -130,7 +130,7 @@ h1{
     }
 }
 span{
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 h6{
     color: var(--white-color);

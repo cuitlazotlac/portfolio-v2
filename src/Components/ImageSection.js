@@ -16,25 +16,33 @@ function ImageSection() {
       <div className="right-content">
         <h4>{t("AboutPage.Subtitle")}</h4>
         <p className="paragraph">{t("AboutPage.Description")}</p>
-        <p className="paragraph">{t("AboutPage.Description2")}</p>
-        {/* <div className="about-info">
+        {/* <p className="paragraph">{t("AboutPage.Description2")}</p> */}
+        <p className="paragraph">{t("AboutPage.SoftSkillsInit")}</p>
+        <div className="about-info">
           <div className="info-title">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality </p>
-            <p>Languages </p>
-            <p>Location</p>
-            <p>Service</p>
+            <p>• Javascript</p>
+            <p>• React</p>
+            <p>• SQL</p>
           </div>
           <div className="info">
-            <p>: Lorem Ipsum</p>
-            <p>: 36</p>
-            <p>: Spainsh </p>
-            <p>: Spanish, French, English </p>
-            <p>: London, United Kingdom</p>
-            <p>: Freelance</p>
+            <p>• Firebase</p>
+            <p>• PowerBI</p>
+            <p>• Git</p>
           </div>
-        </div> */}
+        </div>
+        <p className="paragraph">{t("AboutPage.TechSkillsInit")}</p>
+        <div className="about-info">
+          <div className="info-title">
+            <p>• Javascript</p>
+            <p>• React</p>
+            <p>• SQL</p>
+          </div>
+          <div className="info">
+            <p>• Firebase</p>
+            <p>• PowerBI</p>
+            <p>• Git</p>
+          </div>
+        </div>
         <PrimaryButton title={"Download Cv"} />
       </div>
     </ImageSectionStyled>
@@ -75,13 +83,14 @@ const ImageSectionStyled = styled.div`
       .info-title {
         padding-right: 3rem;
         p {
-          font-weight: 600;
+          font-weight: 200;
         }
       }
       .info-title,
       .info {
         p {
-          padding: 0.3rem 0;
+          // padding: 0.3rem 0;
+          font-weight: 200;
         }
       }
     }

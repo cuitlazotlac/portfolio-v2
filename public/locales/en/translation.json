@@ -41,7 +41,9 @@
         "Description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.",
         "SkillsTitle": "My Skills",
         "ResumeTitle": "Resume",
-        "WorkingExperienceTitle": "Working Experience"
+        "WorkingExperienceTitle": "Working Experience",
+        "SoftSkillsInit":"Here what I did building Product",
+        "TechSkillsInit":"Here are a few technologies I've been working with recently:"
     },
     "Experience1": {
         "Year": "2015-2020",
