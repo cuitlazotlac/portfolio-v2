@@ -20,6 +20,9 @@ function HomePage() {
         <Particle />
       </div>
       <div className="typography">
+        <p>
+          <img className="logo-home" src={img}></img>
+        </p>
         {/* <div class="typical">
           <MainTitle
             msg_1={t("Cat1.Text1")}
@@ -28,6 +31,7 @@ function HomePage() {
             msg_4={t("Cat1.Text1")}
           />{" "}
         </div> */}
+
         <h1 className="main-title">{t("HomePage.Title")}</h1>
         <p>{t("HomePage.Desc_Part1")}</p>
         <p>{t("HomePage.Desc_Part2")}</p>
@@ -132,6 +136,19 @@ const HomePageStyled = styled.header`
     width: 100%;
   }
   .typography {
+    .logo-home {
+      height: 300px;
+    }
+    @media screen and (max-width: 642px) {
+      .logo-home {
+        height: 185px;
+      }
+    }
+    @media screen and (max-width: 571px) {
+      .logo-home {
+        height: 185px;
+      }
+    }
     .main-title {
       font-family: "Dela Gothic One", cursive;
       color: var(--white-color);
@@ -142,6 +159,19 @@ const HomePageStyled = styled.header`
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;
+
+      @media screen and (max-width: 642px) {
+        font-size: 2rem;
+        img {
+          height: 185px;
+        }
+      }
+      @media screen and (max-width: 571px) {
+        font-size: 2rem;
+        img {
+          height: 185px;
+        }
+      }
     }
     position: absolute;
     top: 50%;

@@ -33,7 +33,7 @@ function Navigation() {
     setValue(e);
   };
 
-  const [theme, setTheme] = useState("dark-theme");
+  const [theme, setTheme] = useState("light-theme");
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
