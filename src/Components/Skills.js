@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import Badge from 'react-bootstrap/Badge'
 import { InnerLayout } from "../resources/styles/Layouts";
 import Title from "../Components/Title";
 import ProgressBar from "./ProgressBar";
@@ -26,6 +27,7 @@ function Skills() {
           <img src={runkit_icon} alt="" />
           <img src={gatsby_icon} alt="" />
           <img src={runkit_icon} alt="" />
+          <Badge variant="secondary">New</Badge>{" "}
         </div>
       </InnerLayout>
     </SkillsStyled>
@@ -42,10 +44,15 @@ const SkillsStyled = styled.section`
       grid-template-columns: repeat(1, 1fr);
     }
   }
+  .skills-tag{
+    background-color: #F7DF1E
+    border: solid 3px black;
+    border-radius: 2.5px;
+  }
   .about-details {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 70px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 80px;
     // grid-gap: 2px;
     img {
       height: 70%;
