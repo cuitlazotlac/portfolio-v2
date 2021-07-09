@@ -5,10 +5,10 @@
         "French": "French",
         "Spanish": "Spanish",
         "Home": "HOME",
-        "About": "ABOUT",
-        "Portfolios": "PORTFOLIO",
-        "Blogs": "BLOGS",
-        "Contact": "CONTACT"
+        "About": "ABOUT ME",
+        "Portfolios": "PROJECTS",
+        "Blogs": "USE CASES",
+        "Contact": "CONNECT"
     },
     "Cat1": {
         "Text1": "Text1"
