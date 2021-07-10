@@ -15,10 +15,9 @@ function ContactItem({ title, icon, cont }) {
 
 const ContactItemStyled = styled.div`
   padding: 1.5rem 2rem;
-  background-color: var(--background-dark-grey);
   display: flex;
   align-items: center;
-  border: 3px solid var(--border-color);
+  border: 1px solid var(--border-color);
   transition: all 0.3s ease-in-out;
   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   border-radius: 2.5px;
@@ -26,7 +25,7 @@ const ContactItemStyled = styled.div`
   width: 100%;
   padding: 1rem;
   overflow: hidden;
-  &:hover {
+  &:hover{
     transform: scale(1.1);
     transform: translate(7px, -7px);
     transform-style: preserve-3d;

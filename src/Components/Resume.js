@@ -7,6 +7,7 @@ import SmallTitle from "../Components/SmallTitle";
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import SchoolIcon from "@material-ui/icons/School";
 import ResumeItem from "../Components/ResumeItem";
+import ClassIcon from '@material-ui/icons/Class';
 
 import { useTranslation } from "react-i18next";
 
@@ -15,6 +16,8 @@ function Resume() {
 
   const briefcase = <BusinessCenterIcon />;
   const school = <SchoolIcon />;
+  const cert = <ClassIcon />;
+
   return (
     <ResumeStyled>
       <Title
@@ -143,7 +146,7 @@ function Resume() {
           />
         </div>
         <div className="small-title u-small-title-margin">
-          <SmallTitle icon={school} title={"Certifications"} />
+          <SmallTitle icon={cert} title={"Certifications"} />
         </div>
         <div className="resume-content">
           <ResumeItem

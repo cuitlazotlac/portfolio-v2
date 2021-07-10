@@ -79,6 +79,8 @@ const ContactPageStyled = styled.section`
     .right-content {
       a {
         margin-top: 40px;
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
       }
       display: grid;
       grid-template-columns: repeat(1, 1fr);
