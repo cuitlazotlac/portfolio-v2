@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     --background-light-color: #015D5C;
     --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #FFF;
-    --font-light-color: #a4acc4;
+    --font-light-color: #FFFFFF;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #191D2B;
@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
 } */
 .light-theme{
     --primary-color: #007bff;
-    --primary-color-light: #5F5F5F;
+    --primary-color-light: #88C4C4;
     --secondary-color: #6c757d;
     --background-dark-color: #015D5C;
     --background-dark-grey: #22272E;
@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     --background-light-color: #015D5C;
     --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #FFF;
-    --font-light-color: #a4acc4;
+    --font-light-color: #FFFFFF;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #015D5C;
@@ -41,10 +41,11 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
     --border-color: white;
     --svg-border-color: #000000;
+    --second-light-color: #88C4C4;
 }
 .dark-theme{
     --primary-color: #007bff;
-    --primary-color-light: #5F5F5F;
+    --primary-color-light: #4D648D;
     --secondary-color: #6c757d;
     --background-dark-color: #22272E;
     --background-dark-grey: #22272E;
@@ -52,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     --background-light-color: #015D5C;
     --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #FFF;
-    --font-light-color: #a4acc4;
+    --font-light-color: #FFFFFF;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #22272E;
@@ -62,6 +63,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
     --border-color: white;
     --svg-border-color: #000000;
+    --second-light-color: #4D648D;
 }
 *{
     margin: 0;
@@ -69,11 +71,12 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-weight: 100;
     // font-family: 'Cabin', sans-serif;
     // font-family: 'Roboto', sans-serif;
-    // font-family: 'Sora', sans-serif;
+    font-family: 'Sora', sans-serif;
     // font-family: 'Quicksand', sans-serif;
-    font-family: 'Noto Sans JP', sans-serif;
+    // font-family: 'Noto Sans JP', sans-serif;
     // font-family: 'Syne', sans-serif;
     font-size: 1.1rem;
     

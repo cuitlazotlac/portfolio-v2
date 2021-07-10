@@ -67,7 +67,8 @@ const ResumeItemStyled = styled.div`
       height: 15px;
       width: 15px;
       border-radius: 50%;
-      border: 2px solid var(--border-color);
+      // border: 2px solid var(--border-color);
+      border: 1px solid var(--border-color);
       background-color: var(--background-dark-color);
     }
     p {

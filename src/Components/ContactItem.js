@@ -31,7 +31,7 @@ const ContactItemStyled = styled.div`
     transform: translate(7px, -7px);
     transform-style: preserve-3d;
     transition: all 0.2s ease-in-out;
-    box-shadow: 5px 10px var(--border-color);
+    box-shadow: 5px 10px var(--second-light-color);
   }
   &:not(:last-child) {
     margin-bottom: 2.5rem;

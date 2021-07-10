@@ -6,52 +6,69 @@ function PrimaryButton({ title }) {
 }
 
 // const PrimaryButtonStyled = styled.a`
-//   background-color: var(--primary-color);
-//   padding: 0.8rem 2.5rem;
-//   color: white;
-//   cursor: pointer;
-//   display: inline-block;
-//   font-size: inherit;
-//   text-transform: uppercase;
-//   position: relative;
-//   transition: all 0.4s ease-in-out;
-//   &::after {
-//     content: "";
-//     position: absolute;
-//     width: 0;
-//     height: 0.2rem;
-//     transition: all 0.4s ease-in-out;
-//     left: 0;
-//     bottom: 0;
-//     opacity: 0.7;
+//   // border: 3px solid var(--border-color);
+//   border: 1px solid var(--border-color);
+//   background: none;
+//   font-weight: 900;
+//   transition: all 0.3s ease-in-out;
+//   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+//   border-radius: 2.5px;
+//   transform-style: preserve-3d;
+//   width: 100%;
+//   padding: 1rem;
+//   overflow: hidden;
+//   &:hover {
+//     transform: scale(1.1);
+//     transform: translate(7px, -7px);
+//     transform-style: preserve-3d;
+//     transition: all 0.2s ease-in-out;
+//     box-shadow: 5px 10px var(--border-color);
 //   }
-//   &:hover::after {
-//     width: 100%;
-//     background-color: var(--white-color);
+//   i {
+//     margin-right: 15px;
 //   }
 // `;
-
-const PrimaryButtonStyled = styled.a`
-  border: 3px solid var(--border-color);
+const PrimaryButtonStyled = styled.button`
+  outline: none;
+  border: none;
+  background-color: var(--background-light-color-2);
+  padding: 0.4rem 2rem;
+  font-size: inherit;
+  color: var(--white-color);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  margin-right: 1rem;
+  margin-bottom: 0.6rem;
+  padding: 0.6rem 2rem;
+  // border: 2.5px solid var(--border-color);
+  border: 1px solid var(--border-color);
   background: none;
   font-weight: 900;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   border-radius: 2.5px;
   transform-style: preserve-3d;
-  width: 100%;
   padding: 1rem;
   overflow: hidden;
+  &:active,
+  &:focus {
+    background-color: var(--second-light-color);
+    color: var(--background-light-color);
+    border: 1px solid var(--background-light-color);
+  }
   &:hover {
+    background-color: var(--border-color);
+    color: var(--background-light-color);
+    border: 1px solid var(--background-light-color);
     transform: scale(1.1);
     transform: translate(7px, -7px);
     transform-style: preserve-3d;
     transition: all 0.2s ease-in-out;
-    box-shadow: 5px 10px var(--border-color);
+    box-shadow: 5px 10px var(--second-light-color);
   }
-  i {
-    margin-right: 15px;
-  }
+  //   &:not(:last-child) {
+  //     margin-right: 0.6rem;
+  //   }
 `;
 
 export default PrimaryButton;
