@@ -62,7 +62,7 @@ const ResumeItemStyled = styled.div`
     &::before {
       content: "";
       position: absolute;
-      left: -10px;
+      left: -8px;
       top: 5px;
       height: 15px;
       width: 15px;

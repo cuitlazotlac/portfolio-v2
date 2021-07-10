@@ -23,21 +23,23 @@ function HomePage() {
         <p>
           <img className="logo-home" src={img}></img>
         </p>
-        {/* <div class="typical">
+        <div class="typical">
           <MainTitle
             msg_1={t("Cat1.Text1")}
             msg_2={t("Cat2.Text1")}
             msg_3={t("Cat1.Text1")}
             msg_4={t("Cat1.Text1")}
           />{" "}
-        </div> */}
+        </div>
 
         <h1 className="main-title">{t("HomePage.Title")}</h1>
         <p>{t("HomePage.Desc_Part1")}</p>
         <p>{t("HomePage.Desc_Part2")}</p>
-        <a className="more" href="/about">
-          {t("HomePage.More")} <i class="fas fa-id-badge"></i>
-        </a>
+        <p className="more">
+          <a className="more" href="/about">
+            {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
+          </a>
+        </p>
         <div className="icons">
           <a
             href="https://codepen.io/pen/"
@@ -151,11 +153,12 @@ const HomePageStyled = styled.header`
     }
     .main-title {
       font-family: "Dela Gothic One", cursive;
+      font-weight: 800;
       color: var(--white-color);
-      font-weight: 600;
       text-transform: uppercase;
+      text-align: left;
       font-size: 3.1rem;
-      font-weight: bold;
+      font-weight: 800;
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;
@@ -180,14 +183,29 @@ const HomePageStyled = styled.header`
     text-align: center;
     width: 80%;
     .more {
-      justify-content: left;
+      text-align: end;
       font-weight: 600;
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+      }
+      i {
+        margin-left: 4px;
+      }
     }
     .icons {
       display: flex;
       justify-content: center;
       margin-top: 1rem;
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+      }
       .icon {
+        a {
+          color: inherit; /* blue colors for links too */
+          text-decoration: inherit; /* no underline */
+        }
         // border: 2px solid var(--border-color);
         border: 1px solid var(--border-color);
         display: flex;
