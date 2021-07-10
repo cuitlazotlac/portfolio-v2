@@ -47,7 +47,8 @@ const MenuItemStyled = styled.div`
     }
     .grid-item{
         .portfolio-content{
-            border: 3px solid var(--border-color);
+            // border: 3px solid var(--border-color);
+            border: 1px solid var(--border-color);
             transition: all 0.3s ease-in-out;
             box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
             border-radius: 2.5px;
@@ -60,18 +61,18 @@ const MenuItemStyled = styled.div`
                 transform: translate(7px, -7px);
                 transform-style: preserve-3d;
                 transition: all 0.2s ease-in-out;
-                box-shadow: 5px 10px var(--border-color);
+                box-shadow: 5px 10px var(--second-light-color);
             }
             h6{
                 font-size: 1.5rem;
-                border-top: 4px solid var(--border-color);
+                border-top: 1px solid var(--border-color);
                 margin-top: 5px;
                 margin-bottom: 5px;
                 text-align: left
             }
             p{
                 font-size: 1rem;
-                border-top: 4px solid var(--border-color);
+                border-top: 1px solid var(--border-color);
                 margin-top: 5px;
                 margin-bottom: 5px;
             }

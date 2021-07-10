@@ -188,7 +188,8 @@ const HomePageStyled = styled.header`
       justify-content: center;
       margin-top: 1rem;
       .icon {
-        border: 2px solid var(--border-color);
+        // border: 2px solid var(--border-color);
+        border: 1px solid var(--border-color);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -197,6 +198,7 @@ const HomePageStyled = styled.header`
         cursor: pointer;
         &:hover {
           border: 2px solid var(--primary-color);
+          border: 1px solid var(--primary-color);
           color: var(--primary-color);
         }
         &:not(:last-child) {

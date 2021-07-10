@@ -46,7 +46,8 @@ const SkillsStyled = styled.section`
   }
   .skills-tag{
     background-color: #F7DF1E
-    border: solid 3px black;
+    // border: solid 3px black;
+    border: solid 1px black;
     border-radius: 2.5px;
   }
   .about-details {
@@ -57,7 +58,8 @@ const SkillsStyled = styled.section`
     img {
       height: 70%;
       width: 50%;
-      border: solid 3px black;
+      // border: solid 3px black;
+      border: solid 1px black;
       padding: 5px 5px;
       box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
       border-radius: 2.5px;
@@ -71,7 +73,7 @@ const SkillsStyled = styled.section`
         // border-bottom: 9px solid black;
         transform-style: preserve-3d;
         transition: all 0.2s ease-in-out;
-        box-shadow: 5px 10px var(--border-color);
+        box-shadow: 5px 10px var(--second-light-color);
       }
     }
   }
