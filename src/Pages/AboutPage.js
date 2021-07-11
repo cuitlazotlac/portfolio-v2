@@ -6,11 +6,15 @@ import {MainLayout} from '../resources/styles/Layouts';
 import ServicesSection from '../Components/ServicesSection';
 import ReviewsSection from '../Components/ReviewsSection';
 
+import { useTranslation } from "react-i18next";
+
 function AboutPage() {
+    const { t, i18n } = useTranslation();
+
     return (
         <MainLayout>
             <AboutStyled >
-                <Title title={'About Me'} span={'About Me'} />
+            <Title title={t("AboutPage.Title")} span={t("AboutPage.Desc")} />
                 <ImageSection />
                 <ServicesSection />
                 <ReviewsSection />

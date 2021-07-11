@@ -133,9 +133,12 @@ const HomePageStyled = styled.header`
   width: 100%;
   height: 100vh;
   position: relative;
-
   .HomeItems {
     width: 100%;
+    a {
+      color: inherit; /* blue colors for links too */
+      text-decoration: inherit; /* no underline */
+    }    
   }
   .typography {
     .logo-home {
@@ -162,7 +165,6 @@ const HomePageStyled = styled.header`
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;
-
       @media screen and (max-width: 642px) {
         font-size: 2rem;
         img {
@@ -206,7 +208,6 @@ const HomePageStyled = styled.header`
           color: inherit; /* blue colors for links too */
           text-decoration: inherit; /* no underline */
         }
-        // border: 2px solid var(--border-color);
         border: 1px solid var(--border-color);
         display: flex;
         align-items: center;

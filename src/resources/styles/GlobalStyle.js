@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #015D5C;
-    --sidebar-dark-border: #000000;
+    --sidebar-dark-border: #FFFFFF;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
@@ -37,7 +37,7 @@ const GlobalStyle = createGlobalStyle`
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #22272E;
-    --sidebar-dark-border: #000000;
+    --sidebar-dark-border: #FFFFFF;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;

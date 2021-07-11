@@ -2,13 +2,18 @@ import React from "react";
 import styled from "styled-components";
 import Title from "../Components/Title";
 import blogs from "../data/blogs";
+
 import { MainLayout, InnerLayout } from "../resources/styles/Layouts";
 
+import { useTranslation } from "react-i18next";
+
 function BlogsPage() {
+  const { t, i18n } = useTranslation();
+
   return (
     <MainLayout>
       <BlogsStyled>
-        <Title title={"Blogs"} span={"Blogs"} />
+        <Title title={t("UseCase.Title")} span={t("UseCase.Desc")} />
         <InnerLayout className={"blog"}>
           {blogs.map((blog) => {
             return (
