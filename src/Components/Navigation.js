@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 import { DropdownButton, Dropdown, Badge } from "react-bootstrap";
 
 import avatar from "../resources/img/hve_favicon.svg";
-import react_logo from "../resources/img/react.svg";
 import behance from "../resources/img/social-media-btn/behance.svg";
 import github from "../resources/img/social-media-btn/github.svg";
 import mail from "../resources/img/social-media-btn/mail.svg";
@@ -157,8 +156,7 @@ function Navigation() {
         </div>
         <p className="copyright">
           {" "}
-          {t("NavBar.MadeWith")}
-          <img className="social-btn" src={react_logo} alt="" />
+          {t("NavBar.MadeWith")} <i class="fas fa-mug-hot"></i> + <i class="fas fa-pizza-slice"></i> + <i class="fab fa-react"></i>
         </p>
       </div>
     </NavigationStyled>
@@ -202,23 +200,23 @@ const NavigationStyled = styled.nav`
         transform: translateX(24px);
       }
       .label {
-        background-color: #111;
+        background-color: var(--second-light-color);
         border-radius: 50px;
         display: flex;
         justify-content: space-between;
         position: relative;
         padding: 5px;
-        height: 26px;
+        // height: 26px;
         width: 53px;
         transform: scale(1);
       }
       .ball {
-        height: 22px;
-        width: 24px;
+        height: 25px;
+        width: 25px;
         top: 2px;
         left: 2px;
         border-radius: 50px;
-        background-color: #fff;
+        background-color: #FFF;
         position: absolute;
         transition: transform 0.2s linear;
       }
@@ -243,8 +241,8 @@ const NavigationStyled = styled.nav`
         border-bottom: none;
       }
       .btn {
-        background-color: #111111;
-        color: white;
+        background-color: var(--second-light-color);
+        color: #FFF;
       }
     }
   }
@@ -266,6 +264,7 @@ const NavigationStyled = styled.nav`
         transition: all 0.4s ease-in-out;
         font-weight: 600;
         letter-spacing: 1px;
+        text-decoration: inherit; /* no underline */
         &:hover {
           cursor: pointer;
           color: var(--border-color);
@@ -314,6 +313,13 @@ const NavigationStyled = styled.nav`
       img {
         height: 80%;
         width: 25%;
+        &:hover {
+          transform: scale(1.1);
+          transform: translate(2px, -2px);
+          transform-style: preserve-3d;
+          transition: all 0.2s ease-in-out;
+          box-shadow: 5px 5px var(--second-light-color);
+        }
       }
     }
     .copyright {

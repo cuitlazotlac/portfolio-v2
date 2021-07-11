@@ -5,9 +5,12 @@ import portfolios from '../data/portfolios';
 import Menu from '../Components/Menu';
 import Button from '../Components/Button';
 
+import { useTranslation } from "react-i18next";
+
 const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
 
 function PortfoliosPage() {
+    const { t, i18n } = useTranslation();
     const [menuItem, setMenuItems] = useState(portfolios);
     const [button, setButtons] = useState(allButtons);
 
@@ -23,7 +26,7 @@ function PortfoliosPage() {
     }
     return (
         <MainLayout>
-            <Title title={'Portfolios'} span={'portfolios'} />
+            <Title title={t("Projects.Title")} span={t("Projects.Desc")} />
             <InnerLayout>
                 <Button filter={filter} button={button} />
                 <Menu menuItem={menuItem} />

@@ -22,7 +22,7 @@ function Resume() {
     <ResumeStyled>
       <Title
         title={t("AboutPage.ResumeTitle")}
-        span={t("AboutPage.ResumeTitle")}
+        span={t("AboutPage.ResumeDesc")}
       />
       <InnerLayout>
         <div className="small-title">

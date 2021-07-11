@@ -13,7 +13,7 @@ function ResumePage() {
 
   return (
     <MainLayout>
-      <Title title={t("AboutPage.Title")} span={t("AboutPage.Title")} />
+      <Title title={t("AboutPage.Title")} span={t("AboutPage.Desc")} />
       <ImageSection />
       <br/>
       {/* <Skills /> */}

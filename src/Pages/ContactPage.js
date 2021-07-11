@@ -2,59 +2,72 @@ import React from "react";
 import styled from "styled-components";
 import { MainLayout, InnerLayout } from "../resources/styles/Layouts";
 import Title from "../Components/Title";
-import PrimaryButton from "../Components/PrimaryButton";
-import PhoneIcon from "@material-ui/icons/Phone";
-import EmailIcon from "@material-ui/icons/Email";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ContactItem from "../Components/ContactItem";
 
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
+
+import BehanceIcon from "../resources/img/social-media-btn/icons/behance.png";
+import CodePenIcon from "../resources/img/social-media-btn/icons/codepen.png";
+import DribbleIcon from "../resources/img/social-media-btn/icons/dribble.png";
+
+import { useTranslation } from "react-i18next";
+
 function ContactPage() {
-  const phone = <PhoneIcon />;
+  const { t, i18n } = useTranslation();
+
+  const linkedin = <LinkedInIcon />;
+  const github = <GitHubIcon />;
   const email = <EmailIcon />;
-  const location = <LocationOnIcon />;
+
   return (
     <MainLayout>
-      <Title title={"Contact"} span={"Contact"} />
+      <Title title={t("Connect.Title")} span={t("Connect.Desc")} />
       <ContactPageStyled>
         <InnerLayout className={"contact-section"}>
           <div className="right-content">
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Phone"}
-                icon={phone}
+                icon={<img src={BehanceIcon} />}
                 cont={"+66-789675637"}
               />
             </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
-                title={"Email"}
-                icon={email}
+                title={"Github"}
+                icon={github}
                 cont={"+66-789675637"}
               />
             </a>{" "}
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
-                title={"Address"}
-                icon={location}
+                title={"LinkedIn"}
+                icon={linkedin}
                 cont={"+66-789675637"}
               />
             </a>
           </div>
           <div className="right-content">
             <a href="https://about.twitter.com/" target="_blank">
-              <ContactItem title={"Phone"} icon={phone} cont={"07663520283"} />
+              <ContactItem
+                title={"CodePen"}
+                icon={<img src={CodePenIcon} />}
+                cont={"07663520283"}
+              />
             </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Email"}
-                icon={email}
+                icon={<img src={DribbleIcon} />}
                 cont={"loremipsum@gmail.com"}
               />
             </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
-                title={"Address"}
-                icon={location}
+                title={"Email"}
+                icon={email}
                 cont={"United Kingdom"}
               />
             </a>
@@ -85,7 +98,11 @@ const ContactPageStyled = styled.section`
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       @media screen and (max-width: 502px) {
-        width: 70%;
+        margin-left: 10px;
+        // width: 85%;
+      }
+      img {
+        height: 2.3rem;
       }
     }
 
