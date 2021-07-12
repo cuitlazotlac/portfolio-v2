@@ -115,7 +115,7 @@ function Navigation() {
         <li className="nav-item">
           <NavLink to="/portfolios" activeClassName="active-class" exact>
             {t("NavBar.Portfolios")}{" "}
-            <Badge pill variant="secondary">
+            <Badge pill variant="warning">
               14
             </Badge>
           </NavLink>
@@ -123,7 +123,7 @@ function Navigation() {
         <li className="nav-item">
           <NavLink to="/blogs" activeClassName="active-class" exact>
             {t("NavBar.Blogs")}{" "}
-            <Badge pill variant="secondary">
+            <Badge pill variant="warning">
               5
             </Badge>
           </NavLink>
@@ -318,7 +318,7 @@ const NavigationStyled = styled.nav`
           transform: translate(2px, -2px);
           transform-style: preserve-3d;
           transition: all 0.2s ease-in-out;
-          box-shadow: 5px 5px var(--second-light-color);
+          // box-shadow: 2px 2px var(--second-light-color);
         }
       }
     }

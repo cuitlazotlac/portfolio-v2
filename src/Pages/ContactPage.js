@@ -29,7 +29,7 @@ function ContactPage() {
           <div className="right-content">
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
-                title={"Phone"}
+                title={"Behance"}
                 icon={<img src={BehanceIcon} />}
                 cont={"+66-789675637"}
               />
@@ -59,7 +59,7 @@ function ContactPage() {
             </a>
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
-                title={"Email"}
+                title={"Dribble"}
                 icon={<img src={DribbleIcon} />}
                 cont={"loremipsum@gmail.com"}
               />
