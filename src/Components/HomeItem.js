@@ -26,7 +26,7 @@ const HomeItemStyled = styled.div`
     }
     border: 1px solid var(--border-color);
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
     border-radius: 2.5px;
     transform-style: preserve-3d;
     width: 100%;
@@ -65,7 +65,8 @@ const HomeItemStyled = styled.div`
         }
         h6 {
           font-size: 2rem;
-          font-weight: 900;
+          font-weight: 400;
+          font-family: 'Barlow Condensed', sans-serif;
           a {
             color: inherit; /* blue colors for links too */
             text-decoration: inherit; /* no underline */

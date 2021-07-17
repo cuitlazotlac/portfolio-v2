@@ -138,7 +138,7 @@ const HomePageStyled = styled.header`
     a {
       color: inherit; /* blue colors for links too */
       text-decoration: inherit; /* no underline */
-    }    
+    }
   }
   .typography {
     .logo-home {
@@ -155,7 +155,8 @@ const HomePageStyled = styled.header`
       }
     }
     .main-title {
-      font-family: "Dela Gothic One", cursive;
+      // font-family: "Dela Gothic One", cursive;
+      font-family: "Barlow Condensed", sans-serif;
       font-weight: 800;
       color: var(--white-color);
       text-transform: uppercase;

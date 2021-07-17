@@ -32,7 +32,7 @@ const ButtonStyled = styled.button`
   background: none;
   font-weight: 900;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
   border-radius: 2.5px;
   transform-style: preserve-3d;
   padding: 1rem;
@@ -40,12 +40,12 @@ const ButtonStyled = styled.button`
   &:active,
   &:focus {
     background-color: var(--second-light-color);
-    color: var(--background-light-color);
+    color: var(--font-light-white);
     border: 1px solid var(--background-light-color);
   }
   &:hover {
     background-color: var(--border-color);
-    color: var(--background-light-color);
+    color: var(--font-light-white);
     border: 1px solid var(--background-light-color);
     transform: scale(1.1);
     transform: translate(7px, -7px);

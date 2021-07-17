@@ -156,7 +156,8 @@ function Navigation() {
         </div>
         <p className="copyright">
           {" "}
-          {t("NavBar.MadeWith")} <i class="fas fa-mug-hot"></i> + <i class="fas fa-pizza-slice"></i> + <i class="fab fa-react"></i>
+          {t("NavBar.MadeWith")} <i class="fas fa-mug-hot"></i> +{" "}
+          <i class="fas fa-pizza-slice"></i> + <i class="fab fa-react"></i>
         </p>
       </div>
     </NavigationStyled>
@@ -216,7 +217,7 @@ const NavigationStyled = styled.nav`
         top: 2px;
         left: 2px;
         border-radius: 50px;
-        background-color: #FFF;
+        background-color: #fff;
         position: absolute;
         transition: transform 0.2s linear;
       }
@@ -242,7 +243,7 @@ const NavigationStyled = styled.nav`
       }
       .btn {
         background-color: var(--second-light-color);
-        color: #FFF;
+        color: #fff;
       }
     }
   }
@@ -256,6 +257,7 @@ const NavigationStyled = styled.nav`
     li {
       display: block;
       a {
+        font-family: "Barlow Condensed", sans-serif;
         display: block;
         padding: 0.45rem 0;
         position: relative;
@@ -263,6 +265,7 @@ const NavigationStyled = styled.nav`
         text-transform: uppercase;
         transition: all 0.4s ease-in-out;
         font-weight: 600;
+        font-size: 1.3rem;
         letter-spacing: 1px;
         text-decoration: inherit; /* no underline */
         &:hover {
@@ -323,6 +326,8 @@ const NavigationStyled = styled.nav`
       }
     }
     .copyright {
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 1.3rem;
       margin-top: 0.2rem;
       margin-left: 0.4rem;
       text-align: left;
