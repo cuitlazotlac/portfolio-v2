@@ -45,7 +45,8 @@ const BlogsStyled = styled.div`
       grid-template-columns: repeat(1, 1fr);
     }
     h6{
-      font-size: 1.5rem;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.8rem;
       margin-top: 10px;
       text-align: left
   }
@@ -53,7 +54,7 @@ const BlogsStyled = styled.div`
     // border: 3px solid var(--border-color);
     border: 1px solid var(--border-color);
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
     border-radius: 2.5px;
     transform-style: preserve-3d;
     width: 100%;

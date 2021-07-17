@@ -51,7 +51,7 @@ const MenuItemStyled = styled.div`
       // border: 3px solid var(--border-color);
       border: 1px solid var(--border-color);
       transition: all 0.3s ease-in-out;
-      box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
       border-radius: 2.5px;
       transform-style: preserve-3d;
       display: block;
@@ -65,7 +65,8 @@ const MenuItemStyled = styled.div`
         box-shadow: 5px 10px var(--second-light-color);
       }
       h6 {
-        font-size: 1.5rem;
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 1.7rem;
         border-top: 1px solid var(--border-color);
         margin-top: 5px;
         margin-bottom: 5px;
@@ -73,14 +74,15 @@ const MenuItemStyled = styled.div`
       }
       p {
         font-size: 1rem;
-        border-top: 1px solid var(--border-color);
+        // border-top: 1px solid var(--border-color);
         margin-top: 5px;
         margin-bottom: 5px;
       }
       .tech {
-        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
-          monospace;
-        margin: 0px 20px 5px 0px;
+        font-family: monospace;
+        margin-bottom: 14px;
+        border-top: 1px solid var(--border-color);
+        font-size: 0.8rem;
       }
       img {
         width: 100%;
@@ -95,7 +97,7 @@ const MenuItemStyled = styled.div`
         top: 40%;
         opacity: 0;
         li {
-          background-color: var(--second-light-color);
+          background-color: var(--font-light-white);
           border: 2px solid white;
           display: flex;
           align-items: center;

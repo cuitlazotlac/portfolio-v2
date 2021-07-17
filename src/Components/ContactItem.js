@@ -19,7 +19,7 @@ const ContactItemStyled = styled.div`
   align-items: center;
   border: 1px solid var(--border-color);
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
   border-radius: 2.5px;
   transform-style: preserve-3d;
   width: 100%;

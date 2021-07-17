@@ -20,12 +20,13 @@ function MainTitle({ msg_1, msg_2, msg_3, msg_4 }) {
 const MainTitleStyled = styled.div`
   position: relative;
   .h2 {
-    font-family: "Dela Gothic One", cursive;
+    // font-family: "Dela Gothic One", cursive;
+    font-family: 'Barlow Condensed', sans-serif;
     color: var(--white-color);
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 3.1rem;
-    font-weight: bold;
+    // font-weight: bold;
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 3px;
@@ -36,10 +37,11 @@ const MainTitleStyled = styled.div`
     }
   }
   h1 {
-    font-family: "Dela Gothic One", cursive;
+    // font-family: "Dela Gothic One", cursive;
+    font-family: 'Barlow Condensed', sans-serif;
     color: var(--white-color);
     font-size: 3.1rem;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
     text-align: left
     position: relative;
@@ -54,7 +56,8 @@ const MainTitleStyled = styled.div`
       font-weight: 400;
       color: rgba(188, 188, 188, 0.4);
       font-size: 3.5rem;
-      font-family: "Dela Gothic One", cursive;
+      // font-family: "Dela Gothic One", cursive;
+      font-family: 'Barlow Condensed', sans-serif;
       position: absolute;
       left: 0;
       top: 30%;

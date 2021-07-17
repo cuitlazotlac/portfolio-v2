@@ -17,10 +17,11 @@ function Title({ title, span }) {
 const TitleStyled = styled.div`
   position: relative;
   h2 {
-    font-family: "Dela Gothic One", cursive;
+    // font-family: "Dela Gothic One", cursive;
+    font-family: "Barlow Condensed", sans-serif;
     color: var(--white-color);
     font-size: 3.1rem;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 0.7rem;
@@ -30,32 +31,12 @@ const TitleStyled = styled.div`
     @media screen and (max-width: 370px) {
       font-size: 2rem;
     }
-    // &::before{
-    //     content: "";
-    //     position: absolute;
-    //     bottom: 0;
-    //     width: 17rem;
-    //     // height: .3rem;
-    //     height: 14px;
-    //     background-color: #F1F1F1;
-    //     border-radius: 15px;
-    //     left: 0;
-    // }
-    // &::after{
-    //     content: "";
-    //     position: absolute;
-    //     bottom: 0;
-    //     width: 3.5rem;
-    //     height: .33rem;
-    //     background-color: var(--primary-color);
-    //     border-radius: 15px;
-    //     left: 0;
-    // }
     span {
-      font-weight: 400;
+      font-weight: 500;
       color: rgba(188, 188, 188, 0.4);
       font-size: 3.5rem;
-      font-family: "Dela Gothic One", cursive;
+      // font-family: "Dela Gothic One", cursive;
+      font-family: "Barlow Condensed", sans-serif;
       position: absolute;
       left: 0;
       top: 30%;

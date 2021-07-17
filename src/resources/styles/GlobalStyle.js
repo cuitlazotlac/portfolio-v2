@@ -3,25 +3,26 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 .light-theme{
     --primary-color: #007bff;
-    --primary-color-light: #88C4C4;
+    --primary-color-light: #787676;
     --secondary-color: #6c757d;
-    --background-dark-color: #015D5C;
+    --background-dark-color: #FFFFFF;
     --background-dark-grey: #22272E;
-    --border-color: #2e344e;
-    --background-light-color: #015D5C;
+    --border-color: #787676;
+    --background-light-color: #3C3C3C;
     --background-light-color-2: rgba(3,127,255,.3);
-    --white-color: #FFF;
-    --font-light-color: #FFFFFF;
+    --white-color: #000000;
+    --font-light-white: #FFF;
+    --font-light-color: #000000;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #015D5C;
-    --sidebar-dark-border: #FFFFFF;
+    --sidebar-dark-color: #FFFFFF;
+    --sidebar-dark-border: #3C3C3C;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-    --border-color: white;
+    --border-color: #3C3C3C;
     --svg-border-color: #000000;
-    --second-light-color: #88C4C4;
+    --second-light-color: #3C3C3C;
 }
 .dark-theme{
     --primary-color: #007bff;
@@ -54,11 +55,12 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 100;
     // font-family: 'Cabin', sans-serif;
     // font-family: 'Roboto', sans-serif;
-    font-family: 'Sora', sans-serif;
+    // font-family: 'Sora', sans-serif;
     // font-family: 'Quicksand', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
     // font-family: 'Syne', sans-serif;
     font-size: 1.1rem;
+    font-family: 'Roboto Slab', serif;
     
 }
 body{
@@ -83,7 +85,7 @@ textarea{
     max-width: 100%;
 }
 a{
-    font-family: inherit;
+    // font-family: inherit;
     color: inherit;
     font-size: inherit;
     font-size: 1rem;
