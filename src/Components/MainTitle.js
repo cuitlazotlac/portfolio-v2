@@ -6,10 +6,9 @@ import styled from "styled-components";
 function MainTitle({ msg_1, msg_2, msg_3, msg_4 }) {
   return (
     <MainTitleStyled>
-      <h2>
+      <h2 className="test">
         <Typical
           loop={Infinity}
-          wrapper="b"
           steps={[msg_1, 5000, msg_2, 5000, msg_3, 5000, msg_4, 5000]}
         />
       </h2>
@@ -19,7 +18,7 @@ function MainTitle({ msg_1, msg_2, msg_3, msg_4 }) {
 
 const MainTitleStyled = styled.div`
   position: relative;
-  .h2 {
+  .test {
     // font-family: "Dela Gothic One", cursive;
     font-family: 'Barlow Condensed', sans-serif;
     color: var(--white-color);
