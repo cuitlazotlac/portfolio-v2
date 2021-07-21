@@ -4,22 +4,21 @@ import { MainLayout, InnerLayout } from "../resources/styles/Layouts";
 import Title from "../Components/Title";
 import ContactItem from "../Components/ContactItem";
 
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+// import GitHubIcon from "@material-ui/icons/GitHub";
+// import EmailIcon from "@material-ui/icons/Email";
 
 import BehanceIcon from "../resources/img/social-media-btn/icons/behance.png";
 import CodePenIcon from "../resources/img/social-media-btn/icons/codepen.png";
 import DribbleIcon from "../resources/img/social-media-btn/icons/dribble.png";
+import EmailIcon from "../resources/img/social-media-btn/icons/mail.png";
+import GitHubIcon from "../resources/img/social-media-btn/icons/github.png";
+import LinkedInIcon from "../resources/img/social-media-btn/icons/linkedin.png";
 
 import { useTranslation } from "react-i18next";
 
 function ContactPage() {
   const { t, i18n } = useTranslation();
-
-  const linkedin = <LinkedInIcon />;
-  const github = <GitHubIcon />;
-  const email = <EmailIcon />;
 
   return (
     <MainLayout>
@@ -37,14 +36,14 @@ function ContactPage() {
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Github"}
-                icon={github}
+                icon={<img src={GitHubIcon} />}
                 cont={"+66-789675637"}
               />
             </a>{" "}
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"LinkedIn"}
-                icon={linkedin}
+                icon={<img src={LinkedInIcon} />}
                 cont={"+66-789675637"}
               />
             </a>
@@ -67,7 +66,7 @@ function ContactPage() {
             <a href="https://about.twitter.com/" target="_blank">
               <ContactItem
                 title={"Email"}
-                icon={email}
+                icon={<img src={EmailIcon} />}
                 cont={"United Kingdom"}
               />
             </a>
