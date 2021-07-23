@@ -22,10 +22,9 @@ const MainTitleStyled = styled.div`
     // font-family: "Dela Gothic One", cursive;
     font-family: 'Barlow Condensed', sans-serif;
     color: var(--white-color);
-    font-weight: 300;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 3.1rem;
-    // font-weight: bold;
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 3px;

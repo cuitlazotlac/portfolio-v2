@@ -2,7 +2,7 @@ import React from "react";
 import { MainLayout } from "../resources/styles/Layouts";
 
 import Title from '../Components/Title';
-import Skills from "../Components/Skills";
+// import Skills from "../Components/Skills";
 import Resume from "../Components/Resume";
 import ImageSection from "../Components/ImageSection";
 

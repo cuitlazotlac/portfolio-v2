@@ -45,7 +45,7 @@ const ButtonStyled = styled.button`
   }
   &:hover {
     background-color: var(--border-color);
-    color: var(--font-light-white);
+    color: var(--txt-button);
     border: 1px solid var(--background-light-color);
     transform: scale(1.1);
     transform: translate(7px, -7px);

@@ -14,8 +14,9 @@ function ImageSection() {
         <img src={resume} alt="" />
       </div>
       <div className="right-content">
-        <h4>{t("AboutPage.Subtitle")}</h4>
+        {/* <h4>{t("AboutPage.Subtitle")}</h4> */}
         <p className="paragraph">{t("AboutPage.Description")}</p>
+        <p className="paragraph">{t("AboutPage.Description2")}</p>
         {/* <p className="paragraph">{t("AboutPage.Description2")}</p> */}
         <p className="paragraph">{t("AboutPage.SoftSkillsInit")}</p>
         <div className="about-info">
@@ -68,6 +69,7 @@ const ImageSectionStyled = styled.div`
   .right-content {
     width: 100%;
     h4 {
+      font-family: "Barlow Condensed", sans-serif;
       font-size: 2rem;
       color: var(--white-color);
       span {
