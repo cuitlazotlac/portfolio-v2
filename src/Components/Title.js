@@ -21,7 +21,7 @@ const TitleStyled = styled.div`
     font-family: "Barlow Condensed", sans-serif;
     color: var(--white-color);
     font-size: 3.1rem;
-    font-weight: 300;
+    font-weight: 700;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 0.7rem;
@@ -32,7 +32,7 @@ const TitleStyled = styled.div`
       font-size: 2rem;
     }
     span {
-      font-weight: 500;
+      font-weight: 700;
       color: rgba(188, 188, 188, 0.4);
       font-size: 3.5rem;
       // font-family: "Dela Gothic One", cursive;

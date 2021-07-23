@@ -7,7 +7,6 @@ function PrimaryButton({ title }) {
 
 const PrimaryButtonStyled = styled.button`
   outline: none;
-  border: none;
   background-color: var(--background-light-color-2);
   padding: 0.4rem 2rem;
   font-size: inherit;
@@ -17,7 +16,6 @@ const PrimaryButtonStyled = styled.button`
   margin-right: 1rem;
   margin-bottom: 0.6rem;
   padding: 0.6rem 2rem;
-  // border: 2.5px solid var(--border-color);
   border: 1px solid var(--border-color);
   background: none;
   font-weight: 900;
@@ -35,7 +33,7 @@ const PrimaryButtonStyled = styled.button`
   }
   &:hover {
     background-color: var(--border-color);
-    color: var(--font-light-white);
+    color: var(--txt-button);
     border: 1px solid var(--background-light-color);
     transform: scale(1.1);
     transform: translate(7px, -7px);

@@ -23,20 +23,12 @@ function HomePage() {
         <p>
           <img className="logo-home" src={img}></img>
         </p>
-        <div class="typical">
-          <MainTitle
-            msg_1={t("Cat1.Text1")}
-            msg_2={t("Cat2.Text1")}
-            msg_3={t("Cat1.Text1")}
-            msg_4={t("Cat1.Text1")}
-          />{" "}
-        </div>
 
         <h1 className="main-title">{t("HomePage.Title")}</h1>
         <p>{t("HomePage.Desc_Part1")}</p>
         <p>{t("HomePage.Desc_Part2")}</p>
         <p className="more">
-          <a className="more" href="/about">
+          <a className="more" href="/resume">
             {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
           </a>
         </p>
@@ -157,11 +149,11 @@ const HomePageStyled = styled.header`
     .main-title {
       // font-family: "Dela Gothic One", cursive;
       font-family: "Barlow Condensed", sans-serif;
-      font-weight: 800;
+      font-weight: 900;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;
-      font-size: 3.1rem;
+      font-size: 7.1rem;
       font-weight: 800;
       position: relative;
       padding-bottom: 1rem;
@@ -228,6 +220,12 @@ const HomePageStyled = styled.header`
           margin: 0.5rem;
         }
       }
+      .i-facebook {
+        &:hover {
+          border: 2px solid red;
+          color: red;
+        }
+      }
       .i-youtube {
         &:hover {
           border: 2px solid red;
@@ -236,8 +234,8 @@ const HomePageStyled = styled.header`
       }
       .i-github {
         &:hover {
-          border: 2px solid #5f4687;
-          color: #5f4687;
+          border: 2px solid #A90067;
+          color: #A90067;
         }
       }
     }
