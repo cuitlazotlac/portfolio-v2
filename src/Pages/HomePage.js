@@ -7,7 +7,10 @@ import Particle from "../Components/Particle";
 
 import HomeItem from "../Components/HomeItem";
 import MainTitle from "../Components/MainTitle";
+import ConfsquareItem from "../Components/ConfsquareItem";
 import img from "../resources/img/hve_favicon.svg";
+import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
+// import confsquareLogo from "../resources/img/confsquare/background.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -76,19 +79,21 @@ function HomePage() {
         </div>
         <br />
         <br />
-        <div className="HomeItems">
+        <div className="ConfSquareItem">
           <a href="https://confsquare.com/" target="_blank" rel="noreferrer">
-            <HomeItem
-              icon={img}
+            <ConfsquareItem
+              icon={confsquareLogo}
               title={t("HomePage.Form1_Title")}
               cont1={t("HomePage.Form1_Desc1")}
               cont2={t("HomePage.Form1_Desc2")}
             />
           </a>
-          <br />
-          <br />
-          <br />
-          <br />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="HomeItems">
           <a href="/portfolios">
             <HomeItem
               icon={img}
@@ -125,6 +130,12 @@ const HomePageStyled = styled.header`
   width: 100%;
   height: 100vh;
   position: relative;
+  .ConfSquareItem {
+    a {
+      color: inherit; /* blue colors for links too */
+      text-decoration: inherit; /* no underline */
+    }
+  }
   .HomeItems {
     width: 100%;
     a {
@@ -234,8 +245,8 @@ const HomePageStyled = styled.header`
       }
       .i-github {
         &:hover {
-          border: 2px solid #A90067;
-          color: #A90067;
+          border: 2px solid #a90067;
+          color: #a90067;
         }
       }
     }

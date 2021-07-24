@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import background from "../resources/img/confsquare/background.jpg";
 
-function HomeItem({ title, icon, cont1, cont2 }) {
+function ConfsquareItem({ title, icon, cont1, cont2 }) {
   return (
-    <HomeItemStyled>
+    <ConfsquareItemStyled>
       <div className="HomeItem">
         <div className="item">
           <img src={icon} alt="" />
@@ -14,13 +15,14 @@ function HomeItem({ title, icon, cont1, cont2 }) {
           </div>
         </div>
       </div>
-    </HomeItemStyled>
+    </ConfsquareItemStyled>
   );
 }
 
-const HomeItemStyled = styled.div`
+const ConfsquareItemStyled = styled.div`
   .HomeItem {
     width: 100%;
+    font-family: 'Lexend', sans-serif;
     &:not(:last-child) {
       margin-bottom: 1rem;
     }
@@ -29,16 +31,10 @@ const HomeItemStyled = styled.div`
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
     border-radius: 2.5px;
     transform-style: preserve-3d;
-    width: 100%;
+    width: 100%;56
     padding: 1rem;
     overflow: hidden;
-    focus_Confsquare{
-      color: red;
-    }
-    a {
-      color: inherit; /* blue colors for links too */
-      text-decoration: inherit; /* no underline */
-    }
+    background-color: #FFC107;
     &:hover{
       transform: scale(1.1);
       transform: translate(7px, -7px);
@@ -47,7 +43,7 @@ const HomeItemStyled = styled.div`
       box-shadow: 5px 10px var(--second-light-color);
     }
       .right-items {
-        text-align: left;
+        text-align: right;
         margin-left: 2rem;
         margin-right: 1rem;
         a {
@@ -68,9 +64,9 @@ const HomeItemStyled = styled.div`
         }
         h6 {
           font-size: 2rem;
-          font-weight: 400;
-          font-family: 'Barlow Condensed', sans-serif;
-          a {
+          font-weight: 900;
+          font-family: 'Lexend', sans-serif;
+        a {
             color: inherit; /* blue colors for links too */
             text-decoration: inherit; /* no underline */
           }
@@ -90,4 +86,4 @@ const HomeItemStyled = styled.div`
   }
 `;
 
-export default HomeItem;
+export default ConfsquareItem;
