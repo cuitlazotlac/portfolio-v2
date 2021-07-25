@@ -11,10 +11,10 @@ import mail from "../resources/img/social-media-btn/mail.svg";
 import linkedin from "../resources/img/social-media-btn/linkedin.svg";
 
 function Navigation() {
-  var linkedin_link = "https://www.youtube.com/";
-  var github_link = "https://www.youtube.com/";
-  var behance_link = "https://www.youtube.com/";
-  var mail_link = "https://www.youtube.com/";
+  var linkedin_link = "https://www.linkedin.com/in/hayssem-elsayed/";
+  var github_link = "https://github.com/cuitlazotlac";
+  var behance_link = "https://www.behance.net/cuitlazotlacti";
+  var mail_link = "mailto:heyhayssem@gmail.com";
 
   const { t, i18n } = useTranslation();
   const [dropdownOpen, setDropdownOpen] = useState(false);
