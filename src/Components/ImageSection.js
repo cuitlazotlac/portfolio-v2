@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import resume from "../resources/img/popcorn.png";
+import resume from "../resources/img/picture.png";
 import PrimaryButton from "./PrimaryButton";
 
 import { useTranslation } from "react-i18next";

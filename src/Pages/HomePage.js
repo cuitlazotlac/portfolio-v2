@@ -12,6 +12,8 @@ import img from "../resources/img/hve_favicon.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
 // import confsquareLogo from "../resources/img/confsquare/background.jpg";
 
+import CodeIcon from '@material-ui/icons/Code';
+
 import { useTranslation } from "react-i18next";
 
 function HomePage() {
@@ -96,7 +98,7 @@ function HomePage() {
         <div className="HomeItems">
           <a href="/portfolios">
             <HomeItem
-              icon={img}
+              // icon={_blank}
               title={t("HomePage.Form2_Title")}
               cont1={t("HomePage.Form2_Desc1")}
               cont2={t("HomePage.Form2_Desc2")}
@@ -105,16 +107,16 @@ function HomePage() {
           <br />
           <a href="/blogs">
             <HomeItem
-              icon={img}
+              // icon={_blank}
               title={t("HomePage.Form3_Title")}
               cont1={t("HomePage.Form3_Desc1")}
               cont2={t("HomePage.Form3_Desc2")}
             />
           </a>
           <br />
-          <a href="/about">
+          <a href="/resume">
             <HomeItem
-              icon={img}
+              // icon={_blank}
               title={t("HomePage.Form4_Title")}
               cont1={t("HomePage.Form4_Desc1")}
               cont2={t("HomePage.Form4_Desc2")}
@@ -160,12 +162,11 @@ const HomePageStyled = styled.header`
     .main-title {
       // font-family: "Dela Gothic One", cursive;
       font-family: "Barlow Condensed", sans-serif;
-      font-weight: 900;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;
-      font-size: 7.1rem;
-      font-weight: 800;
+      font-size: 6rem;
+      font-weight: 900;
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;
