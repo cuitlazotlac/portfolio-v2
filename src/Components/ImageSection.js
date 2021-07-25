@@ -17,29 +17,29 @@ function ImageSection() {
         {/* <h4>{t("AboutPage.Subtitle")}</h4> */}
         <p className="paragraph">{t("AboutPage.Description")}</p>
         <p className="paragraph">{t("AboutPage.Description2")}</p>
-        {/* <p className="paragraph">{t("AboutPage.Description2")}</p> */}
+        <p className="paragraph">{t("AboutPage.Description3")}</p>
         <p className="paragraph">{t("AboutPage.SoftSkillsInit")}</p>
         <div className="about-info">
           <div className="info-title">
-            <p>• Javascript</p>
-            <p>• React</p>
-            <p>• SQL</p>
+            <p>• Product Strategy</p>
+            <p>• User Interface Design</p>
+            <p>• Stakeholder Management</p>
           </div>
           <div className="info">
-            <p>• Firebase</p>
-            <p>• PowerBI</p>
-            <p>• Git</p>
+            <p>• Data Analysis</p>
+            <p>• A/B Testing</p>
+            <p>• Cross-functional Team Leadership</p>
           </div>
         </div>
         <p className="paragraph">{t("AboutPage.TechSkillsInit")}</p>
         <div className="about-info">
           <div className="info-title">
-            <p>• Javascript</p>
+            <p>• HTML/CSS/Javascript</p>
             <p>• React</p>
             <p>• SQL</p>
           </div>
           <div className="info">
-            <p>• Firebase</p>
+            <p>• Docker/Kubernetes</p>
             <p>• PowerBI</p>
             <p>• Git</p>
           </div>

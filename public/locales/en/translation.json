@@ -10,16 +10,13 @@
     "Blogs": "USE CASES",
     "Contact": "CONNECT"
   },
-  "Cat1": {
-    "Text1": "Text1"
-  },
-  "Cat2": {
-    "Text1": "Text2"
-  },
   "HomePage": {
-    "Title": "Hello, I'm Hayssem VAZQUEZ-ELSAYED",
-    "Desc_Part1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil voluptates ea dolore vel repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the",
-    "Desc_Part2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil voluptates ea dolore vel repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the",
+    "Title": "Hey I’m Hayssem 🤙🏽",
+    "SubTitle": "Welcome to my personal slice of the internet. I'm glad you're here!",
+    "Desc_Part1": "Professional Product Manager with a passion for data analysis, product design and web development. I'm specializes in building (and occasionally developing ) astounding digital experiences with an excitement for helping, guide and align individuals, teams, and organizations to deliver meaningful results",
+    "Desc_Part2": "Currently, I'm working at Société Générale Investment Banking focused on building internal and innovating products.",
+    "Desc_Part3": "Additionaly, I’m the Co-Founder of Confsquare.  We started this project with a friend as we wanted to use ours skills for critical thinking, empathy and creativity to help people gather and create a new way to organize event, you’ll find more infos about this wonderful project below !",
+    "Desc_Part4": "This personal website is where I showcase my projects, the tutorials that I follow, use cases, experience, and more. It also serves as a sandbox to practice with new technologies! I'm always looking to learn new things or share what I've learned along the way. Feel free to reach out and we can grab bubble tea 🧋 sometime.",
     "More": "More about me",
     "Form1_Title": "Focus On : Confsquare",
     "Form1_Desc1": "Confsquare is a startup project",
@@ -38,13 +35,14 @@
     "Title": "About + Resume",
     "Desc": "Let's get to know each other",
     "Subtitle": "I am Hayssem Elsayed",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.",
-    "Description2": "123Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.",
+    "Description": "Project & Product Manager, Product Owner & Scrum Master Certified",
+    "Description2": "Passionate Product Manager with over six years of hands-on experience leading successful features, products, and digital initiatives by leading projects, sprints, ensuring high-quality delivery, exercising collaborative team and stakeholder management. I strive to always be up to speed on different topics including coding and design to be able to deliver and discuss with all stakeholders.",
+    "Description3": "I fled from a traditional path and explored my creativity, by trying my hands on various techniques and technologies. Product Management is more than just a profession for me, and I try to dig deep into it. Today, I like to use my skills for critical thinking, empathy, and creativity to create viable and impactful solutions.",
     "SkillsTitle": "My Skills",
     "ResumeTitle": "Resume",
     "ResumeDesc": "The path I took",
     "WorkingExperienceTitle": "Working Experience",
-    "SoftSkillsInit": "Here what I did building Product",
+    "SoftSkillsInit": "Here what I did building Product:",
     "TechSkillsInit": "Here are a few technologies I've been working with recently:"
   },
   "Projects": {
@@ -59,10 +57,96 @@
     "Title": "Connect",
     "Desc": "Let's catchup"
   },
+  "ResumePage": {
+    "CorpExperience": "Corporate Experience",
+    "EntrExperience": "Entrepreneurial Experience",
+    "Education": "Education",
+    "Certification": "Certifications"
+  },
   "Experience1": {
-    "Year": "2015-2020",
-    "Title": "Product Manager",
-    "SubTitle": "Societe Generale",
+    "Year": "Oct 2020 - Present",
+    "Title": "Talan Americas",
+    "SubTitle": "IT & Operations Manager",
+    "Region": "Montreal, CA - Canada",
+    "Perimeter": "Perimeter: New Products",
+    "Text": "Lorem Ipsum",
+    "Task1": "• Driving team-wide and individual performance",
+    "Task2": "• Effectively working cross-functionally with stakeholders to deliver the solutions & outcomes that meet internal and external customer needs",
+    "Task3": "• Actively managing a high-performing team by recruiting excellent talent, developing and rewarding existing talent, managing resources efficiently, and demonstrating great leadership",
+    "Task4": "Task4",
+    "Task5": "Task5",
+    "Task6": "Task6",
+    "Achievement": "I contributed to the increase in the number of resources on the perimeter by 13%.",
+    "Technologies": "Technologies"
+  },
+  "Experience2": {
+    "Year": "Oct 2019 - Present",
+    "Title": "Société Générale Corporate & Investment Banking",
+    "SubTitle": "Product Manager",
+    "Region": "Montreal, CA - Canada",
+    "Perimeter": "Product: Corporate Information Systems, Innovation & New Products",
+    "Text": "Lorem Ipsum",
+    "Task1": "• Develop product requirements and partner with engineering and internal/external stakeholders to deliver them",
+    "Task2": "• Determine which tools should be built in-house versus where external/off-the-shelf options should be leveraged",
+    "Task3": "• Define the success metrics (KPI, OKR, etc..) to deep-dive issues and uncover trends & patterns in need of improvement",
+    "Task4": "• Build reports and dashboards to help non-technical users get information out of data",
+    "Task5": "• Helped achieve department-wide data management goals to reduce data loss and improve data quality (62% increase) and create dashboard to help manage activity",
+    "Task6": "• Led ideation, product development, and launch of redesign & re-platforming initiative to increase engagement with internal users on.",
+    "Achievement": "Achievement",
+    "Technologies": "Technologies"
+  },
+  "Experience3": {
+    "Year": "Oct 2018 - Oct 2018",
+    "Title": "Société Générale Corporate & Investment Banking",
+    "SubTitle": "Product Manager",
+    "Region": "Montreal, CA - Canada",
+    "Perimeter": "Product : Security & Facilities System",
+    "Text": "Lorem Ipsum",
+    "Task1": "• Led new product development efforts from discovery and early research through to launch, adoption, and business impact",
+    "Task2": "• Prioritize requirements for the different product APIs and additional features",
+    "Task3": "• Create product integration blueprints and best practices for department products to shorten the idea-to-production time",
+    "Task4": "• Led cross-functional alignment for 8 launches, including global product architecture review and simplification who lead to a reduction of operational cost by 12% and infrastructure cost by 36%",
+    "Task5": "• Helped grow core Facilities & Securities client’s and data counsummers by 54%",
+    "Task6": "• Task6",
+    "Achievement": "Achievement",
+    "Technologies": "Technologies"
+  },
+  "Experience4": {
+    "Year": "Oct 2017 - Oct 2018",
+    "Title": "BNP Paribas Cardif",
+    "SubTitle": "Technical Project Manager",
+    "Region": "Paris - France",
+    "Perimeter": "//Perimeter",
+    "Text": "Technical Project Manager who coordinates several new solutions' design, development, and deployment for different teams",
+    "Task1": "• Define roadmap, strategy, and managed execution for this contract archives platform design, development, and deployment",
+    "Task2": "• Led technical strategy for platform requirement",
+    "Task3": "• Launched A/B test",
+    "Task4": "• Performing Risk Management and Knowledge management on project",
+    "Task5": "• Partnered with Change Management Team to conduct a user training session",
+    "Task6": "• Gained 100% adoption within first 6 weeks of launch",
+    "Achievement": "Achievement",
+    "Technologies": "Technologies"
+  },
+  "Experience5": {
+    "Year": "Sept 2016 - Oct 2017",
+    "Title": "Société Générale",
+    "SubTitle": "Business Analyst",
+    "Region": "Paris - France",
+    "Perimeter": "//Perimeter",
+    "Text": "Junior Business Analyst in the Trade Services division within the Steering team, which gathers data from different sources and builds indicators for both sales and back-office teams to improve their activities.",
+    "Task1": "• Define new operational management indicators to improve the production",
+    "Task2": "• Planned roadmap with operational teams, developers, and stakeholders for new reports and dashboards launches",
+    "Task3": "• Ensure the production of reports on a dedicated customer perimeter while ensuring versatility on all the team's tasks.",
+    "Task4": "• Reduction of the operational risk by 13% with the automation of tasks",
+    "Task5": "• Built end to end reports generation decreased reports generation time by 20%",
+    "Task6": "Task6",
+    "Achievement": "Achievement",
+    "Technologies": "Technologies"
+  },
+  "StartUp1": {
+    "Year": "2021-current",
+    "Title": "Confsquare",
+    "SubTitle": "Co-Founder",
     "Region": "Montreal, CA - Canada",
     "Perimeter": "Perimeter: New Products",
     "Text": "Lorem Ipsum",
@@ -74,5 +158,65 @@
     "Task6": "Task6",
     "Achievement": "Achievement",
     "Technologies": "React, Javascript, HTML, CSS, Docker, Firebase"
+  },
+  "Certification1": {
+    "Year": "Jan 2021",
+    "Title": "ITIL v4 Foundation",
+    "SubTitle": "PeopleCert/Axelos - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
+  },
+  "Certification2": {
+    "Year": "Mar 2021",
+    "Title": "Professional Scrum Product Owner II",
+    "SubTitle": "Scrum.org - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
+  },
+  "Certification3": {
+    "Year": "Nov 2020",
+    "Title": "Professional Scrum Product Owner I",
+    "SubTitle": "Scrum.org - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
+  },
+  "Certification4": {
+    "Year": "Oct 2020",
+    "Title": "Professional Scrum Master I",
+    "SubTitle": "Scrum.org - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
+  },
+  "Certification5": {
+    "Year": "Jun 2019",
+    "Title": "RPA Developer Level 2 - Orchestrator",
+    "SubTitle": "UIPath - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
+  },
+  "Certification6": {
+    "Year": "Jun 2019",
+    "Title": "RPA Developer Foundation Training",
+    "SubTitle": "UIPath - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
+  },
+  "Certification7": {
+    "Year": "Jun 2017",
+    "Title": "IELTS",
+    "SubTitle": "British Council - Paris, FRA",
+    "Text": "Score : 6.5/9"
+  },
+  "Certification8": {
+    "Year": "Jun 2017",
+    "Title": "TOEIC",
+    "SubTitle": "ETS Global - Paris, FRA",
+    "Text": "Score : 830/990"
+  },
+  "Education1": {
+    "Year": "Jun 2016 - Sept 2017",
+    "Title": "Master’s degree IT Project and Business Strategy",
+    "SubTitle": "Paris 7 Diderot University - Paris, FRA",
+    "Text": "(Obtained with distinction) - "
+  },
+  "Education2": {
+    "Year": "Sept 2015 - Jun 2016",
+    "Title": "Master’s degree Social Science and Economics ",
+    "SubTitle": "Paris 7 Diderot University - Paris, FRA",
+    "Text": "(Obtained with distinction) - "
   }
 }

@@ -30,14 +30,17 @@ function HomePage() {
         </p>
 
         <h1 className="main-title">{t("HomePage.Title")}</h1>
+        <h2 className="sub-title">{t("HomePage.SubTitle")}</h2>
         <p>{t("HomePage.Desc_Part1")}</p>
         <p>{t("HomePage.Desc_Part2")}</p>
+        <p>{t("HomePage.Desc_Part3")}</p>
+        <p>{t("HomePage.Desc_Part4")}</p>
         <p className="more">
           <a className="more" href="/resume">
             {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-        <div className="icons">
+        {/* <div className="icons">
           <a
             href="https://codepen.io/pen/"
             target="_blank"
@@ -78,7 +81,7 @@ function HomePage() {
           >
             <YoutubeIcon />
           </a>
-        </div>
+        </div> */}
         <br />
         <br />
         <div className="ConfSquareItem">
@@ -170,6 +173,29 @@ const HomePageStyled = styled.header`
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;
+      @media screen and (max-width: 642px) {
+        font-size: 2rem;
+        img {
+          height: 185px;
+        }
+      }
+      @media screen and (max-width: 571px) {
+        font-size: 2rem;
+        img {
+          height: 185px;
+        }
+      }
+    }
+    .sub-title {
+      font-family: "Barlow Condensed", sans-serif;
+      color: var(--white-color);
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 4rem;
+      font-weight: 700;
+      position: relative;
+      padding-bottom: 1rem;
+      letter-spacing: 2px;
       @media screen and (max-width: 642px) {
         font-size: 2rem;
         img {
