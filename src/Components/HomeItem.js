@@ -45,6 +45,7 @@ const HomeItemStyled = styled.div`
       transform-style: preserve-3d;
       transition: all 0.2s ease-in-out;
       box-shadow: 5px 10px var(--second-light-color);
+      font-weight: 900;
     }
       .right-items {
         text-align: left;

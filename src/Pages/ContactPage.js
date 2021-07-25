@@ -4,10 +4,6 @@ import { MainLayout, InnerLayout } from "../resources/styles/Layouts";
 import Title from "../Components/Title";
 import ContactItem from "../Components/ContactItem";
 
-// import LinkedInIcon from "@material-ui/icons/LinkedIn";
-// import GitHubIcon from "@material-ui/icons/GitHub";
-// import EmailIcon from "@material-ui/icons/Email";
-
 import BehanceIcon from "../resources/img/social-media-btn/icons/behance.png";
 import CodePenIcon from "../resources/img/social-media-btn/icons/codepen.png";
 import DribbleIcon from "../resources/img/social-media-btn/icons/dribble.png";
@@ -26,41 +22,41 @@ function ContactPage() {
       <ContactPageStyled>
         <InnerLayout className={"contact-section"}>
           <div className="right-content">
-            <a href="https://about.twitter.com/" target="_blank">
+            <a href="https://www.behance.net/cuitlazotlacti" target="_blank">
               <ContactItem
                 title={"Behance"}
                 icon={<img src={BehanceIcon} />}
-                cont={"+66-789675637"}
+                cont={"behance.net/cuitlazotlacti"}
               />
             </a>
-            <a href="https://about.twitter.com/" target="_blank">
+            <a href="https://github.com/cuitlazotlac" target="_blank">
               <ContactItem
                 title={"Github"}
                 icon={<img src={GitHubIcon} />}
-                cont={"+66-789675637"}
+                cont={"github.com/cuitlazotlac"}
               />
             </a>{" "}
-            <a href="https://about.twitter.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/hayssem-elsayed/" target="_blank">
               <ContactItem
                 title={"LinkedIn"}
                 icon={<img src={LinkedInIcon} />}
-                cont={"+66-789675637"}
+                cont={"linkedin.com/in/hayssem-elsayed/"}
               />
             </a>
           </div>
           <div className="right-content">
-            <a href="https://about.twitter.com/" target="_blank">
+            <a href="https://codepen.io/cuitlazotlac" target="_blank">
               <ContactItem
                 title={"CodePen"}
                 icon={<img src={CodePenIcon} />}
-                cont={"07663520283"}
+                cont={"codepen.io/cuitlazotlac"}
               />
             </a>
-            <a href="https://about.twitter.com/" target="_blank">
+            <a href="https://dribbble.com/cuitlazotlac" target="_blank">
               <ContactItem
                 title={"Dribble"}
                 icon={<img src={DribbleIcon} />}
-                cont={"loremipsum@gmail.com"}
+                cont={"dribbble.com/cuitlazotlac"}
               />
             </a>
             <a href="https://about.twitter.com/" target="_blank">

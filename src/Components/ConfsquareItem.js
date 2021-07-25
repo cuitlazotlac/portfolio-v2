@@ -5,11 +5,11 @@ import background from "../resources/img/confsquare/background.jpg";
 function ConfsquareItem({ title, icon, cont1, cont2 }) {
   return (
     <ConfsquareItemStyled>
-      <div className="HomeItem">
+      <div className="ConfsquareItem">
         <div className="item">
           <img src={icon} alt="" />
           <div className="right-items">
-            <h6>{title}</h6>
+            <h6>{title}{' '}<i class="fas fa-external-link-alt"></i></h6>
             <p>{cont1}</p>
             <p>{cont2}</p>
           </div>
@@ -20,69 +20,57 @@ function ConfsquareItem({ title, icon, cont1, cont2 }) {
 }
 
 const ConfsquareItemStyled = styled.div`
-  .HomeItem {
+  .ConfsquareItem {
     width: 100%;
-    font-family: 'Lexend', sans-serif;
     &:not(:last-child) {
       margin-bottom: 1rem;
     }
-    border: 1px solid var(--border-color);
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-    border-radius: 2.5px;
-    transform-style: preserve-3d;
-    width: 100%;56
-    padding: 1rem;
-    overflow: hidden;
-    background-color: #FFC107;
-    &:hover{
-      transform: scale(1.1);
-      transform: translate(7px, -7px);
+    .item {
+      display: flex;
+      align-items: center;
+      background-color: #ffc107;
+      background: url("https://confsquare.com/_next/static/images/peeps-e9a28f121b895b484e28a7dd071141ab.png") #ffc107;
+      background-repeat: no-repeat;
+      background-position: unset;
+      padding: 3rem 0;
+      border: 1px solid var(--border-color);
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
+      border-radius: 2.5px;
       transform-style: preserve-3d;
-      transition: all 0.2s ease-in-out;
-      box-shadow: 5px 10px var(--second-light-color);
-    }
+      &:hover {
+        transform: scale(1.1);
+        transform: translate(7px, -7px);
+        transform-style: preserve-3d;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 5px 10px var(--second-light-color);
+      }
       .right-items {
-        text-align: right;
         margin-left: 2rem;
-        margin-right: 1rem;
-        a {
-          color: inherit; /* blue colors for links too */
-          text-decoration: inherit; /* no underline */
-        }
-        line-height: 1.2;
+        text-align: left;
       }
       img {
         padding: 1rem;
-        margin-left: 1rem;
-        width: 16%;
+        margin-left: 2rem;
+        width: 15%;
       }
       .right-items {
-        a {
-          color: inherit; /* blue colors for links too */
-          text-decoration: inherit; /* no underline */
-        }
         h6 {
-          font-size: 2rem;
+          font-family: "Lexend", sans-serif;
+          font-size: 1.4rem;
           font-weight: 900;
-          font-family: 'Lexend', sans-serif;
-        a {
-            color: inherit; /* blue colors for links too */
-            text-decoration: inherit; /* no underline */
-          }
+          color : #000;
+          background-color: #fff
         }
         p {
+          font-family: "Lexend", sans-serif;
           font-size: 1rem;
-          padding: 0.1rem 0;
-          a {
-            color: inherit; /* blue colors for links too */
-            text-decoration: inherit; /* no underline */
-          }
+          font-weight: 300;
+          color : #000;
+          background-color: #fff
         }
-        a {
-          color: inherit; /* blue colors for links too */
-          text-decoration: inherit; /* no underline */
-        }
+      }
+    }
   }
 `;
 

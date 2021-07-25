@@ -116,7 +116,7 @@ function Navigation() {
           <NavLink to="/portfolios" activeClassName="active-class" exact>
             {t("NavBar.Portfolios")}{" "}
             <Badge pill variant="warning">
-              14
+              8
             </Badge>
           </NavLink>
         </li>
