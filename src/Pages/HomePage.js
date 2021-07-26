@@ -125,6 +125,8 @@ function HomePage() {
               cont2={t("HomePage.Form4_Desc2")}
             />
           </a>
+          <br/>
+          <br/>
         </div>
       </div>
     </HomePageStyled>
