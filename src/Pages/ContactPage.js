@@ -22,21 +22,21 @@ function ContactPage() {
       <ContactPageStyled>
         <InnerLayout className={"contact-section"}>
           <div className="right-content">
-            <a href="https://www.behance.net/cuitlazotlacti" target="_blank">
+            <a href="https://www.behance.net/cuitlazotlacti" target="_blank" rel="noreferrer">
               <ContactItem
                 title={"Behance"}
                 icon={<img src={BehanceIcon} />}
                 cont={"behance.net/cuitlazotlacti"}
               />
             </a>
-            <a href="https://github.com/cuitlazotlac" target="_blank">
+            <a href="https://github.com/cuitlazotlac" target="_blank" rel="noreferrer">
               <ContactItem
                 title={"Github"}
                 icon={<img src={GitHubIcon} />}
                 cont={"github.com/cuitlazotlac"}
               />
             </a>{" "}
-            <a href="https://www.linkedin.com/in/hayssem-elsayed/" target="_blank">
+            <a href="https://www.linkedin.com/in/hayssem-elsayed/" target="_blank" rel="noreferrer">
               <ContactItem
                 title={"LinkedIn"}
                 icon={<img src={LinkedInIcon} />}
@@ -45,25 +45,25 @@ function ContactPage() {
             </a>
           </div>
           <div className="right-content">
-            <a href="https://codepen.io/cuitlazotlac" target="_blank">
+            <a href="https://codepen.io/cuitlazotlac" target="_blank" rel="noreferrer">
               <ContactItem
                 title={"CodePen"}
                 icon={<img src={CodePenIcon} />}
                 cont={"codepen.io/cuitlazotlac"}
               />
             </a>
-            <a href="https://dribbble.com/cuitlazotlac" target="_blank">
+            <a href="https://dribbble.com/cuitlazotlac" target="_blank" rel="noreferrer">
               <ContactItem
                 title={"Dribble"}
                 icon={<img src={DribbleIcon} />}
                 cont={"dribbble.com/cuitlazotlac"}
               />
             </a>
-            <a href="https://about.twitter.com/" target="_blank">
+            <a href="mailto:heyhayssem@gmail.com" target="_blank" rel="noreferrer">
               <ContactItem
                 title={"Email"}
                 icon={<img src={EmailIcon} />}
-                cont={"United Kingdom"}
+                cont={"heyhayssem@gmail.com"}
               />
             </a>
           </div>

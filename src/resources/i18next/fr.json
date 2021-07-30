@@ -1,0 +1,20 @@
+{
+    "NavBar": {
+        "MadeWith": "Réalisé avec ",
+        "English": "Anglais",
+        "French": "Français",
+        "Spanish": "Español",
+        "Home": "HOME",
+        "About": "A PROPOS",
+        "Portfolios": "PORTFOLIO",
+        "Blogs": "BLOGS",
+        "Contact": "CONTACT"
+    },
+    "Cat1": {
+        "Text1": "Français"
+    },
+    "Cat2": {
+        "Text1": "Français"
+    }
+
+}
