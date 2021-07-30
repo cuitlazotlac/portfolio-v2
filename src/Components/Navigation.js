@@ -98,7 +98,7 @@ function Navigation() {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/" activeClassName="active-class" exact>
+          <NavLink to="/home" activeClassName="active-class" exact>
             {t("NavBar.Home")}
           </NavLink>
         </li>
