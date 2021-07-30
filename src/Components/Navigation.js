@@ -141,16 +141,16 @@ function Navigation() {
       </footer> */}
       <div className="footer-div">
         <div className="social-btn">
-          <a href={linkedin_link} target="_blank">
+          <a href={linkedin_link} target="_blank" rel="noreferrer">
             <img src={linkedin} alt="linkedin" />
           </a>
-          <a href={github_link} target="_blank">
+          <a href={github_link} target="_blank" rel="noreferrer">
             <img src={github} alt="github" />
           </a>
-          <a href={behance_link} target="_blank">
+          <a href={behance_link} target="_blank" rel="noreferrer">
             <img src={behance} alt="behance" />
           </a>
-          <a href={mail_link} target="_blank">
+          <a href={mail_link} target="_blank" rel="noreferrer">
             <img src={mail} alt="mail" />
           </a>
         </div>
