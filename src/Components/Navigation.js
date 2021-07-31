@@ -304,7 +304,6 @@ const NavigationStyled = styled.nav`
   .footer-div {
     width: 100%;
     // height: 13%;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -339,6 +338,12 @@ const NavigationStyled = styled.nav`
         height: 20%;
         width: 20%;
       }
+    }
+    @media screen and (max-width: 496px) {
+      margin-bottom: 15%;
+    }
+    @media screen and (max-width: 370px) {
+      margin-bottom: 15%;
     }
   }
 `;
