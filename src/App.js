@@ -70,7 +70,7 @@ function App() {
           </div> */}
 
           <Switching>
-            <Route path="/" exact>
+            <Route path="/home" exact>
               <HomePage />
             </Route>
             <Route path="/about" exact>

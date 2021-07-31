@@ -13,6 +13,8 @@ function BlogsPage() {
   return (
     <MainLayout>
       <BlogsStyled>
+        <br />
+        <br />
         <Title title={t("UseCase.Title")} span={t("UseCase.Desc")} />
         <InnerLayout className={"blog"}>
           {blogs.map((blog) => {

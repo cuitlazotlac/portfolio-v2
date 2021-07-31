@@ -12,7 +12,7 @@ import img from "../resources/img/hve_favicon.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
 // import confsquareLogo from "../resources/img/confsquare/background.jpg";
 
-import CodeIcon from '@material-ui/icons/Code';
+import CodeIcon from "@material-ui/icons/Code";
 
 import { useTranslation } from "react-i18next";
 
@@ -31,10 +31,12 @@ function HomePage() {
 
         <h1 className="main-title">{t("HomePage.Title")}</h1>
         <h2 className="sub-title">{t("HomePage.SubTitle")}</h2>
-        <p>{t("HomePage.Desc_Part1")}</p>
-        <p>{t("HomePage.Desc_Part2")}</p>
-        <p>{t("HomePage.Desc_Part3")}</p>
-        <p>{t("HomePage.Desc_Part4")}</p>
+        <div className="desc">
+          <p>{t("HomePage.Desc_Part1")}</p>
+          <p>{t("HomePage.Desc_Part2")}</p>
+          <p>{t("HomePage.Desc_Part3")}</p>
+          <p>{t("HomePage.Desc_Part4")}</p>
+        </div>
         <p className="more">
           <a className="more" href="/resume">
             {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
@@ -94,9 +96,9 @@ function HomePage() {
             />
           </a>
         </div>
+        {/* <br />
         <br />
-        <br />
-        <br />
+        <br /> */}
         <br />
         <div className="HomeItems">
           <a href="/portfolios">
@@ -125,8 +127,8 @@ function HomePage() {
               cont2={t("HomePage.Form4_Desc2")}
             />
           </a>
-          <br/>
-          <br/>
+          <br />
+          <br />
         </div>
       </div>
     </HomePageStyled>
@@ -153,6 +155,9 @@ const HomePageStyled = styled.header`
   .typography {
     .logo-home {
       height: 300px;
+    }
+    .desc {
+      text-align: left;
     }
     @media screen and (max-width: 642px) {
       .logo-home {

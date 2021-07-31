@@ -43,7 +43,12 @@ function ImageSection() {
             <p>• Git</p>
           </div>
         </div>
-        <PrimaryButton title={"Download Cv"} />
+        <a
+          href="https://drive.google.com/file/d/1LANa-ZUoO-UzURbrLbOXyAle5MAe9hQk/view?usp=sharing"
+          target="_blank"
+        >
+          <PrimaryButton title={"Download Cv"} />
+        </a>
       </div>
     </ImageSectionStyled>
   );
