@@ -10,9 +10,6 @@ import MainTitle from "../Components/MainTitle";
 import ConfsquareItem from "../Components/ConfsquareItem";
 import img from "../resources/img/hve_favicon.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
-// import confsquareLogo from "../resources/img/confsquare/background.jpg";
-
-import CodeIcon from "@material-ui/icons/Code";
 
 import { useTranslation } from "react-i18next";
 

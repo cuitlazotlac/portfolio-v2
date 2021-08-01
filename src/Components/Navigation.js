@@ -13,7 +13,7 @@ import linkedin from "../resources/img/social-media-btn/linkedin.svg";
 function Navigation() {
   var linkedin_link = "https://www.linkedin.com/in/hayssem-elsayed/";
   var github_link = "https://github.com/cuitlazotlac";
-  var behance_link = "https://www.behance.net/cuitlazotlacti";
+  var behance_link = "https://www.behance.net/cuitlazotlac";
   var mail_link = "mailto:heyhayssem@gmail.com";
 
   const { t, i18n } = useTranslation();
