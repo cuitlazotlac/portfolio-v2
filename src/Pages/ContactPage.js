@@ -25,14 +25,14 @@ function ContactPage() {
         <InnerLayout className={"contact-section"}>
           <div className="right-content">
             <a
-              href="https://www.behance.net/cuitlazotlacti"
+              href="https://www.behance.net/cuitlazotlac"
               target="_blank"
               rel="noreferrer"
             >
               <ContactItem
                 title={"Behance"}
                 icon={<img src={BehanceIcon} />}
-                cont={"behance.net/cuitlazotlacti"}
+                cont={"behance.net/cuitlazotlac"}
               />
             </a>
             <a
