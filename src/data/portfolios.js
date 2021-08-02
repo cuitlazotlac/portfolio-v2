@@ -1,14 +1,17 @@
-import css1 from "../resources/img/popcorn.png";
-import css2 from "../resources/img/popcorn.png";
-import react1 from "../resources/img/popcorn.png";
-import img2 from "../resources/img/popcorn.png";
-import img3 from "../resources/img/popcorn.png";
+import clapperboard from "../resources/img/project-icons/clapperboard.png";
+import co2 from "../resources/img/project-icons/co2-cloud.png";
+import corona from "../resources/img/project-icons/coronavirus.png";
+import cryto from "../resources/img/project-icons/cryptocurrency.png";
+import controller from "../resources/img/project-icons/game-controller.png";
+import manga from "../resources/img/project-icons/manga.png";
+import sun from "../resources/img/project-icons/sun.png";
+import taco from "../resources/img/project-icons/taco.png";
 
 const portfolios = [
   {
     id: 1,
     category: "React",
-    image: css1,
+    image: cryto,
     link1: "https://github.com/cuitlazotlac/crypto-watcher",
     link2: "https://cryptowatcher1.herokuapp.com/",
     title: "Crypto Watcher",
@@ -18,7 +21,7 @@ const portfolios = [
   {
     id: 2,
     category: "React",
-    image: img3,
+    image: sun,
     link1: "https://github.com/cuitlazotlac/WeatherChecker",
     link2: "https://weatherchecker1.herokuapp.com/",
     title: "Weather Checker",
@@ -28,7 +31,7 @@ const portfolios = [
   {
     id: 3,
     category: "API",
-    image: img3,
+    image: taco,
     link1: "https://github.com/cuitlazotlac/mtlmex-api",
     link2: "https://mtlmex-api.herokuapp.com/",
     title: "MTL Mex API",
@@ -38,7 +41,7 @@ const portfolios = [
   {
     id: 4,
     category: "React",
-    image: img2,
+    image: manga,
     link1: "https://github.com/cuitlazotlac/anime-library",
     link2: "https://anime-library1.herokuapp.com/",
     title: "Anime Library",
@@ -48,7 +51,7 @@ const portfolios = [
   {
     id: 5,
     category: "Vue",
-    image: img2,
+    image: clapperboard,
     link1: "https://github.com/cuitlazotlac/what-movie",
     link2: "https://what-movies.herokuapp.com/",
     title: "What Movie ?",
@@ -58,7 +61,7 @@ const portfolios = [
   {
     id: 6,
     category: "React",
-    image: react1,
+    image: corona,
     link1: "https://github.com/cuitlazotlac/covid-tracker-dashboard",
     link2: "https://www.google.com",
     title: "Covid Tracker Dashboard",
@@ -68,7 +71,7 @@ const portfolios = [
   {
     id: 7,
     category: "Open Source Project",
-    image: css2,
+    image: co2,
     link1: "https://github.com/climate-stuff/carbon-calculator",
     link2: "https://www.google.com",
     title: "Carb One Caculator",
@@ -78,7 +81,7 @@ const portfolios = [
   {
     id: 8,
     category: "Python",
-    image: css2,
+    image: controller,
     link1: "https://github.com/cuitlazotlac/pygamon",
     link2: "https://www.google.com",
     title: "PyGamon",
