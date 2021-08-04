@@ -52,7 +52,7 @@ const MainTitleStyled = styled.div`
     }
     span {
       font-weight: 400;
-      color: rgba(188, 188, 188, 0.4);
+      color: var(--span-color);
       font-size: 3.5rem;
       // font-family: "Dela Gothic One", cursive;
       font-family: 'Barlow Condensed', sans-serif;

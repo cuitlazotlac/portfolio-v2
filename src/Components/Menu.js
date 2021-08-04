@@ -14,12 +14,12 @@ function Menu({ menuItem }) {
                 <img src={item.image} alt="" />
                 <ul>
                   <li>
-                    <a href={item.link1}>
+                    <a href={item.link1} target="_blank" rel="noreferrer">
                       <GitHub />
                     </a>
                   </li>
                   <li>
-                    <a href={item.link2}>
+                    <a href={item.link2} target="_blank" rel="noreferrer">
                       <LanguageIcon />
                     </a>
                   </li>
@@ -85,9 +85,10 @@ const MenuItemStyled = styled.div`
         font-size: 0.8rem;
       }
       img {
-        width: 100%;
-        height: 30vh;
-        object-fit: cover;
+        width: 50%;
+        // height: 25vh;
+        // object-fit: cover;
+        margin-left: 80px;
       }
       ul {
         transform: translateY(-600px);
