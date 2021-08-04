@@ -33,13 +33,13 @@ const TitleStyled = styled.div`
     }
     span {
       font-weight: 700;
-      color: rgba(188, 188, 188, 0.4);
+      color: var(--span-color);
       font-size: 3.5rem;
       // font-family: "Dela Gothic One", cursive;
       font-family: "Barlow Condensed", sans-serif;
       position: absolute;
       left: 0;
-      top: 30%;
+      top: 45%;
       z-index: -1;
       @media screen and (max-width: 620px) {
         font-size: 4rem;

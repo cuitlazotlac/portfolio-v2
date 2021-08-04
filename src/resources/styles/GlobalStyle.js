@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
     --svg-border-color: #000000;
     --second-light-color: #3C3C3C;
     --txt-button: #FFF;
+    --span-color: rgba(182, 180, 180,.3);
 }
 .dark-theme{
     --primary-color: #007bff;
@@ -47,6 +48,7 @@ const GlobalStyle = createGlobalStyle`
     --svg-border-color: #000000;
     --second-light-color: #4D648D;
     --txt-button: #000;
+    --span-color: rgba(188, 188, 188, 0.4);
 }
 *{
     margin: 0;

@@ -46,8 +46,9 @@ function ImageSection() {
         <a
           href="https://drive.google.com/file/d/1LANa-ZUoO-UzURbrLbOXyAle5MAe9hQk/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
-          <PrimaryButton title={"Download Cv"} />
+          <PrimaryButton title={t("AboutPage.CV")} />
         </a>
       </div>
     </ImageSectionStyled>
