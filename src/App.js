@@ -13,6 +13,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { Route, Switch as Switching } from "react-router";
 import Switch from "@material-ui/core/Switch";
 import { IconButton } from "@material-ui/core";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
@@ -50,7 +51,8 @@ function App() {
             <div className="line-4"></div>
           </div> */}
 
-        <Switching>
+        {/* <Switching> */}
+        <BrowserRouter basename="/portfolio-v2/">
           <Route path="/home" exact>
             <HomePage />
           </Route>
@@ -69,7 +71,8 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-        </Switching>
+        </BrowserRouter>
+        {/* </Switching> */}
       </MainContentStyled>
     </div>
   );
