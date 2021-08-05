@@ -51,8 +51,8 @@ function App() {
             <div className="line-4"></div>
           </div> */}
 
-        {/* <Switching> */}
-        <BrowserRouter basename="/portfolio-v2/">
+        <Switching>
+        {/* <BrowserRouter basename="/portfolio-v2/"> */}
           <Route path="/home" exact>
             <HomePage />
           </Route>
@@ -71,8 +71,8 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-        </BrowserRouter>
-        {/* </Switching> */}
+        {/* </BrowserRouter> */}
+        </Switching>
       </MainContentStyled>
     </div>
   );
