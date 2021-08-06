@@ -107,7 +107,7 @@ function HomePage() {
             />
           </a>
           <br />
-          <a href="/blogs">
+          {/* <a href="/blogs">
             <HomeItem
               // icon={_blank}
               title={t("HomePage.Form3_Title")}
@@ -115,7 +115,7 @@ function HomePage() {
               cont2={t("HomePage.Form3_Desc2")}
             />
           </a>
-          <br />
+          <br /> */}
           <a href="/resume">
             <HomeItem
               // icon={_blank}

@@ -41,14 +41,14 @@ function Resume() {
             subTitle={t("Experience1.SubTitle")}
             region={t("Experience1.Region")}
             // perimeter={t("Experience1.Perimeter")}
-            text={t("Experience1.Text")}
+            // text={t("Experience1.Text")}
             responsability_1={t("Experience1.Task1")}
             responsability_2={t("Experience1.Task2")}
             responsability_3={t("Experience1.Task3")}
             // responsability_4={t("Experience1.Task4")}
             // responsability_5={t("Experience1.Task5")}
             // responsability_6={t("Experience1.Task6")}
-            achievement={t("Experience1.Achievement")}
+            // achievement={t("Experience1.Achievement")}
             // technologies={t("Experience1.Technologies")}
           />
           <ResumeItem
@@ -57,13 +57,13 @@ function Resume() {
             subTitle={t("Experience2.SubTitle")}
             region={t("Experience2.Region")}
             perimeter={t("Experience2.Perimeter")}
-            text={t("Experience2.Text")}
+            // text={t("Experience2.Text")}
             responsability_1={t("Experience2.Task1")}
             responsability_2={t("Experience2.Task2")}
             responsability_3={t("Experience2.Task3")}
             responsability_4={t("Experience2.Task4")}
-            responsability_5={t("Experience2.Task5")}
-            responsability_6={t("Experience2.Task6")}
+            // responsability_5={t("Experience2.Task5")}
+            // responsability_6={t("Experience2.Task6")}
             // achievement={t("Experience2.Achievement")}
             // technologies={t("Experience2.Technologies")}
           />
@@ -73,12 +73,12 @@ function Resume() {
             subTitle={t("Experience3.SubTitle")}
             region={t("Experience3.Region")}
             perimeter={t("Experience3.Perimeter")}
-            text={t("Experience3.Text")}
+            // text={t("Experience3.Text")}
             responsability_1={t("Experience3.Task1")}
             responsability_2={t("Experience3.Task2")}
             responsability_3={t("Experience3.Task3")}
-            responsability_4={t("Experience3.Task4")}
-            responsability_5={t("Experience3.Task5")}
+            // responsability_4={t("Experience3.Task4")}
+            // responsability_5={t("Experience3.Task5")}
             // responsability_6={t("Experience3.Task6")}
             // achievement={t("Experience3.Achievement")}
             // technologies={t("Experience3.Technologies")}
@@ -89,13 +89,13 @@ function Resume() {
             subTitle={t("Experience4.SubTitle")}
             region={t("Experience4.Region")}
             // perimeter={t("Experience4.Perimeter")}
-            text={t("Experience4.Text")}
+            // text={t("Experience4.Text")}
             responsability_1={t("Experience4.Task1")}
             responsability_2={t("Experience4.Task2")}
-            responsability_3={t("Experience4.Task3")}
-            responsability_4={t("Experience4.Task4")}
-            responsability_5={t("Experience4.Task5")}
-            responsability_6={t("Experience4.Task6")}
+            // responsability_3={t("Experience4.Task3")}
+            // responsability_4={t("Experience4.Task4")}
+            // responsability_5={t("Experience4.Task5")}
+            // responsability_6={t("Experience4.Task6")}
             // achievement={t("Experience4.Achievement")}
             // technologies={t("Experience4.Technologies")}
           />
@@ -105,12 +105,12 @@ function Resume() {
             subTitle={t("Experience5.SubTitle")}
             region={t("Experience5.Region")}
             // perimeter={t("Experience5.Perimeter")}
-            text={t("Experience5.Text")}
+            // text={t("Experience5.Text")}
             responsability_1={t("Experience5.Task1")}
             responsability_2={t("Experience5.Task2")}
-            responsability_3={t("Experience5.Task3")}
-            responsability_4={t("Experience5.Task4")}
-            responsability_5={t("Experience5.Task5")}
+            // responsability_3={t("Experience5.Task3")}
+            // responsability_4={t("Experience5.Task4")}
+            // responsability_5={t("Experience5.Task5")}
             // responsability_6={t("Experience5.Task6")}
             // achievement={t("Experience5.Achievement")}
             // technologies={t("Experience5.Technologies")}
@@ -124,9 +124,7 @@ function Resume() {
             year={t("StartUp1.Year")}
             title={t("StartUp1.Title")}
             subTitle={t("StartUp1.SubTitle")}
-            text={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
-            }
+            text={t("StartUp1.Text")}
           />
         </div>
         <div className="small-title u-small-title-margin">
@@ -134,40 +132,46 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
+            year={t("Certification0.Year")}
+            title={t("Certification0.Title")}
+            subTitle={t("Certification0.SubTitle")}
+            // text={t("Certification0.Text")}
+          />
+          <ResumeItem
             year={t("Certification1.Year")}
             title={t("Certification1.Title")}
             subTitle={t("Certification1.SubTitle")}
-            text={t("Certification1.Text")}
+            // text={t("Certification1.Text")}
           />
           <ResumeItem
             year={t("Certification2.Year")}
             title={t("Certification2.Title")}
             subTitle={t("Certification2.SubTitle")}
-            text={t("Certification2.Text")}
+            // text={t("Certification2.Text")}
           />
           <ResumeItem
             year={t("Certification3.Year")}
             title={t("Certification3.Title")}
             subTitle={t("Certification3.SubTitle")}
-            text={t("Certification3.Text")}
+            // text={t("Certification3.Text")}
           />
           <ResumeItem
             year={t("Certification4.Year")}
             title={t("Certification4.Title")}
             subTitle={t("Certification4.SubTitle")}
-            text={t("Certification4.Text")}
+            // text={t("Certification4.Text")}
           />
           <ResumeItem
             year={t("Certification5.Year")}
             title={t("Certification5.Title")}
             subTitle={t("Certification5.SubTitle")}
-            text={t("Certification5.Text")}
+            // text={t("Certification5.Text")}
           />
           <ResumeItem
             year={t("Certification6.Year")}
             title={t("Certification6.Title")}
             subTitle={t("Certification6.SubTitle")}
-            text={t("Certification6.Text")}
+            // text={t("Certification6.Text")}
           />
           <ResumeItem
             year={t("Certification7.Year")}
