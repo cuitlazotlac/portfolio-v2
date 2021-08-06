@@ -71,9 +71,9 @@
     "Region": "Montreal, CA - Canada",
     "Perimeter": "Perimeter: New Products",
     "Text": "Lorem Ipsum",
-    "Task1": "• Driving team-wide and individual performance",
-    "Task2": "• Effectively working cross-functionally with stakeholders to deliver the solutions & outcomes that meet internal and external customer needs",
-    "Task3": "• Actively managing a high-performing team by recruiting excellent talent, developing and rewarding existing talent, managing resources efficiently, and demonstrating great leadership",
+    "Task1": "• Defined a global consultant follow-up strategy for the company's most important client.",
+    "Task2": "• Designed a personalized career plan for each of the resources (+30 consultants).",
+    "Task3": "• Reached business objectives by becoming the second most important supplier for our customers.",
     "Task4": "Task4",
     "Task5": "Task5",
     "Task6": "Task6",
@@ -87,25 +87,25 @@
     "Region": "Montreal, CA - Canada",
     "Perimeter": "Product: Corporate Information Systems, Innovation & New Products",
     "Text": "Lorem Ipsum",
-    "Task1": "• Develop product requirements and partner with engineering and internal/external stakeholders to deliver them",
-    "Task2": "• Determine which tools should be built in-house versus where external/off-the-shelf options should be leveraged",
-    "Task3": "• Define the success metrics (KPI, OKR, etc..) to deep-dive issues and uncover trends & patterns in need of improvement",
-    "Task4": "• Build reports and dashboards to help non-technical users get information out of data",
+    "Task1": "• Created strategy to improve the digitalization of the Human Resource Back Office Team.",
+    "Task2": "• Launched a web application to automate contract generation. Earned 100% adoption from recruiters 2 weeks after launch and resulted in a time reduction of 95% to generate a contract.",
+    "Task3": "• Reacted to COVID-19, designing and building an entrance log web application combined with a thermal camera. Resulted in helping to company “Return To Office“ program goals.",
+    "Task4": "• Reached department-wide data management goals. Increased data generated and used by 62%.",
     "Task5": "• Helped achieve department-wide data management goals to reduce data loss and improve data quality (62% increase) and create dashboard to help manage activity",
     "Task6": "• Led ideation, product development, and launch of redesign & re-platforming initiative to increase engagement with internal users on.",
     "Achievement": "Achievement",
     "Technologies": "Technologies"
   },
   "Experience3": {
-    "Year": "Oct 2018 - Oct 2018",
+    "Year": "Oct 2018 - Oct 2019",
     "Title": "Société Générale Corporate & Investment Banking",
     "SubTitle": "Product Manager",
     "Region": "Montreal, CA - Canada",
     "Perimeter": "Product : Security & Facilities System",
     "Text": "Lorem Ipsum",
-    "Task1": "• Led new product development efforts from discovery and early research through to launch, adoption, and business impact",
-    "Task2": "• Prioritize requirements for the different product APIs and additional features",
-    "Task3": "• Create product integration blueprints and best practices for department products to shorten the idea-to-production time",
+    "Task1": "• Coordinate between 5 teams and vendors to ensure punctual delivery of high-quality products.",
+    "Task2": "• Designed the information system architecture. Resulted in a 56% infrastructure costs reduction.",
+    "Task3": "• Led cross-functional alignment for 8+ features and products launches, including web applications and API’s. Increased product data consumption by 168% and product visibility (from 2 clients to 8).",
     "Task4": "• Led cross-functional alignment for 8 launches, including global product architecture review and simplification who lead to a reduction of operational cost by 12% and infrastructure cost by 36%",
     "Task5": "• Helped grow core Facilities & Securities client’s and data counsummers by 54%",
     "Task6": "• Task6",
@@ -119,8 +119,8 @@
     "Region": "Paris - France",
     "Perimeter": "//Perimeter",
     "Text": "Technical Project Manager who coordinates several new solutions' design, development, and deployment for different teams",
-    "Task1": "• Define roadmap, strategy, and managed execution for this contract archives platform design, development, and deployment",
-    "Task2": "• Led technical strategy for platform requirement",
+    "Task1": "• Created and led the development of a contract archives data application. (team of 3 engineers).",
+    "Task2": "• Deployed to Sales and Back-Offices teams within 7 months (reducing TTM by 21%) by reviewing the infrastructure and software deployment process.",
     "Task3": "• Launched A/B test",
     "Task4": "• Performing Risk Management and Knowledge management on project",
     "Task5": "• Partnered with Change Management Team to conduct a user training session",
@@ -135,8 +135,8 @@
     "Region": "Paris - France",
     "Perimeter": "//Perimeter",
     "Text": "Junior Business Analyst in the Trade Services division within the Steering team, which gathers data from different sources and builds indicators for both sales and back-office teams to improve their activities.",
-    "Task1": "• Define new operational management indicators to improve the production",
-    "Task2": "• Planned roadmap with operational teams, developers, and stakeholders for new reports and dashboards launches",
+    "Task1": "• Define roadmap with operational teams and stakeholders for new reports and dashboards needs.",
+    "Task2": "• Reduction of the operational risk by 13% by automating most of the manual tasks with macros.",
     "Task3": "• Ensure the production of reports on a dedicated customer perimeter while ensuring versatility on all the team's tasks.",
     "Task4": "• Reduction of the operational risk by 13% with the automation of tasks",
     "Task5": "• Built end to end reports generation decreased reports generation time by 20%",
@@ -145,12 +145,12 @@
     "Technologies": "Technologies"
   },
   "StartUp1": {
-    "Year": "2021-current",
+    "Year": "2021 - Present",
     "Title": "Confsquare",
     "SubTitle": "Co-Founder",
     "Region": "Montreal, CA - Canada",
     "Perimeter": "Perimeter: New Products",
-    "Text": "Lorem Ipsum",
+    "Text": "Built and designed a web application that let users creating a new form of events based on the concept of “rooms”. The concept was created to help the broadcaster create a dynamic with the guests but also for the guests among themselves.",
     "Task1": "Task1",
     "Task2": "Task2",
     "Task3": "Task3",
@@ -159,6 +159,12 @@
     "Task6": "Task6",
     "Achievement": "Achievement",
     "Technologies": "React, Javascript, HTML, CSS, Docker, Firebase"
+  },
+  "Certification0": {
+    "Year": "Aug 2021",
+    "Title": "Certified Cryptocurrency Expert",
+    "SubTitle": "Blockchain Council - Remote",
+    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification1": {
     "Year": "Jan 2021",
@@ -212,12 +218,12 @@
     "Year": "Jun 2016 - Sept 2017",
     "Title": "Master’s degree IT Project and Business Strategy",
     "SubTitle": "Paris 7 Diderot University - Paris, FRA",
-    "Text": "(Obtained with distinction) - "
+    "Text": "Obtained with distinction"
   },
   "Education2": {
     "Year": "Sept 2015 - Jun 2016",
     "Title": "Master’s degree Social Science and Economics ",
     "SubTitle": "Paris 7 Diderot University - Paris, FRA",
-    "Text": "(Obtained with distinction) - "
+    "Text": "Obtained with distinction"
   }
 }

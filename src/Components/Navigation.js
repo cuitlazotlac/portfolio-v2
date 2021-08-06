@@ -120,14 +120,14 @@ function Navigation() {
             </Badge>
           </NavLink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink to="/blogs" activeClassName="active-class" exact>
             {t("NavBar.Blogs")}{" "}
             <Badge pill variant="warning">
               5
             </Badge>
           </NavLink>
-        </li>
+        </li> */}
         <li className="nav-item">
           <NavLink to="/contact" activeClassName="active-class" exact>
             {t("NavBar.Contact")}
