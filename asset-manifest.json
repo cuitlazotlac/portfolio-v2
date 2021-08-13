@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio-v2/static/js/main.7a54fa7c.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.7a54fa7c.chunk.js.map",
+    "main.js": "/portfolio-v2/static/js/main.71ca9c66.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.71ca9c66.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.53cfe4e8.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.53cfe4e8.js.map",
     "static/js/2.9cfac7eb.chunk.js": "/portfolio-v2/static/js/2.9cfac7eb.chunk.js",
@@ -11,6 +11,7 @@
     "static/media/background.15cf0931.jpg": "/portfolio-v2/static/media/background.15cf0931.jpg",
     "static/media/behance.0cee0be2.svg": "/portfolio-v2/static/media/behance.0cee0be2.svg",
     "static/media/behance.900ad128.png": "/portfolio-v2/static/media/behance.900ad128.png",
+    "static/media/blockchain.7c5c25b0.png": "/portfolio-v2/static/media/blockchain.7c5c25b0.png",
     "static/media/clapperboard.23688a9c.png": "/portfolio-v2/static/media/clapperboard.23688a9c.png",
     "static/media/co2-cloud.0a20002f.png": "/portfolio-v2/static/media/co2-cloud.0a20002f.png",
     "static/media/codepen.d9a507f9.png": "/portfolio-v2/static/media/codepen.d9a507f9.png",
@@ -36,6 +37,6 @@
   "entrypoints": [
     "static/js/runtime-main.53cfe4e8.js",
     "static/js/2.9cfac7eb.chunk.js",
-    "static/js/main.7a54fa7c.chunk.js"
+    "static/js/main.71ca9c66.chunk.js"
   ]
 }
