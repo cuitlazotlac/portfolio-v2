@@ -3,6 +3,7 @@ import co2 from "../resources/img/project-icons/co2-cloud.png";
 import corona from "../resources/img/project-icons/coronavirus.png";
 import cryto from "../resources/img/project-icons/cryptocurrency.png";
 import controller from "../resources/img/project-icons/game-controller.png";
+import blockchain from "../resources/img/project-icons/blockchain.png";
 import manga from "../resources/img/project-icons/manga.png";
 import sun from "../resources/img/project-icons/sun.png";
 import taco from "../resources/img/project-icons/taco.png";
@@ -20,6 +21,16 @@ const portfolios = [
   },
   {
     id: 2,
+    category: "DApp",
+    image: blockchain,
+    link1: "https://github.com/cuitlazotlac/defi_app",
+    link2: "https://defi-dapp-token-farm.herokuapp.com/",
+    title: "DeFi DApp Token Farm",
+    text: "👨🏽‍🌾🪙 DeFi App - reproducing a Digital bank where we can earn interest for depositing cryptocurrency",
+    tech: "react, ethereum, smart-contracts, truffle, solidity, web3js",
+  },
+  {
+    id: 3,
     category: "React",
     image: sun,
     link1: "https://github.com/cuitlazotlac/WeatherChecker",
@@ -29,7 +40,7 @@ const portfolios = [
     tech: "react, scss, openweathermap-api",
   },
   {
-    id: 3,
+    id: 4,
     category: "API",
     image: taco,
     link1: "https://github.com/cuitlazotlac/mtlmex-api",
@@ -39,7 +50,7 @@ const portfolios = [
     tech: "javascript, heroku, jsondb",
   },
   {
-    id: 4,
+    id: 5,
     category: "React",
     image: manga,
     link1: "https://github.com/cuitlazotlac/anime-library",
@@ -49,7 +60,7 @@ const portfolios = [
     tech: "react, api, scss",
   },
   {
-    id: 5,
+    id: 6,
     category: "Vue",
     image: clapperboard,
     link1: "https://github.com/cuitlazotlac/what-movie",
@@ -59,7 +70,7 @@ const portfolios = [
     tech: "vuejs, api, javascript",
   },
   {
-    id: 6,
+    id: 7,
     category: "React",
     image: corona,
     link1: "https://github.com/cuitlazotlac/covid-tracker-dashboard",
@@ -69,7 +80,7 @@ const portfolios = [
     tech: "react, api",
   },
   {
-    id: 7,
+    id: 8,
     category: "Open Source Project",
     image: co2,
     link1: "https://github.com/climate-stuff/carbon-calculator",
@@ -79,7 +90,7 @@ const portfolios = [
     tech: "react, javascript",
   },
   {
-    id: 8,
+    id: 9,
     category: "Python",
     image: controller,
     link1: "https://github.com/cuitlazotlac/pygamon",

@@ -132,6 +132,12 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
+            year={t("Certification9.Year")}
+            title={t("Certification9.Title")}
+            subTitle={t("Certification9.SubTitle")}
+            // text={t("Certification0.Text")}
+          />
+          <ResumeItem
             year={t("Certification0.Year")}
             title={t("Certification0.Title")}
             subTitle={t("Certification0.SubTitle")}
