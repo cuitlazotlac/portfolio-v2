@@ -53,7 +53,7 @@ const SkillsStyled = styled.section`
   .about-details {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: 80px;
+    grid-auto-rows: 24%;
     // grid-gap: 2px;
     img {
       height: 70%;

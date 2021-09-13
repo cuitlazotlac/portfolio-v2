@@ -16,7 +16,7 @@ import { IconButton } from "@material-ui/core";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
-  const [theme, setTheme] = useState("light-theme");
+  const [theme, setTheme] = useState("dark-theme");
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
