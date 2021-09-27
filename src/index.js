@@ -13,7 +13,6 @@ ReactDOM.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-    
   </React.StrictMode>
   </Suspense>,
   document.getElementById('root')

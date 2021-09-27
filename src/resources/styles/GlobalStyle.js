@@ -177,7 +177,7 @@ h6{
 .spinner-wrapper{
     width: 100%;
     height: 100%;
-    background-color: #151515;
+    background-color: var(--background-dark-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -204,13 +204,13 @@ h6{
 .spinner:before {
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(90deg, #ff00cc 0%,#333399 100% );
-    animation: spin .5s infinite linear;
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,176,0,1) 53%, rgba(249,198,66,1) 100%);
+    animation: spin .30s infinite linear;
 }
 .spinner:after {
     width: 90%;
     height: 90%;
-    background-color: #151515;
+    background-color: var(--background-dark-color);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
