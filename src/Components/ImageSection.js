@@ -84,10 +84,14 @@ const ImageSectionStyled = styled.div`
     }
     .paragraph {
       padding: 1rem 0;
+      @media screen and (max-width: 670px) {
+        font-size: 0.9rem;
+      }
     }
     .about-info {
       display: flex;
       padding-bottom: 1.4rem;
+      
       .info-title {
         padding-right: 3rem;
         p {
@@ -97,8 +101,10 @@ const ImageSectionStyled = styled.div`
       .info-title,
       .info {
         p {
-          // padding: 0.3rem 0;
           font-weight: 200;
+          @media screen and (max-width: 670px) {
+            font-size: 0.9rem;
+          }
         }
       }
     }

@@ -47,23 +47,25 @@ const MenuItemStyled = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
   .grid-item {
-    .portfolio-content {
-      // border: 3px solid var(--border-color);
-      border: 1px solid var(--border-color);
-      transition: all 0.3s ease-in-out;
-      box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-      border-radius: 2.5px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
+    border-radius: 2.5px;
+    transform-style: preserve-3d;
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+    &:hover {
+      transform: scale(1.1);
+      transform: translate(7px, -7px);
       transform-style: preserve-3d;
-      display: block;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 5px 10px var(--second-light-color);
+    }
+    .portfolio-content {
       position: relative;
       overflow: hidden;
-      &:hover {
-        transform: scale(1.1);
-        transform: translate(7px, -7px);
-        transform-style: preserve-3d;
-        transition: all 0.2s ease-in-out;
-        box-shadow: 5px 10px var(--second-light-color);
-      }
+      word-wrap: break-word;
       h6 {
         font-family: "Barlow Condensed", sans-serif;
         font-size: 1.7rem;
@@ -71,6 +73,7 @@ const MenuItemStyled = styled.div`
         margin-top: 5px;
         margin-bottom: 5px;
         text-align: left;
+        word-wrap: break-word;
       }
       p {
         font-size: 1rem;
@@ -85,10 +88,10 @@ const MenuItemStyled = styled.div`
         font-size: 0.8rem;
       }
       img {
-        width: 50%;
-        // height: 25vh;
-        // object-fit: cover;
-        margin-left: 80px;
+        width: 100%;
+        opacity: 80%;
+        // width: 80%;
+        transition: all 0.2s ease-in-out;
       }
       ul {
         transform: translateY(-600px);
@@ -98,7 +101,7 @@ const MenuItemStyled = styled.div`
         top: 40%;
         opacity: 0;
         li {
-          background-color: var(--font-light-white);
+          background-color: blue;
           border: 2px solid white;
           display: flex;
           align-items: center;

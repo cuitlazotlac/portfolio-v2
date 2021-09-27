@@ -65,9 +65,9 @@ function App() {
           <Route path="/portfolios" exact>
             <PortfoliosPage />
           </Route>
-          <Route path="/blogs" exact>
+          {/* <Route path="/blogs" exact>
             <BlogsPage />
-          </Route>
+          </Route> */}
           <Route path="/contact" exact>
             <ContactPage />
           </Route>

@@ -15,7 +15,7 @@ function ResumeItem({
   responsability_5,
   responsability_6,
   achievement,
-  technologies
+  technologies,
 }) {
   return (
     <ResumeItemStyled>
@@ -45,13 +45,6 @@ function ResumeItem({
 
 const ResumeItemStyled = styled.div`
   display: flex;
-  @media screen and (max-width: 421px) {
-    p,
-    h5,
-    h6 {
-      font-size: 80%;
-    }
-  }
   &:not(:last-child) {
     padding-bottom: 3rem;
   }
@@ -70,6 +63,10 @@ const ResumeItemStyled = styled.div`
       // border: 2px solid var(--border-color);
       border: 1px solid var(--border-color);
       background-color: var(--background-dark-color);
+    }
+    @media screen and (max-width: 670px) {
+      font-size: 0.7rem;
+      font-weight: 900;
     }
     p {
       display: inline-block;
@@ -92,14 +89,31 @@ const ResumeItemStyled = styled.div`
       font-size: 2.3rem;
       font-weight: 900;
       padding-bottom: 0.4rem;
+      @media screen and (max-width: 670px) {
+        font-size: 1.0rem;
+        font-weight: 700;
+      }
     }
     h6 {
       padding-bottom: 0.6rem;
       font-size: 1.5rem;
+      @media screen and (max-width: 670px) {
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
     }
-    h7 {
-      padding-bottom: 0.6rem;
+    p {
       font-size: 1.2rem;
+      @media screen and (max-width: 670px) {
+        font-size: 0.6rem;
+        font-weight: 400;
+      }
+    }
+    li {
+      @media screen and (max-width: 670px) {
+        font-size: 0.65rem;
+        font-weight: 300;
+      }
     }
   }
 `;
