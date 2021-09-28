@@ -155,6 +155,11 @@ const HomePageStyled = styled.header`
     }
     .desc {
       text-align: left;
+      @media screen and (max-width: 670px) {
+        p {
+          font-size: 0.9rem;
+        }
+      }
     }
     @media screen and (max-width: 642px) {
       .logo-home {
@@ -167,18 +172,18 @@ const HomePageStyled = styled.header`
       }
     }
     .main-title {
-      // font-family: "Dela Gothic One", cursive;
       font-family: "Barlow Condensed", sans-serif;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;
-      font-size: 6rem;
-      font-weight: 900;
+      font-size: 5rem;
+      font-weight: 700;
+      text-align: center;
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;
       @media screen and (max-width: 642px) {
-        font-size: 2rem;
+        font-size: 1rem;
         img {
           height: 185px;
         }
@@ -195,9 +200,10 @@ const HomePageStyled = styled.header`
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;
-      font-size: 4rem;
-      font-weight: 700;
+      font-size: 3rem;
+      font-weight: 400;
       position: relative;
+      text-align: center;
       padding-bottom: 1rem;
       letter-spacing: 2px;
       @media screen and (max-width: 642px) {
@@ -207,7 +213,7 @@ const HomePageStyled = styled.header`
         }
       }
       @media screen and (max-width: 571px) {
-        font-size: 2rem;
+        font-size: 1.2rem;
         img {
           height: 185px;
         }
@@ -221,10 +227,17 @@ const HomePageStyled = styled.header`
     width: 80%;
     .more {
       text-align: end;
-      font-weight: 600;
+      font-weight: 500;
       a {
         color: inherit; /* blue colors for links too */
         text-decoration: inherit; /* no underline */
+        @media screen and (max-width: 670px) {
+          font-size: 0.8rem;
+          i {
+            margin-left: 4px;
+            font-size: 0.8rem;
+          }
+        }
       }
       i {
         margin-left: 4px;
