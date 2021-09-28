@@ -56,7 +56,9 @@ function Navigation() {
     <NavigationStyled>
       <div className="profile">
         <div className="avatar">
-          <img className="avatar" src={avatar} alt="" />
+          <NavLink to="/home">
+            <img className="avatar" src={avatar} alt="" />
+          </NavLink>
         </div>
 
         <div className="light-dark-toggle">
