@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import GithubIcon from "@material-ui/icons/GitHub";
-import YoutubeIcon from "@material-ui/icons/YouTube";
+// import FacebookIcon from "@material-ui/icons/Facebook";
+// import GithubIcon from "@material-ui/icons/GitHub";
+// import YoutubeIcon from "@material-ui/icons/YouTube";
 import Particle from "../Components/Particle";
+import { NavLink } from "react-router-dom";
 
 import HomeItem from "../Components/HomeItem";
-import MainTitle from "../Components/MainTitle";
+// import MainTitle from "../Components/MainTitle";
 import ConfsquareItem from "../Components/ConfsquareItem";
 import img from "../resources/img/hve_favicon.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
@@ -23,7 +24,7 @@ function HomePage() {
       </div>
       <div className="typography">
         <p>
-          <img className="logo-home" src={img}></img>
+          <img className="logo-home" src={img} alt=""></img>
         </p>
 
         <h1 className="main-title">{t("HomePage.Title")}</h1>
@@ -98,32 +99,21 @@ function HomePage() {
         <br /> */}
         <br />
         <div className="HomeItems">
-          <a href="/portfolios">
+          <NavLink to="/portfolios" exact>
             <HomeItem
-              // icon={_blank}
               title={t("HomePage.Form2_Title")}
               cont1={t("HomePage.Form2_Desc1")}
               cont2={t("HomePage.Form2_Desc2")}
             />
-          </a>
+          </NavLink>
           <br />
-          {/* <a href="/blogs">
+          <NavLink to="/contact">
             <HomeItem
-              // icon={_blank}
-              title={t("HomePage.Form3_Title")}
-              cont1={t("HomePage.Form3_Desc1")}
-              cont2={t("HomePage.Form3_Desc2")}
-            />
-          </a>
-          <br /> */}
-          <a href="/resume">
-            <HomeItem
-              // icon={_blank}
               title={t("HomePage.Form4_Title")}
               cont1={t("HomePage.Form4_Desc1")}
               cont2={t("HomePage.Form4_Desc2")}
             />
-          </a>
+          </NavLink>
           <br />
           <br />
         </div>

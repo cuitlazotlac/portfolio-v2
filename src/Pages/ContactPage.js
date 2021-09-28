@@ -31,7 +31,7 @@ function ContactPage() {
             >
               <ContactItem
                 title={"Behance"}
-                icon={<img src={BehanceIcon} />}
+                icon={<img src={BehanceIcon} alt="" />}
                 cont={"behance.net/cuitlazotlac"}
               />
             </a>
@@ -42,7 +42,7 @@ function ContactPage() {
             >
               <ContactItem
                 title={"Github"}
-                icon={<img src={GitHubIcon} />}
+                icon={<img src={GitHubIcon} alt="" />}
                 cont={"github.com/cuitlazotlac"}
               />
             </a>{" "}
@@ -53,7 +53,7 @@ function ContactPage() {
             >
               <ContactItem
                 title={"LinkedIn"}
-                icon={<img src={LinkedInIcon} />}
+                icon={<img src={LinkedInIcon} alt="" />}
                 cont={"linkedin.com/in/hayssem-elsayed/"}
               />
             </a>
@@ -66,7 +66,7 @@ function ContactPage() {
             >
               <ContactItem
                 title={"CodePen"}
-                icon={<img src={CodePenIcon} />}
+                icon={<img src={CodePenIcon} alt="" />}
                 cont={"codepen.io/cuitlazotlac"}
               />
             </a>
@@ -77,7 +77,7 @@ function ContactPage() {
             >
               <ContactItem
                 title={"Dribble"}
-                icon={<img src={DribbleIcon} />}
+                icon={<img src={DribbleIcon} alt="" />}
                 cont={"dribbble.com/cuitlazotlac"}
               />
             </a>
@@ -88,7 +88,7 @@ function ContactPage() {
             >
               <ContactItem
                 title={"Email"}
-                icon={<img src={EmailIcon} />}
+                icon={<img src={EmailIcon} alt="" />}
                 cont={"heyhayssem@gmail.com"}
               />
             </a>
