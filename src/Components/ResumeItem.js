@@ -60,16 +60,15 @@ const ResumeItemStyled = styled.div`
       height: 15px;
       width: 15px;
       border-radius: 50%;
-      // border: 2px solid var(--border-color);
       border: 1px solid var(--border-color);
       background-color: var(--background-dark-color);
     }
-    @media screen and (max-width: 670px) {
-      font-size: 0.7rem;
-      font-weight: 900;
-    }
     p {
       display: inline-block;
+      @media screen and (max-width: 670px) {
+        font-size: 0.7rem;
+        font-weight: 900;
+      }
     }
   }
   .right-content {
@@ -83,6 +82,15 @@ const ResumeItemStyled = styled.div`
       height: 2px;
       width: 3rem;
       background-color: var(--border-color);
+      @media screen and (max-width: 670px) {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 15px;
+        height: 1.35px;
+        width: 3rem;
+        background-color: var(--border-color);
+      }
     }
     h5 {
       color: var(--white-color);
@@ -90,7 +98,7 @@ const ResumeItemStyled = styled.div`
       font-weight: 900;
       padding-bottom: 0.4rem;
       @media screen and (max-width: 670px) {
-        font-size: 1.0rem;
+        font-size: 1rem;
         font-weight: 700;
       }
     }
@@ -111,7 +119,7 @@ const ResumeItemStyled = styled.div`
     }
     li {
       @media screen and (max-width: 670px) {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
         font-weight: 300;
       }
     }

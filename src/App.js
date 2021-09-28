@@ -6,33 +6,35 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ResumePage from "./Pages/ResumePage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
-import BlogsPage from "./Pages/BlogsPage";
+// import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
-import Brightness4Icon from "@material-ui/icons/Brightness4";
+// import Brightness4Icon from "@material-ui/icons/Brightness4";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Route, Switch as Switching } from "react-router";
-import Switch from "@material-ui/core/Switch";
+// import Switch from "@material-ui/core/Switch";
 import { IconButton } from "@material-ui/core";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 function App() {
-  const [theme, setTheme] = useState("dark-theme");
-  const [checked, setChecked] = useState(false);
+  // const [theme, setTheme] = useState("dark-theme");
+  const [theme] = useState("dark-theme");
+  // const [checked, setChecked] = useState(false);
+  // const [setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme]);
 
-  const themeToggler = () => {
-    if (theme === "light-theme") {
-      setTheme("dark-theme");
-      setChecked(false);
-    } else {
-      setTheme("light-theme");
-      setChecked(true);
-    }
-  };
+  // const themeToggler = () => {
+  //   if (theme === "light-theme") {
+  //     setTheme("dark-theme");
+  //     setChecked(false);
+  //   } else {
+  //     setTheme("light-theme");
+  //     setChecked(true);
+  //   }
+  // };
 
   return (
     <div className="App">
