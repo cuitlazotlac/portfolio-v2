@@ -93,6 +93,7 @@ const ConfsquareItemStyled = styled.div`
       background: rgba(245, 245, 245, 0.45);
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
+        font-size: 1.1rem;
       }
     }
     p {
@@ -103,6 +104,7 @@ const ConfsquareItemStyled = styled.div`
       background: rgba(245, 245, 245, 0.45);
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
+        font-size: 0.9rem;
       }
     }
   }

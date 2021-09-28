@@ -32,14 +32,14 @@ const HomeItemStyled = styled.div`
     width: 100%;
     padding: 1rem;
     overflow: hidden;
-    focus_Confsquare{
+    focus_Confsquare {
       color: red;
     }
     a {
       color: inherit; /* blue colors for links too */
       text-decoration: inherit; /* no underline */
     }
-    &:hover{
+    &:hover {
       transform: scale(1.1);
       transform: translate(7px, -7px);
       transform-style: preserve-3d;
@@ -47,47 +47,54 @@ const HomeItemStyled = styled.div`
       box-shadow: 5px 10px var(--second-light-color);
       font-weight: 900;
     }
-      .right-items {
-        text-align: left;
-        margin-left: 2rem;
-        margin-right: 1rem;
-        a {
-          color: inherit; /* blue colors for links too */
-          text-decoration: inherit; /* no underline */
-        }
-        line-height: 1.2;
+    .right-items {
+      text-align: left;
+      margin-left: 2rem;
+      margin-right: 1rem;
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
       }
-      img {
-        padding: 1rem;
-        margin-left: 1rem;
-        width: 16%;
+      line-height: 1.2;
+    }
+    img {
+      padding: 1rem;
+      margin-left: 1rem;
+      width: 16%;
+    }
+    .right-items {
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
       }
-      .right-items {
+      h6 {
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: "Barlow Condensed", sans-serif;
         a {
           color: inherit; /* blue colors for links too */
           text-decoration: inherit; /* no underline */
         }
-        h6 {
-          font-size: 2rem;
-          font-weight: 400;
-          font-family: 'Barlow Condensed', sans-serif;
-          a {
-            color: inherit; /* blue colors for links too */
-            text-decoration: inherit; /* no underline */
-          }
+        @media screen and (max-width: 670px) {
+          font-size: 1.7rem;
         }
-        p {
-          font-size: 1rem;
-          padding: 0.1rem 0;
-          a {
-            color: inherit; /* blue colors for links too */
-            text-decoration: inherit; /* no underline */
-          }
-        }
-        a {
-          color: inherit; /* blue colors for links too */
-          text-decoration: inherit; /* no underline */
-        }
+      }
+    }
+    p {
+      font-size: 1rem;
+      padding: 0.1rem 0;
+      @media screen and (max-width: 670px) {
+        font-size: 0.9rem;
+      }
+      a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+      }
+    }
+    a {
+      color: inherit; /* blue colors for links too */
+      text-decoration: inherit; /* no underline */
+    }
   }
 `;
 
