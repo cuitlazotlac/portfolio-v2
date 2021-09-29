@@ -4,10 +4,19 @@ import resume from "../resources/img/picture.png";
 import PrimaryButton from "./PrimaryButton";
 
 import { useTranslation } from "react-i18next";
+import ReactGA from "react-ga";
 
 function ImageSection() {
   const { t, i18n } = useTranslation();
 
+  const ClickHandler = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Click the button from the About page",
+    });
+    alert("Send the information to Google Analytics that I touched the click");
+    console.log("button clicked");
+  };
   return (
     <ImageSectionStyled>
       <div className="left-content">
@@ -47,6 +56,7 @@ function ImageSection() {
           href="https://drive.google.com/file/d/1M7_yJNTzYjJgf18rt8VKklW1PrZJ2D-1/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
+          onClick={ClickHandler}
         >
           <PrimaryButton title={t("AboutPage.CV")} />
         </a>
@@ -94,7 +104,7 @@ const ImageSectionStyled = styled.div`
     .about-info {
       display: flex;
       padding-bottom: 1.4rem;
-      
+
       .info-title {
         padding-right: 3rem;
         p {

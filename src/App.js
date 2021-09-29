@@ -14,6 +14,7 @@ import { Route, Switch as Switching } from "react-router";
 // import Switch from "@material-ui/core/Switch";
 import { IconButton } from "@material-ui/core";
 // import { BrowserRouter } from "react-router-dom";
+import ReactGA from "react-ga";
 
 function App() {
   // const [theme, setTheme] = useState("dark-theme");
@@ -24,7 +25,13 @@ function App() {
 
   useEffect(() => {
     document.documentElement.className = theme;
+
+    ReactGA.initialize('G-L6MW5B86QV')
+    //to report page view
+    ReactGA.pageview(window.location.pathname + window.location.search)
   }, [theme]);
+
+
 
   // const themeToggler = () => {
   //   if (theme === "light-theme") {
@@ -54,7 +61,7 @@ function App() {
           </div> */}
 
         <Switching>
-        {/* <BrowserRouter basename="/portfolio-v2/"> */}
+          {/* <BrowserRouter basename="/portfolio-v2/"> */}
           <Route path="/home" exact>
             <HomePage />
           </Route>
@@ -73,7 +80,7 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-        {/* </BrowserRouter> */}
+          {/* </BrowserRouter> */}
         </Switching>
       </MainContentStyled>
     </div>
