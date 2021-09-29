@@ -31,14 +31,16 @@ function HomePage() {
         <h2 className="sub-title">{t("HomePage.SubTitle")}</h2>
         <div className="desc">
           <p>{t("HomePage.Desc_Part1")}</p>
-          <p>{t("HomePage.Desc_Part2")}</p>
+          {/* <p>{t("HomePage.Desc_Part2")}</p> */}
           <p>{t("HomePage.Desc_Part3")}</p>
           <p>{t("HomePage.Desc_Part4")}</p>
         </div>
         <p className="more">
-          <a className="more" href="/resume">
-            {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
-          </a>
+          <NavLink to="/resume">
+            <a className="more">
+              {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
+            </a>{" "}
+          </NavLink>
         </p>
         {/* <div className="icons">
           <a
