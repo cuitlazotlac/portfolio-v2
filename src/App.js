@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     document.documentElement.className = theme;
 
-    ReactGA.initialize('G-L6MW5B86QV')
+    ReactGA.initialize('G-9RCFZTKYGR')
     //to report page view
     ReactGA.pageview(window.location.pathname + window.location.search)
   }, [theme]);
