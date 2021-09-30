@@ -13,9 +13,34 @@ import img from "../resources/img/hve_favicon.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
 
 import { useTranslation } from "react-i18next";
+import ReactGA from "react-ga";
 
 function HomePage() {
   const { t, i18n } = useTranslation();
+
+  const ClickHandlerConfsquareBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Homepage - Confsquare button clicked!",
+    });
+    console.log("Homepage - Confsquare button clicked!");
+  };
+
+  const ClickHandlerProjectsBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Homepage - Projects button clicked!",
+    });
+    console.log("Homepage - Projects button clicked!");
+  };
+
+  const ClickHandlerContactBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Homepage - Contact button clicked!",
+    });
+    console.log("Homepage - Contact button clicked!");
+  };
 
   return (
     <HomePageStyled>
@@ -87,7 +112,12 @@ function HomePage() {
         <br />
         <br />
         <div className="ConfSquareItem">
-          <a href="https://confsquare.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://confsquare.com/"
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandlerConfsquareBtn}
+          >
             <ConfsquareItem
               icon={confsquareLogo}
               title={t("HomePage.Form1_Title")}
@@ -101,7 +131,7 @@ function HomePage() {
         <br /> */}
         <br />
         <div className="HomeItems">
-          <NavLink to="/portfolios" exact>
+          <NavLink to="/portfolios" exact onClick={ClickHandlerProjectsBtn}>
             <HomeItem
               title={t("HomePage.Form2_Title")}
               cont1={t("HomePage.Form2_Desc1")}
@@ -109,7 +139,7 @@ function HomePage() {
             />
           </NavLink>
           <br />
-          <NavLink to="/contact">
+          <NavLink to="/contact" exact onClick={ClickHandlerContactBtn}>
             <HomeItem
               title={t("HomePage.Form4_Title")}
               cont1={t("HomePage.Form4_Desc1")}

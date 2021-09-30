@@ -12,10 +12,9 @@ function ImageSection() {
   const ClickHandler = () => {
     ReactGA.event({
       category: "Button",
-      action: "Click the button from the About page",
+      action: "Aboutpage - Download Resume button clicked !",
     });
-    alert("Send the information to Google Analytics that I touched the click");
-    console.log("button clicked");
+    console.log("Aboutpage - Download Resume button clicked !");
   };
   return (
     <ImageSectionStyled>
