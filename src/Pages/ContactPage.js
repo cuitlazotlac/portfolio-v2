@@ -12,9 +12,59 @@ import GitHubIcon from "../resources/img/social-media-btn/icons/github.png";
 import LinkedInIcon from "../resources/img/social-media-btn/icons/linkedin.png";
 
 import { useTranslation } from "react-i18next";
+import ReactGA from "react-ga";
 
 function ContactPage() {
   const { t, i18n } = useTranslation();
+
+  const ClickHandlerBehanceBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Contact - Behance button clicked!",
+    });
+    console.log("Contact - Behance button clicked!");
+  };
+
+  const ClickHandlerGithubBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Contact - Github button clicked!",
+    });
+    console.log("Contact - Github button clicked!");
+  };
+
+  const ClickHandlerLinkedinBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Contact - Linkedin button clicked!",
+    });
+    console.log("Contact - Linkedin button clicked!");
+  };
+
+  const ClickHandlerCodepenBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Contact - Codepen button clicked!",
+    });
+    console.log("Contact - Codepen button clicked!");
+  };
+
+  const ClickHandlerDribbleBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Contact - Dribble button clicked!",
+    });
+    console.log("Contact - Dribble button clicked!");
+  };
+
+  const ClickHandlerEmailBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Contact - Email button clicked!",
+    });
+    console.log("Contact - Email button clicked!");
+  };
+
 
   return (
     <MainLayout>
@@ -28,6 +78,7 @@ function ContactPage() {
               href="https://www.behance.net/cuitlazotlac"
               target="_blank"
               rel="noreferrer"
+              onClick={ClickHandlerBehanceBtn}
             >
               <ContactItem
                 title={"Behance"}
@@ -39,6 +90,7 @@ function ContactPage() {
               href="https://github.com/cuitlazotlac"
               target="_blank"
               rel="noreferrer"
+              onClick={ClickHandlerGithubBtn}
             >
               <ContactItem
                 title={"Github"}
@@ -50,6 +102,7 @@ function ContactPage() {
               href="https://www.linkedin.com/in/hayssem-elsayed/"
               target="_blank"
               rel="noreferrer"
+              onClick={ClickHandlerLinkedinBtn}
             >
               <ContactItem
                 title={"LinkedIn"}
@@ -63,6 +116,7 @@ function ContactPage() {
               href="https://codepen.io/cuitlazotlac"
               target="_blank"
               rel="noreferrer"
+              onClick={ClickHandlerCodepenBtn}
             >
               <ContactItem
                 title={"CodePen"}
@@ -74,6 +128,7 @@ function ContactPage() {
               href="https://dribbble.com/cuitlazotlac"
               target="_blank"
               rel="noreferrer"
+              onClick={ClickHandlerDribbleBtn}
             >
               <ContactItem
                 title={"Dribble"}
@@ -85,6 +140,7 @@ function ContactPage() {
               href="mailto:heyhayssem@gmail.com"
               target="_blank"
               rel="noreferrer"
+              onClick={ClickHandlerEmailBtn}
             >
               <ContactItem
                 title={"Email"}

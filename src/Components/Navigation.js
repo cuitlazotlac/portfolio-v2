@@ -10,12 +10,101 @@ import github from "../resources/img/social-media-btn/github.svg";
 import mail from "../resources/img/social-media-btn/mail.svg";
 import linkedin from "../resources/img/social-media-btn/linkedin.svg";
 
+import ReactGA from "react-ga";
+
 function Navigation() {
   var linkedin_link = "https://www.linkedin.com/in/hayssem-elsayed/";
   var github_link = "https://github.com/cuitlazotlac";
   var behance_link = "https://www.behance.net/cuitlazotlac";
   var mail_link = "mailto:heyhayssem@gmail.com";
 
+  const ClickHandlerHomeBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Home button clicked!",
+    });
+    console.log("Navigation - Home button clicked!");
+  };
+
+  const ClickHandlerAboutmeBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Aboutme button clicked!",
+    });
+    console.log("Navigation - Aboutme button clicked!");
+  };
+
+  const ClickHandlerProjectsNavBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Projects button clicked!",
+    });
+    console.log("Navigation - Projects button clicked!");
+  };
+
+  const ClickHandlerConnectBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Connect button clicked!",
+    });
+    console.log("Navigation - Connect button clicked!");
+  };
+
+  const ClickHandlerNavLinkedInBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - LinkedIn button clicked!",
+    });
+    console.log("Navigation - LinkedIn button clicked!");
+  };
+
+  const ClickHandlerNavGithubBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Github button clicked!",
+    });
+    console.log("Navigation - Github button clicked!");
+  };
+
+  const ClickHandlerNavBehanceBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Behance button clicked!",
+    });
+    console.log("Navigation - Behance button clicked!");
+  };
+
+  const ClickHandlerNavEmailBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Email button clicked!",
+    });
+    console.log("Navigation - Email button clicked!");
+  };
+
+  const ClickHandlerFrenchBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - French button clicked!",
+    });
+    console.log("Navigation - French button clicked!");
+  };
+
+  const ClickHandlerEnglishBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - English button clicked!",
+    });
+    console.log("Navigation - English button clicked!");
+  };
+
+  const ClickHandlerSpanishBtn = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Navigation - Spanish button clicked!",
+    });
+    console.log("Navigation - Spanish button clicked!");
+  };
   const { t, i18n } = useTranslation();
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const toggle = () => setDropdownOpen((prevState) => !prevState);
@@ -86,13 +175,13 @@ function Navigation() {
             variant="Secondary"
             size="sm"
           >
-            <Dropdown.Item eventKey="🇺🇸" onClick={() => handleClick("en")}>
+            <Dropdown.Item eventKey="🇺🇸" onClick={() => handleClick("en")} onClick={ClickHandlerEnglishBtn} >
               {t("NavBar.English")}
             </Dropdown.Item>
-            <Dropdown.Item eventKey="🇫🇷" onClick={() => handleClick("fr")}>
+            <Dropdown.Item eventKey="🇫🇷" onClick={() => handleClick("fr")} onClick={ClickHandlerFrenchBtn} >
               {t("NavBar.French")}
             </Dropdown.Item>
-            <Dropdown.Item eventKey="🇲🇽" onClick={() => handleClick("es")}>
+            <Dropdown.Item eventKey="🇲🇽" onClick={() => handleClick("es")} onClick={ClickHandlerSpanishBtn} >
               {t("NavBar.Spanish")}
             </Dropdown.Item>
           </DropdownButton>
@@ -100,7 +189,7 @@ function Navigation() {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/home" activeClassName="active-class" exact>
+          <NavLink to="/home" activeClassName="active-class" onClick={ClickHandlerHomeBtn} exact>
             {t("NavBar.Home")}
           </NavLink>
         </li>
@@ -110,12 +199,12 @@ function Navigation() {
           </NavLink>
         </li> */}
         <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" exact>
+          <NavLink to="/resume" activeClassName="active-class" onClick={ClickHandlerAboutmeBtn} exact>
             {t("NavBar.About")}
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/portfolios" activeClassName="active-class" exact>
+          <NavLink to="/portfolios" activeClassName="active-class" onClick={ClickHandlerProjectsNavBtn} exact>
             {t("NavBar.Portfolios")}{" "}
             <Badge pill variant="warning">
               8
@@ -131,7 +220,7 @@ function Navigation() {
           </NavLink>
         </li> */}
         <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active-class" exact>
+          <NavLink to="/contact" activeClassName="active-class" onClick={ClickHandlerConnectBtn} exact>
             {t("NavBar.Contact")}
           </NavLink>
         </li>
@@ -143,16 +232,16 @@ function Navigation() {
       </footer> */}
       <div className="footer-div">
         <div className="social-btn">
-          <a href={linkedin_link} target="_blank" rel="noreferrer">
+          <a href={linkedin_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavLinkedInBtn}>
             <img src={linkedin} alt="linkedin" />
           </a>
-          <a href={github_link} target="_blank" rel="noreferrer">
+          <a href={github_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavGithubBtn}>
             <img src={github} alt="github" />
           </a>
-          <a href={behance_link} target="_blank" rel="noreferrer">
+          <a href={behance_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavBehanceBtn}>
             <img src={behance} alt="behance" />
           </a>
-          <a href={mail_link} target="_blank" rel="noreferrer">
+          <a href={mail_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavEmailBtn}>
             <img src={mail} alt="mail" />
           </a>
         </div>
