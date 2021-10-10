@@ -1,6 +1,6 @@
 {
-  "homepage": "http://cuitlazotlac.github.io/portfolio-v2/home",
-  "name": "portfolio-darklight-theme",
+  "homepage": "http://cuitlazotlac.github.io/portfolio-v2/",
+  "name": "hve-portfolio-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
