@@ -5,6 +5,7 @@ import { InnerLayout } from "../resources/styles/Layouts";
 import Title from "../Components/Title";
 import SmallTitle from "../Components/SmallTitle";
 import ResumeItem from "../Components/ResumeItem";
+import CertificationItem from "../Components/CertificationItem";
 
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import SchoolIcon from "@material-ui/icons/School";
@@ -131,61 +132,67 @@ function Resume() {
           <SmallTitle icon={cert} title={t("ResumePage.Certification")} />
         </div>
         <div className="resume-content">
-          <ResumeItem
+          <CertificationItem
+            year={t("Certification11.Year")}
+            title={t("Certification11.Title")}
+            subTitle={t("Certification11.SubTitle")}
+            // text={t("Certification0.Text")}
+          />
+          <CertificationItem
+            year={t("Certification10.Year")}
+            title={t("Certification10.Title")}
+            subTitle={t("Certification10.SubTitle")}
+            // text={t("Certification0.Text")}
+          />
+          <CertificationItem
             year={t("Certification9.Year")}
             title={t("Certification9.Title")}
             subTitle={t("Certification9.SubTitle")}
             // text={t("Certification0.Text")}
           />
-          <ResumeItem
-            year={t("Certification0.Year")}
-            title={t("Certification0.Title")}
-            subTitle={t("Certification0.SubTitle")}
-            // text={t("Certification0.Text")}
-          />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification1.Year")}
             title={t("Certification1.Title")}
             subTitle={t("Certification1.SubTitle")}
             // text={t("Certification1.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification2.Year")}
             title={t("Certification2.Title")}
             subTitle={t("Certification2.SubTitle")}
             // text={t("Certification2.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification3.Year")}
             title={t("Certification3.Title")}
             subTitle={t("Certification3.SubTitle")}
             // text={t("Certification3.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification4.Year")}
             title={t("Certification4.Title")}
             subTitle={t("Certification4.SubTitle")}
             // text={t("Certification4.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification5.Year")}
             title={t("Certification5.Title")}
             subTitle={t("Certification5.SubTitle")}
             // text={t("Certification5.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification6.Year")}
             title={t("Certification6.Title")}
             subTitle={t("Certification6.SubTitle")}
             // text={t("Certification6.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification7.Year")}
             title={t("Certification7.Title")}
             subTitle={t("Certification7.SubTitle")}
             text={t("Certification7.Text")}
           />
-          <ResumeItem
+          <CertificationItem
             year={t("Certification8.Year")}
             title={t("Certification8.Title")}
             subTitle={t("Certification8.SubTitle")}
