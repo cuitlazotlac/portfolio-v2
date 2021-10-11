@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio-v2/static/js/main.de0db5e2.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.de0db5e2.chunk.js.map",
+    "main.js": "/portfolio-v2/static/js/main.b37bec97.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.b37bec97.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.9aefca6b.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.9aefca6b.js.map",
-    "static/js/2.1721b2e5.chunk.js": "/portfolio-v2/static/js/2.1721b2e5.chunk.js",
-    "static/js/2.1721b2e5.chunk.js.map": "/portfolio-v2/static/js/2.1721b2e5.chunk.js.map",
+    "static/js/2.4bd5e352.chunk.js": "/portfolio-v2/static/js/2.4bd5e352.chunk.js",
+    "static/js/2.4bd5e352.chunk.js.map": "/portfolio-v2/static/js/2.4bd5e352.chunk.js.map",
     "index.html": "/portfolio-v2/index.html",
-    "static/js/2.1721b2e5.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.1721b2e5.chunk.js.LICENSE.txt",
+    "static/js/2.4bd5e352.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.4bd5e352.chunk.js.LICENSE.txt",
     "static/media/behance.0cee0be2.svg": "/portfolio-v2/static/media/behance.0cee0be2.svg",
     "static/media/behance.900ad128.png": "/portfolio-v2/static/media/behance.900ad128.png",
     "static/media/blockchain.7c5c25b0.png": "/portfolio-v2/static/media/blockchain.7c5c25b0.png",
@@ -16,6 +16,7 @@
     "static/media/codepen.d9a507f9.png": "/portfolio-v2/static/media/codepen.d9a507f9.png",
     "static/media/confsquareLogo.7e673b42.svg": "/portfolio-v2/static/media/confsquareLogo.7e673b42.svg",
     "static/media/coronavirus.48259579.png": "/portfolio-v2/static/media/coronavirus.48259579.png",
+    "static/media/credly.109e4a09.png": "/portfolio-v2/static/media/credly.109e4a09.png",
     "static/media/cryptocurrency.0b4cf847.png": "/portfolio-v2/static/media/cryptocurrency.0b4cf847.png",
     "static/media/dribble.85ee024c.png": "/portfolio-v2/static/media/dribble.85ee024c.png",
     "static/media/game-controller.ce82dd2a.png": "/portfolio-v2/static/media/game-controller.ce82dd2a.png",
@@ -35,7 +36,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9aefca6b.js",
-    "static/js/2.1721b2e5.chunk.js",
-    "static/js/main.de0db5e2.chunk.js"
+    "static/js/2.4bd5e352.chunk.js",
+    "static/js/main.b37bec97.chunk.js"
   ]
 }
