@@ -19,23 +19,21 @@ const ButtonStyled = styled.button`
   outline: none;
   border: none;
   background-color: var(--background-light-color-2);
-  padding: 0.4rem 2rem;
+  padding: 0.4rem 2.5rem;
   font-size: inherit;
   color: var(--white-color);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   margin-right: 1rem;
   margin-bottom: 0.6rem;
-  padding: 0.6rem 2rem;
   // border: 2.5px solid var(--border-color);
   border: 1px solid var(--border-color);
   background: none;
-  font-weight: 900;
+  font-weight: 600;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
   border-radius: 2.5px;
   transform-style: preserve-3d;
-  padding: 1rem;
   overflow: hidden;
   &:active,
   &:focus {
@@ -62,7 +60,7 @@ const ButtonsStyled = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 70%;
+  // width: 70%;
   margin: 2.4rem auto;
 `;
 

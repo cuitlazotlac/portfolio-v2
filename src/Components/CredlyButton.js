@@ -1,21 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+// import { FaBeer } from 'react-icons/fa';
+import credly from "../resources/img/credly.png";
 
-
-function PrimaryButton({ title }) {
-  return <PrimaryButtonStyled>{title}</PrimaryButtonStyled>;
+function CredlyButton({ title }) {
+  return (
+    <CredlyButtonStyled>
+      <img src={credly}></img>
+      {title}
+    </CredlyButtonStyled>
+  );
 }
 
-const PrimaryButtonStyled = styled.button`
+const CredlyButtonStyled = styled.button`
   outline: none;
-  background-color: var(--background-light-color-2);
-  font-size: inherit;
-  color: var(--white-color);
+  // background-color: var(--background-light-color-2);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  margin-right: 1rem;
-  margin-bottom: 0.6rem;
-  padding: 14px 28px;
+  width: 160px;
+  height: 55.9px;
+  // padding: 12px 28px;
   border: 1px solid var(--border-color);
   background: none;
   font-weight: 900;
@@ -24,16 +28,19 @@ const PrimaryButtonStyled = styled.button`
   border-radius: 2.5px;
   transform-style: preserve-3d;
   overflow: hidden;
+  img {
+    height: 116%;
+  }
+  ,
   &:active,
   &:focus {
-    background-color: var(--second-light-color);
+    background-color: #FAC3A1;
     color: var(--font-light-white);
-    border: 1px solid var(--background-light-color);
   }
   &:hover {
     background-color: var(--border-color);
     color: var(--txt-button);
-    border: 1px solid var(--background-light-color);
+    // border: 1px solid var(--background-light-color);
     transform: scale(1.1);
     transform: translate(7px, -7px);
     transform-style: preserve-3d;
@@ -45,4 +52,4 @@ const PrimaryButtonStyled = styled.button`
   //   }
 `;
 
-export default PrimaryButton;
+export default CredlyButton;
