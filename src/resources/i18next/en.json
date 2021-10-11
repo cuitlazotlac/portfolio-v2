@@ -18,6 +18,7 @@
     "Desc_Part3": "Additionaly, I’m the Co-Founder of Confsquare. We started this project as we wanted to use ours skills to help people gather and create a new way to organize event, you’ll find more infos about this wonderful product below !",
     "Desc_Part4": "This personal website is a sandbox to practice web development! I'm always looking to learn new things or share what I've learned along the way. Feel free to reach out and we can grab bubble tea 🧋 sometime.",
     "More": "More about me",
+    "AllProjects": "All the projects",
     "Form1_Title": "Focus On : Confsquare",
     "Form1_Desc1": "Confsquare is a startup project",
     "Form1_Desc2": "This idea is about a new way to gather, to let people meet other",
@@ -29,7 +30,9 @@
     "Form3_Desc2": "You'll find a quick description about what I've build below",
     "Form4_Title": "Contact Me!",
     "Form4_Desc1": "Feel free to contact",
-    "Form4_Desc2": "Or write me an email"
+    "Form4_Desc2": "Or write me an email",
+    "CarousselTitle": "Quick overview of my projects",
+    "CarousselSubtitle": "Some of my recent works"
   },
   "AboutPage": {
     "Title": "About + Resume",

@@ -9,6 +9,8 @@ import { NavLink } from "react-router-dom";
 import HomeItem from "../Components/HomeItem";
 // import MainTitle from "../Components/MainTitle";
 import ConfsquareItem from "../Components/ConfsquareItem";
+import ProjectsSection from "../Components/ProjectsSection";
+
 import img from "../resources/img/hve_favicon.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
 
@@ -126,18 +128,16 @@ function HomePage() {
             />
           </a>
         </div>
-        {/* <br />
-        <br />
-        <br /> */}
         <br />
         <div className="HomeItems">
-          <NavLink to="/portfolios" exact onClick={ClickHandlerProjectsBtn}>
-            <HomeItem
-              title={t("HomePage.Form2_Title")}
-              cont1={t("HomePage.Form2_Desc1")}
-              cont2={t("HomePage.Form2_Desc2")}
-            />
-          </NavLink>
+          <ProjectsSection />
+          <p className="more">
+            <NavLink to="/portfolios">
+              <a className="more">
+                {t("HomePage.AllProjects")} <i class="fas fa-arrow-right"></i>
+              </a>{" "}
+            </NavLink>
+          </p>
           <br />
           <NavLink to="/contact" exact onClick={ClickHandlerContactBtn}>
             <HomeItem
