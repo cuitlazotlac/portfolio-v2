@@ -90,7 +90,7 @@ const ConfsquareItemStyled = styled.div`
       font-size: 1.2rem;
       padding-bottom: 0.6rem;
       font-weight: 900;
-      background: rgba(245, 245, 245, 0.45);
+      background: rgba(245, 245, 245, 0.85);
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
         font-size: 1.1rem;
@@ -99,9 +99,9 @@ const ConfsquareItemStyled = styled.div`
     p {
       font-family: "Lexend", sans-serif;
       font-size: 1rem;
-      font-weight: 300;
+      font-weight: 200;
       color: #000;
-      background: rgba(245, 245, 245, 0.45);
+      background: rgba(245, 245, 245, 0.85);
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
         font-size: 0.9rem;

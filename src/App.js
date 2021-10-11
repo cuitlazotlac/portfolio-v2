@@ -13,8 +13,9 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { Route, Switch as Switching } from "react-router";
 // import Switch from "@material-ui/core/Switch";
 import { IconButton } from "@material-ui/core";
-// import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import ReactGA from "react-ga";
+import HomeParticle from "./Components/HomeParticle";
 
 function App() {
   // const [theme, setTheme] = useState("dark-theme");
@@ -26,12 +27,10 @@ function App() {
   useEffect(() => {
     document.documentElement.className = theme;
 
-    ReactGA.initialize('UA-208876305-1')
+    ReactGA.initialize("UA-208876305-1");
     //to report page view
-    ReactGA.pageview(window.location.pathname + window.location.search)
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, [theme]);
-
-
 
   // const themeToggler = () => {
   //   if (theme === "light-theme") {
@@ -51,17 +50,12 @@ function App() {
           <MenuIcon />
         </IconButton>
       </div>
-
       <MainContentStyled>
         {/* <div className="lines">
-            <div className="line-1"></div>
-            <div className="line-2"></div>
-            <div className="line-3"></div>
-            <div className="line-4"></div>
-          </div> */}
+          <HomeParticle />
+        </div> */}
 
         <Switching>
-          {/* <BrowserRouter basename="/portfolio-v2/"> */}
           <Route path="/home" exact>
             <HomePage />
           </Route>
@@ -80,7 +74,6 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-          {/* </BrowserRouter> */}
         </Switching>
       </MainContentStyled>
     </div>
@@ -90,18 +83,19 @@ function App() {
 const MainContentStyled = styled.main`
   position: relative;
   margin-left: 16.3rem;
-  min-height: 100vh;
+  // min-height: 100vh;
+  // min-height: 100vh;
   @media screen and (max-width: 1200px) {
     margin-left: 0;
   }
   .lines {
     position: absolute;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     opacity: 0.4;
-    z-index: -1;
+    // z-index: -1;
     .line-1,
     .line-2,
     .line-3,
