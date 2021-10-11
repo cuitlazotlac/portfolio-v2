@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import resume from "../resources/img/picture.png";
 import PrimaryButton from "./PrimaryButton";
+import CredlyButton from "./CredlyButton";
+import { FaBeer } from "react-icons/fa";
 
 import { useTranslation } from "react-i18next";
 import ReactGA from "react-ga";
@@ -15,6 +17,14 @@ function ImageSection() {
       action: "Aboutpage - Download Resume button clicked !",
     });
     console.log("Aboutpage - Download Resume button clicked !");
+  };
+
+  const ClickHandlerCredly = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Aboutpage - Credly Profile button clicked !",
+    });
+    console.log("Aboutpage - Credly Profile button clicked !");
   };
   return (
     <ImageSectionStyled>
@@ -51,14 +61,24 @@ function ImageSection() {
             <p>• Git</p>
           </div>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1M7_yJNTzYjJgf18rt8VKklW1PrZJ2D-1/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-          onClick={ClickHandler}
-        >
-          <PrimaryButton title={t("AboutPage.CV")} />
-        </a>
+        <div>
+          <a
+            href="https://drive.google.com/file/d/1M7_yJNTzYjJgf18rt8VKklW1PrZJ2D-1/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandler}
+          >
+            <PrimaryButton title={t("AboutPage.CV")} />
+          </a>
+          <a
+            href="https://www.credly.com/users/hayssem-elsayed/badges"
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandlerCredly}
+          >
+            <CredlyButton />
+          </a>
+        </div>
       </div>
     </ImageSectionStyled>
   );
