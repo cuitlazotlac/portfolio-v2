@@ -5,41 +5,48 @@ import GreenCtgImg from '../resources/img/picture.png';
 import CoinTrackerImg from '../resources/img/picture_old.png';
 import CavinImg from '../resources/img/picture__OLD.png';
 
+import cryto from "../resources/img/project-icons/cryptocurrency.png";
+import blockchain from "../resources/img/project-icons/blockchain.png";
+import sun from "../resources/img/project-icons/sun.png";
+import manga from "../resources/img/project-icons/manga.png";
+import taco from "../resources/img/project-icons/taco.png";
+
+
 const showcases = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Crypto Watcher',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      '💱 👓 CryptoWatcher is a price-tracking website for cryptocurrencies. This web application is using https://www.coingecko.com/en/api to get Crypto datas',
+    img: cryto,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'DeFi DApp Token Farm',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      '👨🏽‍🌾🪙 DeFi App - reproducing a Digital bank where we can earn interest for depositing cryptocurrency',
+    img: blockchain,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Weather Checker',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      '🌤 🌦 Responsive web application to check to detailed weather. Built-in React + SCSS and using OpenWeatherMap API (https://openweathermap.org/)',
+    img: sun,
   },
   {
     id: uuidv4(),
-    name: 'Cavins Portfolio',
+    name: 'Anime Library',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      '⛩ 🏮 Simple Web application to display your favorite animes - manga.. information using the Unofficial MYANIMELIST API (https://jikan.moe/)',
+    img: manga,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'MTL Mex API',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      '🇲🇽 🌮 An API of the Mexican restaurants in Montréal 🇨🇦 This need to be constantly updated with the best addresses that you know so do not hesitate to contribute 🤠',
+    img: taco,
   },
 ];
 
