@@ -13,11 +13,12 @@
   "HomePage": {
     "Title": "Hey I’m Hayssem 🤙🏽",
     "SubTitle": "Welcome to my personal slice of the internet. I'm glad you're here!",
-    "Desc_Part1": "Professional Product Manager with a passion for data analysis, product design and web development. I'm specializes in building ( and occasionally developing ) astounding digital experiences with an excitement for helping, guide and align individuals, teams, and organizations to deliver meaningful results",
+    "Desc_Part1": "Professional Product Manager & Technical Project Manager with a passion for Data Analysis, Design and Blockchain. I'm specializes in building ( and occasionally developing ) astounding digital experiences with an excitement for helping, guide and align individuals, teams, and organizations to deliver meaningful results. Currently, I'm working at Société Générale Investment Banking focused on building internal and innovating products.",
     "Desc_Part2": "Currently, I'm working at Société Générale Investment Banking focused on building internal and innovating products.",
-    "Desc_Part3": "This personal website is where I showcase my projects, the tutorials that I follow, use cases, experience, and more. It also serves as a sandbox to practice with new technologies! I'm always looking to learn new things or share what I've learned along the way. Feel free to reach out and we can grab bubble tea 🧋 sometime.",
-    "Desc_Part4": "Additionaly, I’m the Co-Founder of Confsquare.  We started this project with a friend as we wanted to use ours skills for critical thinking, empathy and creativity to help people gather and create a new way to organize event, you’ll find more infos about this wonderful project below !",
+    "Desc_Part3": "Additionaly, I’m the Co-Founder of Confsquare. We started this project as we wanted to use ours skills to help people gather and create a new way to organize event, you’ll find more infos about this wonderful product below !",
+    "Desc_Part4": "This personal website is a sandbox to practice web development! I'm always looking to learn new things or share what I've learned along the way. Feel free to reach out and we can grab bubble tea 🧋 sometime.",
     "More": "More about me",
+    "AllProjects": "All the projects",
     "Form1_Title": "Focus On : Confsquare",
     "Form1_Desc1": "Confsquare is a startup project",
     "Form1_Desc2": "This idea is about a new way to gather, to let people meet other",
@@ -29,14 +30,16 @@
     "Form3_Desc2": "You'll find a quick description about what I've build below",
     "Form4_Title": "Contact Me!",
     "Form4_Desc1": "Feel free to contact",
-    "Form4_Desc2": "Or write me an email"
+    "Form4_Desc2": "Or write me an email",
+    "CarousselTitle": "Quick overview of my projects",
+    "CarousselSubtitle": "Some of my recent works"
   },
   "AboutPage": {
     "Title": "About + Resume",
     "Desc": "Let's get to know each other",
     "Subtitle": "I am Hayssem Elsayed",
-    "Description": "Project & Product Manager, Product Owner & Scrum Master Certified",
-    "Description2": "Passionate Product Manager with over six years of hands-on experience leading successful features, products, and digital initiatives by leading projects, sprints, ensuring high-quality delivery, exercising collaborative team and stakeholder management. I strive to always be up to speed on different topics including coding and design to be able to deliver and discuss with all stakeholders.",
+    "Description": "Technical Project & Product Manager + Product Owner & Scrum Master Certified",
+    "Description2": "Passionate Technical Project Manager and Product Manager with over six years of hands-on experience leading successful features, products, and digital initiatives by leading projects, sprints, ensuring high-quality delivery, exercising collaborative team and stakeholder management. I strive to always be up to speed on different topics including coding and design to be able to deliver and discuss with all stakeholders.",
     "Description3": "I fled from a traditional path and explored my creativity, by trying my hands on various techniques and technologies. Product Management is more than just a profession for me, and I try to dig deep into it. Today, I like to use my skills for critical thinking, empathy, and creativity to create viable and impactful solutions.",
     "SkillsTitle": "My Skills",
     "ResumeTitle": "Resume",
@@ -44,7 +47,8 @@
     "WorkingExperienceTitle": "Working Experience",
     "SoftSkillsInit": "Here what I did building Product:",
     "TechSkillsInit": "Here are a few technologies I've been working with recently:",
-    "CV": "Download CV"
+    "CV": "My Resume",
+    "Credly": "Credly Profile"
   },
   "Projects": {
     "Title": "Projects",
@@ -160,19 +164,13 @@
     "Achievement": "Achievement",
     "Technologies": "React, Javascript, HTML, CSS, Docker, Firebase"
   },
-  "Certification0": {
-    "Year": "Aug 2021",
-    "Title": "Certified Cryptocurrency Expert",
-    "SubTitle": "Blockchain Council - Remote",
-    "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
-  },
-  "Certification1": {
+  "Certification2": {
     "Year": "Jan 2021",
     "Title": "ITIL v4 Foundation",
     "SubTitle": "PeopleCert/Axelos - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
-  "Certification2": {
+  "Certification1": {
     "Year": "Mar 2021",
     "Title": "Professional Scrum Product Owner II",
     "SubTitle": "Scrum.org - Remote",
@@ -218,6 +216,18 @@
     "Year": "Aug 2021",
     "Title": "Foundations of User Experience (UX) Design",
     "SubTitle": "Google",
+    "Text": "Score : 830/990"
+  },
+  "Certification10": {
+    "Year": "Aug 2021",
+    "Title": "Certified Cryptocurrency Expert",
+    "SubTitle": "Blockchain Council",
+    "Text": "Score : 830/990"
+  },
+  "Certification11": {
+    "Year": "Sept 2021",
+    "Title": "Certified Blockchain Expert",
+    "SubTitle": "Blockchain Council",
     "Text": "Score : 830/990"
   },
   "Education1": {
