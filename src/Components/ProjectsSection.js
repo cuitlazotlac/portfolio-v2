@@ -100,7 +100,9 @@ const ProjectSectionStyle = styled.div`
       gap: 5rem;
       .projectItem__img {
         width: 100%;
-        background-color: #383838;
+        img {
+          height: 75%;
+        }
       }
     }
   }

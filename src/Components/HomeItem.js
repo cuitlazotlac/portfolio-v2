@@ -6,7 +6,7 @@ function HomeItem({ title, icon, cont1, cont2 }) {
     <HomeItemStyled>
       <div className="HomeItem">
         <div className="item">
-          <img src={icon} alt="" />
+          {/* <img src={icon} alt="" /> */}
           <div className="right-items">
             <h6>{title}</h6>
             <p>{cont1}</p>
@@ -49,6 +49,7 @@ const HomeItemStyled = styled.div`
     }
     .right-items {
       text-align: left;
+      margin-top: 1rem;
       margin-left: 2rem;
       margin-right: 1rem;
       a {
