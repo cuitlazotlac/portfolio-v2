@@ -132,6 +132,18 @@ function Resume() {
           <SmallTitle icon={cert} title={t("ResumePage.Certification")} />
         </div>
         <div className="resume-content">
+        <CertificationItem
+            year={t("Certification13.Year")}
+            title={t("Certification13.Title")}
+            subTitle={t("Certification13.SubTitle")}
+            // text={t("Certification0.Text")}
+          />
+        <CertificationItem
+            year={t("Certification12.Year")}
+            title={t("Certification12.Title")}
+            subTitle={t("Certification12.SubTitle")}
+            // text={t("Certification0.Text")}
+          />
           <CertificationItem
             year={t("Certification11.Year")}
             title={t("Certification11.Title")}
