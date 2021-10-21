@@ -43,7 +43,9 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__title {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
   }
   .projectItem__desc {
