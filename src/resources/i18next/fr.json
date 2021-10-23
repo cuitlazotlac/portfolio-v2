@@ -1,13 +1,13 @@
 {
   "NavBar": {
-    "MadeWith": "Built with ",
-    "English": "English",
-    "French": "French",
-    "Spanish": "Spanish",
+    "MadeWith": "Réalisé avec ",
+    "English": "Anglais",
+    "French": "Français",
+    "Spanish": "Espagñol",
     "Home": "HOME",
-    "About": "ABOUT ME",
-    "Portfolios": "PROJECTS",
-    "Blogs": "MY WORK",
+    "About": "A PROPOS",
+    "Portfolios": "PROJETS",
+    "Blogs": "MES PROJETS",
     "Contact": "CONNECT"
   },
   "HomePage": {
