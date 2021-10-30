@@ -1,14 +1,14 @@
 {
   "NavBar": {
-    "MadeWith": "Built with ",
+    "MadeWith": "Construido con ",
     "English": "Ingles",
     "French": "Frances",
-    "Spanish": "Espagñol",
+    "Spanish": "Español",
     "Home": "HOME",
     "About": "ABOUT ME",
-    "Portfolios": "PROJECTS",
+    "Portfolios": "MIS PROYECTOS",
     "Blogs": "MY WORK",
-    "Contact": "CONNECT"
+    "Contact": "Contacto"
   },
   "HomePage": {
     "Title": "Hey I’m Hayssem 🤙🏽",
