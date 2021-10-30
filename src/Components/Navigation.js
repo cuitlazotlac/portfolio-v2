@@ -175,13 +175,13 @@ function Navigation() {
             variant="Secondary"
             size="sm"
           >
-            <Dropdown.Item eventKey="🇺🇸" onClick={() => handleClick("en")} onClick={ClickHandlerEnglishBtn} >
+            <Dropdown.Item eventKey="🇺🇸" onClick={() => handleClick("en")}>
               {t("NavBar.English")}
             </Dropdown.Item>
-            <Dropdown.Item eventKey="🇫🇷" onClick={() => handleClick("fr")} onClick={ClickHandlerFrenchBtn} >
+            <Dropdown.Item eventKey="🇫🇷" onClick={() => handleClick("fr")}>
               {t("NavBar.French")}
             </Dropdown.Item>
-            <Dropdown.Item eventKey="🇲🇽" onClick={() => handleClick("es")} onClick={ClickHandlerSpanishBtn} >
+            <Dropdown.Item eventKey="🇲🇽" onClick={() => handleClick("es")}>
               {t("NavBar.Spanish")}
             </Dropdown.Item>
           </DropdownButton>
