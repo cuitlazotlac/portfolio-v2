@@ -63,7 +63,7 @@ function ImageSection() {
         </div>
         <div>
           <a
-            href="https://drive.google.com/file/d/1cK7ib2w5wfZuIafic9pOIHZaZIiYqqis/view?usp=sharing"
+            href="https://drive.google.com/file/d/1yoFd8C8r22wBqBjT6WbOXIbbsbkoQbNK/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             onClick={ClickHandler}
