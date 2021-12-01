@@ -43,7 +43,7 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__title {
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     font-family: "Barlow Condensed", sans-serif;
@@ -51,6 +51,7 @@ const ProjectItemStyles = styled.div`
   .projectItem__desc {
     font-size: 1rem;
     font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
     margin-top: 1rem;
   }
   @media only screen and (max-width: 768px) {
