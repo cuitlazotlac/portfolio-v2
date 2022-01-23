@@ -244,14 +244,14 @@
   },
   "Education1": {
     "Year": "Jun 2016 - Sept 2017",
-    "Title": "Master’s degree IT Project and Business Strategy",
-    "SubTitle": "Paris 7 Diderot University - Paris, FRA",
-    "Text": "Obtained with distinction"
+    "Title": "Master Projets Informatiques et Stratégie d'Entreprise",
+    "SubTitle": "Université Paris 7 Diderot - Paris, FRA",
+    "Text": "Obtenu avec mention"
   },
   "Education2": {
     "Year": "Sept 2015 - Jun 2016",
-    "Title": "Master’s degree Social Science and Economics ",
-    "SubTitle": "Paris 7 Diderot University - Paris, FRA",
-    "Text": "Obtained with distinction"
+    "Title": "Master Métiers des études, du conseil et de l'intervention",
+    "SubTitle": "Université Paris 7 Diderot - Paris, FRA",
+    "Text": "Obtenu avec mention"
   }
 }
