@@ -51,11 +51,11 @@ function App() {
   // }, 5000);
 
   // window.location.href = "/home";
-  if (window.location.href !== "https://cuitlazotlac.github.io/home") {
-    if (window.location.href !== "http://localhost:3000/home") {
-      window.location.replace("/home");
-    }
-  }
+  // if (window.location.href !== "https://cuitlazotlac.github.io/home") {
+  //   if (window.location.href !== "http://localhost:3000/home") {
+  //     window.location.replace("/home");
+  //   }
+  // }
 
   return (
     <div className="App">

@@ -11,7 +11,7 @@ import HomeItem from "../Components/HomeItem";
 import ConfsquareItem from "../Components/ConfsquareItem";
 import ProjectsSection from "../Components/ProjectsSection";
 
-import img from "../resources/img/hve_favicon.svg";
+import img from "../resources/img/avatar.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
 
 import { useTranslation } from "react-i18next";
@@ -194,7 +194,8 @@ const HomePageStyled = styled.header`
       }
     }
     .main-title {
-      font-family: "Barlow Condensed", sans-serif;
+      // font-family: "Barlow Condensed", sans-serif;
+      font-family: system-ui;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;

@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { DropdownButton, Dropdown, Badge } from "react-bootstrap";
 
+// import avatar from "../resources/img/hve_favicon.svg";
 import avatar from "../resources/img/hve_favicon.svg";
 import behance from "../resources/img/social-media-btn/behance.svg";
 import github from "../resources/img/social-media-btn/github.svg";
@@ -189,7 +190,12 @@ function Navigation() {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/home" activeClassName="active-class" onClick={ClickHandlerHomeBtn} exact>
+          <NavLink
+            to="/home"
+            activeClassName="active-class"
+            onClick={ClickHandlerHomeBtn}
+            exact
+          >
             {t("NavBar.Home")}
           </NavLink>
         </li>
@@ -199,12 +205,22 @@ function Navigation() {
           </NavLink>
         </li> */}
         <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" onClick={ClickHandlerAboutmeBtn} exact>
+          <NavLink
+            to="/resume"
+            activeClassName="active-class"
+            onClick={ClickHandlerAboutmeBtn}
+            exact
+          >
             {t("NavBar.About")}
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/portfolios" activeClassName="active-class" onClick={ClickHandlerProjectsNavBtn} exact>
+          <NavLink
+            to="/portfolios"
+            activeClassName="active-class"
+            onClick={ClickHandlerProjectsNavBtn}
+            exact
+          >
             {t("NavBar.Portfolios")}{" "}
             <Badge pill variant="warning">
               8
@@ -220,7 +236,12 @@ function Navigation() {
           </NavLink>
         </li> */}
         <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active-class" onClick={ClickHandlerConnectBtn} exact>
+          <NavLink
+            to="/contact"
+            activeClassName="active-class"
+            onClick={ClickHandlerConnectBtn}
+            exact
+          >
             {t("NavBar.Contact")}
           </NavLink>
         </li>
@@ -232,16 +253,36 @@ function Navigation() {
       </footer> */}
       <div className="footer-div">
         <div className="social-btn">
-          <a href={linkedin_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavLinkedInBtn}>
+          <a
+            href={linkedin_link}
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandlerNavLinkedInBtn}
+          >
             <img src={linkedin} alt="linkedin" />
           </a>
-          <a href={github_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavGithubBtn}>
+          <a
+            href={github_link}
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandlerNavGithubBtn}
+          >
             <img src={github} alt="github" />
           </a>
-          <a href={behance_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavBehanceBtn}>
+          <a
+            href={behance_link}
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandlerNavBehanceBtn}
+          >
             <img src={behance} alt="behance" />
           </a>
-          <a href={mail_link} target="_blank" rel="noreferrer" onClick={ClickHandlerNavEmailBtn}>
+          <a
+            href={mail_link}
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandlerNavEmailBtn}
+          >
             <img src={mail} alt="mail" />
           </a>
         </div>
