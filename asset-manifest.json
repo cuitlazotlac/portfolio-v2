@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio-v2/static/js/main.a0cd9772.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.a0cd9772.chunk.js.map",
+    "main.js": "/portfolio-v2/static/js/main.eba0c77c.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.eba0c77c.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.9aefca6b.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.9aefca6b.js.map",
     "static/css/2.3bbd0373.chunk.css": "/portfolio-v2/static/css/2.3bbd0373.chunk.css",
@@ -14,14 +14,12 @@
     "static/media/avatar.3b169913.svg": "/portfolio-v2/static/media/avatar.3b169913.svg",
     "static/media/behance.810b9754.svg": "/portfolio-v2/static/media/behance.810b9754.svg",
     "static/media/behance.f47dab98.png": "/portfolio-v2/static/media/behance.f47dab98.png",
-    "static/media/blockchain.7c5c25b0.png": "/portfolio-v2/static/media/blockchain.7c5c25b0.png",
     "static/media/carb_calculator.c1f5bdf1.svg": "/portfolio-v2/static/media/carb_calculator.c1f5bdf1.svg",
     "static/media/codepen.fd235417.png": "/portfolio-v2/static/media/codepen.fd235417.png",
     "static/media/confsquareLogo.7e673b42.svg": "/portfolio-v2/static/media/confsquareLogo.7e673b42.svg",
     "static/media/covid_dashboard.4be5a515.svg": "/portfolio-v2/static/media/covid_dashboard.4be5a515.svg",
     "static/media/credly.109e4a09.png": "/portfolio-v2/static/media/credly.109e4a09.png",
     "static/media/crypto.29539cc3.svg": "/portfolio-v2/static/media/crypto.29539cc3.svg",
-    "static/media/cryptocurrency.0b4cf847.png": "/portfolio-v2/static/media/cryptocurrency.0b4cf847.png",
     "static/media/defi_app.45baaaa6.svg": "/portfolio-v2/static/media/defi_app.45baaaa6.svg",
     "static/media/dribble.1dedae69.png": "/portfolio-v2/static/media/dribble.1dedae69.png",
     "static/media/getFetch.cjs": "/portfolio-v2/static/media/getFetch.582d29c4.cjs",
@@ -32,15 +30,10 @@
     "static/media/linkedin.e64e1e2b.png": "/portfolio-v2/static/media/linkedin.e64e1e2b.png",
     "static/media/mail.0c7fe2e6.png": "/portfolio-v2/static/media/mail.0c7fe2e6.png",
     "static/media/mail.66ecdd7d.svg": "/portfolio-v2/static/media/mail.66ecdd7d.svg",
-    "static/media/manga.5e985ad4.png": "/portfolio-v2/static/media/manga.5e985ad4.png",
     "static/media/mex_mtl_api.8dccc456.svg": "/portfolio-v2/static/media/mex_mtl_api.8dccc456.svg",
     "static/media/picture.966d277f.png": "/portfolio-v2/static/media/picture.966d277f.png",
-    "static/media/picture__OLD.9efad867.png": "/portfolio-v2/static/media/picture__OLD.9efad867.png",
-    "static/media/picture_old.7e0bf828.png": "/portfolio-v2/static/media/picture_old.7e0bf828.png",
-    "static/media/popcorn.2662238c.png": "/portfolio-v2/static/media/popcorn.2662238c.png",
     "static/media/py_game.996eac1b.svg": "/portfolio-v2/static/media/py_game.996eac1b.svg",
-    "static/media/sun.b2e451fb.png": "/portfolio-v2/static/media/sun.b2e451fb.png",
-    "static/media/taco.f83d1442.png": "/portfolio-v2/static/media/taco.f83d1442.png",
+    "static/media/react.0c61afcf.svg": "/portfolio-v2/static/media/react.0c61afcf.svg",
     "static/media/weather_tracker.4869f4ed.svg": "/portfolio-v2/static/media/weather_tracker.4869f4ed.svg",
     "static/media/what_movie.0164d6b0.svg": "/portfolio-v2/static/media/what_movie.0164d6b0.svg"
   },
@@ -48,6 +41,6 @@
     "static/js/runtime-main.9aefca6b.js",
     "static/css/2.3bbd0373.chunk.css",
     "static/js/2.5c50aef3.chunk.js",
-    "static/js/main.a0cd9772.chunk.js"
+    "static/js/main.eba0c77c.chunk.js"
   ]
 }
