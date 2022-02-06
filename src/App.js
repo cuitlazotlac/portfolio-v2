@@ -19,7 +19,7 @@ import HomeParticle from "./Components/HomeParticle";
 
 function App() {
   // const [theme, setTheme] = useState("dark-theme");
-  const [theme] = useState("dark-theme");
+  const [theme] = useState("light-theme");
   // const [checked, setChecked] = useState(false);
   // const [setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);

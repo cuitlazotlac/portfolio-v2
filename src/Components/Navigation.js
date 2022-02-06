@@ -106,6 +106,7 @@ function Navigation() {
     });
     console.log("Navigation - Spanish button clicked!");
   };
+
   const { t, i18n } = useTranslation();
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const toggle = () => setDropdownOpen((prevState) => !prevState);
@@ -222,7 +223,7 @@ function Navigation() {
             exact
           >
             {t("NavBar.Portfolios")}{" "}
-            <Badge pill variant="warning">
+            <Badge pill variant="dark">
               8
             </Badge>
           </NavLink>
