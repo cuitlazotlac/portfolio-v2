@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import FacebookIcon from "@material-ui/icons/Facebook";
-// import GithubIcon from "@material-ui/icons/GitHub";
-// import YoutubeIcon from "@material-ui/icons/YouTube";
 import Particle from "../Components/Particle";
 import { NavLink } from "react-router-dom";
 
@@ -55,7 +52,7 @@ function HomePage() {
         </p>
 
         <h1 className="main-title">{t("HomePage.Title")}</h1>
-        <h2 className="sub-title">{t("HomePage.SubTitle")}</h2>
+        {/* <h2 className="sub-title">{t("HomePage.SubTitle")}</h2> */}
         <div className="desc">
           <p>{t("HomePage.Desc_Part1")}</p>
           {/* <p>{t("HomePage.Desc_Part2")}</p> */}
@@ -195,7 +192,8 @@ const HomePageStyled = styled.header`
     }
     .main-title {
       // font-family: "Barlow Condensed", sans-serif;
-      font-family: system-ui;
+      // font-family: system-ui;
+      font-family: "Share Tech", sans-serif;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;
@@ -219,7 +217,7 @@ const HomePageStyled = styled.header`
       }
     }
     .sub-title {
-      font-family: "Barlow Condensed", sans-serif;
+      font-family: "Roboto", serif;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;

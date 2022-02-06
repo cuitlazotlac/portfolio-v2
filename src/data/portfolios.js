@@ -1,13 +1,3 @@
-// import clapperboard from "../resources/img/project-icons/clapperboard.png";
-// import co2 from "../resources/img/project-icons/co2-cloud.png";
-// import corona from "../resources/img/project-icons/coronavirus.png";
-// import cryto from "../resources/img/project-icons/cryptocurrency.png";
-// import controller from "../resources/img/project-icons/game-controller.png";
-// import blockchain from "../resources/img/project-icons/blockchain.png";
-// import manga from "../resources/img/project-icons/manga.png";
-// import sun from "../resources/img/project-icons/sun.png";
-// import taco from "../resources/img/project-icons/taco.png";
-
 import clapperboard from "../resources/img/project-icons/what_movie.svg";
 import co2 from "../resources/img/project-icons/carb_calculator.svg";
 import corona from "../resources/img/project-icons/covid_dashboard.svg";

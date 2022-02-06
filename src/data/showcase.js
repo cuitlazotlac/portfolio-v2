@@ -1,10 +1,10 @@
 import { v4 as uuidv4 } from "uuid";
 
-import cryto from "../resources/img/project-icons/cryptocurrency.png";
-import blockchain from "../resources/img/project-icons/blockchain.png";
-import sun from "../resources/img/project-icons/sun.png";
-import manga from "../resources/img/project-icons/manga.png";
-import taco from "../resources/img/project-icons/taco.png";
+import cryto from "../resources/img/project-icons/defi_app.svg";
+import blockchain from "../resources/img/project-icons/crypto.svg";
+import sun from "../resources/img/project-icons/weather_tracker.svg";
+import manga from "../resources/img/project-icons/anime_library.svg";
+import taco from "../resources/img/project-icons/mex_mtl_api.svg";
 
 const showcases = [
   {
