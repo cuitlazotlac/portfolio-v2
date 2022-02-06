@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import ProjectImg from "../resources/img/popcorn.png";
+import ProjectImg from "../resources/img/react.svg";
 
 export default function ProjectItem({
   img = ProjectImg,
