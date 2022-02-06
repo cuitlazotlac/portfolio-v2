@@ -63,6 +63,7 @@ const GlobalStyle = createGlobalStyle`
     // font-family: 'Sora', sans-serif;
     // font-family: 'Quicksand', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
+    // font-family: 'Share Tech', sans-serif;
     font-family: monospace;
     // font-family: 'Roboto Slab', serif;
     
