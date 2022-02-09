@@ -30,9 +30,10 @@ function ConfsquareItem({ title, icon, cont1, cont2 }) {
 }
 
 const ConfsquareItemStyled = styled.div`
-  background-color: #ffc107;
+  .left-content {
+  }
   background: url("https://confsquare.com/_next/static/images/peeps-e9a28f121b895b484e28a7dd071141ab.png")
-    #ffc107;
+    rgba(255, 193, 7, 1);
   background-repeat: no-repeat;
   background-position: unset;
   padding: 1.5rem 2rem;
