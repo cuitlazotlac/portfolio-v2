@@ -71,7 +71,8 @@ const HomeItemStyled = styled.div`
       h6 {
         font-size: 2rem;
         font-weight: 400;
-        font-family: "Barlow Condensed", sans-serif;
+        // font-family: "Barlow Condensed", sans-serif;
+        font-family: "Share Tech", sans-serif;
         a {
           color: inherit; /* blue colors for links too */
           text-decoration: inherit; /* no underline */

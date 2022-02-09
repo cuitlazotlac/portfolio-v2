@@ -192,8 +192,7 @@ const HomePageStyled = styled.header`
     }
     .main-title {
       // font-family: "Barlow Condensed", sans-serif;
-      // font-family: system-ui;
-      font-family: "Share Tech", sans-serif;
+Î      font-family: "Share Tech", sans-serif;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;

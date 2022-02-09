@@ -32,7 +32,8 @@ const ProjectItemStyles = styled.div`
     display: inline-block;
     border: 3px solid var(--gray-2);
     img {
-      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
     }
   }
   .projectItem__info {
@@ -46,11 +47,9 @@ const ProjectItemStyles = styled.div`
     font-weight: 600;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    font-family: "Barlow Condensed", sans-serif;
   }
   .projectItem__desc {
     font-size: 1rem;
-    font-family: "Noto Sans JP", sans-serif;
     font-weight: 300;
     margin-top: 1rem;
   }

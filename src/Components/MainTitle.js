@@ -19,8 +19,8 @@ function MainTitle({ msg_1, msg_2, msg_3, msg_4 }) {
 const MainTitleStyled = styled.div`
   position: relative;
   .test {
-    // font-family: "Dela Gothic One", cursive;
-    font-family: 'Barlow Condensed', sans-serif;
+    // font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Share Tech", sans-serif;
     color: var(--white-color);
     font-weight: 700;
     text-transform: uppercase;
@@ -35,8 +35,8 @@ const MainTitleStyled = styled.div`
     }
   }
   h1 {
-    // font-family: "Dela Gothic One", cursive;
-    font-family: 'Barlow Condensed', sans-serif;
+    // font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Share Tech", sans-serif;
     color: var(--white-color);
     font-size: 3.1rem;
     font-weight: 300;
@@ -54,8 +54,8 @@ const MainTitleStyled = styled.div`
       font-weight: 400;
       color: var(--span-color);
       font-size: 3.5rem;
-      // font-family: "Dela Gothic One", cursive;
-      font-family: 'Barlow Condensed', sans-serif;
+      // font-family: 'Barlow Condensed', sans-serif;
+      font-family: "Share Tech", sans-serif;
       position: absolute;
       left: 0;
       top: 30%;
