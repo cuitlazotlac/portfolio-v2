@@ -47,7 +47,8 @@ const BlogsStyled = styled.div`
       grid-template-columns: repeat(1, 1fr);
     }
     h6{
-      font-family: 'Barlow Condensed', sans-serif;
+      // font-family: 'Barlow Condensed', sans-serif;
+      font-family: "Share Tech", sans-serif;
       font-size: 1.8rem;
       margin-top: 10px;
       text-align: left

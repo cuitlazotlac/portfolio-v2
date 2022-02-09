@@ -390,7 +390,8 @@ const NavigationStyled = styled.nav`
     li {
       display: block;
       a {
-        font-family: "Barlow Condensed", sans-serif;
+        // font-family: "Barlow Condensed", sans-serif;
+        font-family: "Share Tech", sans-serif;
         display: block;
         padding: 0.45rem 0;
         position: relative;
@@ -458,7 +459,8 @@ const NavigationStyled = styled.nav`
       }
     }
     .copyright {
-      font-family: "Barlow Condensed", sans-serif;
+      // font-family: "Barlow Condensed", sans-serif;
+      font-family: "Share Tech", sans-serif;
       font-size: 1.3rem;
       margin-top: 0.2rem;
       margin-left: 0.4rem;

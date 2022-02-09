@@ -58,7 +58,7 @@ export default function ProjectsSection() {
 }
 
 const ProjectSectionStyle = styled.div`
-  font-family: "Noto Sans JP", sans-serif;
+  // font-family: "Noto Sans JP", sans-serif;
   // padding: 10rem 0;
   padding-top: 4rem;
   .projects__allItems {

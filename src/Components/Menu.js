@@ -67,7 +67,8 @@ const MenuItemStyled = styled.div`
       overflow: hidden;
       word-wrap: break-word;
       h6 {
-        font-family: "Barlow Condensed", sans-serif;
+        // font-family: "Barlow Condensed", sans-serif;
+        font-family: "Share Tech", sans-serif;
         font-size: 1.7rem;
         border-top: 1px solid var(--border-color);
         margin-top: 5px;
@@ -88,10 +89,12 @@ const MenuItemStyled = styled.div`
         font-size: 0.8rem;
       }
       img {
-        width: 100%;
+        // width: 100%;
         opacity: 80%;
-        // width: 80%;
         transition: all 0.2s ease-in-out;
+        max-width: 85%;
+        max-height: 65%;
+        margin-left: 10%;
       }
       ul {
         transform: translateY(-600px);

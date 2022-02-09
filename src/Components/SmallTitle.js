@@ -25,7 +25,8 @@ const SmallTitleStyled = styled.div`
   h3 {
     color: var(--white-color);
     font-size: 2.5rem;
-    font-family: "Barlow Condensed", sans-serif;
+    // font-family: "Barlow Condensed", sans-serif;
+    font-family: "Share Tech", sans-serif;
     @media screen and (max-width: 670px) {
       font-size: 1.7rem;
     }

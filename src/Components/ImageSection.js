@@ -104,7 +104,8 @@ const ImageSectionStyled = styled.div`
   .right-content {
     width: 100%;
     h4 {
-      font-family: "Barlow Condensed", sans-serif;
+      // font-family: "Barlow Condensed", sans-serif;
+      font-family: "Share Tech", sans-serif;
       font-size: 2rem;
       color: var(--white-color);
       @media screen and (max-width: 670px) {

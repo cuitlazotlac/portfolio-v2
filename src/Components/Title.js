@@ -17,8 +17,7 @@ function Title({ title, span }) {
 const TitleStyled = styled.div`
   position: relative;
   h2 {
-    // font-family: "Dela Gothic One", cursive;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: "Share Tech", sans-serif;
     color: var(--white-color);
     font-size: 4rem;
     font-weight: 700;
@@ -35,8 +34,7 @@ const TitleStyled = styled.div`
       font-weight: 700;
       color: var(--span-color);
       font-size: 3.5rem;
-      // font-family: "Dela Gothic One", cursive;
-      font-family: "Barlow Condensed", sans-serif;
+      font-family: "Share Tech", sans-serif;
       position: absolute;
       left: 0;
       top: 45%;
