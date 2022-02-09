@@ -140,7 +140,7 @@ function HomePage() {
             <HomeItem
               title={t("HomePage.Form4_Title")}
               cont1={t("HomePage.Form4_Desc1")}
-              cont2={t("HomePage.Form4_Desc2")}
+              // cont2={t("HomePage.Form4_Desc2")}
             />
           </NavLink>
           <br />
