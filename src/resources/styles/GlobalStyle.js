@@ -56,16 +56,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.1rem;
-    // font-family: 'Cabin', sans-serif;
-    // font-family: 'Roboto', sans-serif;
-    // font-family: 'Sora', sans-serif;
-    // font-family: 'Quicksand', sans-serif;
-    // font-family: 'Noto Sans JP', sans-serif;
-    // font-family: 'Share Tech', sans-serif;
-    font-family: monospace;
-    // font-family: 'Roboto Slab', serif;
+    // font-family: monospace;
     
 }
 body{

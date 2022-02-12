@@ -390,17 +390,16 @@ const NavigationStyled = styled.nav`
     li {
       display: block;
       a {
-        // font-family: "Barlow Condensed", sans-serif;
-        font-family: "Share Tech", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
         display: block;
         padding: 0.45rem 0;
         position: relative;
         z-index: 10;
         text-transform: uppercase;
         transition: all 0.4s ease-in-out;
-        font-weight: 600;
         font-size: 1.3rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         text-decoration: inherit; /* no underline */
         &:hover {
           cursor: pointer;
@@ -459,9 +458,8 @@ const NavigationStyled = styled.nav`
       }
     }
     .copyright {
-      // font-family: "Barlow Condensed", sans-serif;
-      font-family: "Share Tech", sans-serif;
-      font-size: 1.3rem;
+      font-weight: 100;
+      font-size: 1.1rem;
       margin-top: 0.2rem;
       margin-left: 0.4rem;
       text-align: left;
