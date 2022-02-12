@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 import ProjectItem from "./ProjectItem";
-import SectionTitle from "./SectionTitle";
-import Title from "./Title";
+
+// import Title from "./Title";
+import SectionTitleH2 from "../Components/shared/SectionTitleH2";
+
 import "swiper/swiper-bundle.min.css";
+
 import showcases from "../data/showcase";
 import { useTranslation } from "react-i18next";
 
@@ -17,7 +21,15 @@ export default function ProjectsSection() {
   return (
     <ProjectSectionStyle>
       <div className="container">
-        <Title title={t("HomePage.CarousselTitle")} span={t("HomePage.CarousselSubtitle")} />
+        <SectionTitleH2
+          title={t("HomePage.CarousselTitle")}
+          span={t("HomePage.CarousselSubtitle")}
+        />
+        {/* <Title
+          title={t("HomePage.CarousselTitle")}
+          span={t("HomePage.CarousselSubtitle")}
+        /> */}
+
         <div className="projects__allItems">
           <Swiper
             spaceBetween={30}
@@ -61,6 +73,13 @@ const ProjectSectionStyle = styled.div`
   // font-family: "Noto Sans JP", sans-serif;
   // padding: 10rem 0;
   padding-top: 4rem;
+  .projectItem__title {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .projectItem__desc {
+    font-weight: 200;
+  }
   .projects__allItems {
     display: flex;
     gap: 3rem;

@@ -11,6 +11,8 @@ import ProjectsSection from "../Components/ProjectsSection";
 import img from "../resources/img/avatar.svg";
 import confsquareLogo from "../resources/img/confsquare/confsquareLogo.svg";
 
+import Typical from "react-typical";
+
 import { useTranslation } from "react-i18next";
 import ReactGA from "react-ga";
 
@@ -50,8 +52,21 @@ function HomePage() {
         <p>
           <img className="logo-home" src={img} alt=""></img>
         </p>
-
-        <h1 className="main-title">{t("HomePage.Title")}</h1>
+        <Typical
+          loop={Infinity}
+          steps={[
+            "Hey I'm Hayssem 🇨🇦",
+            5000,
+            "Salut, moi c'est Hayssem 🇫🇷",
+            5000,
+            "Hola soy Hayssem 🇲🇽",
+            5000,
+            "مرحبا انا هيسم 🇪🇬",
+            5000,
+            "녕하세요 헤이셈입니다 🇰🇷",
+            5000,
+          ]}
+        />
         {/* <h2 className="sub-title">{t("HomePage.SubTitle")}</h2> */}
         <div className="desc">
           <p>{t("HomePage.Desc_Part1")}</p>
@@ -59,6 +74,7 @@ function HomePage() {
           <p>{t("HomePage.Desc_Part3")}</p>
           <p>{t("HomePage.Desc_Part4")}</p>
         </div>
+        <br />
         <p className="more">
           <NavLink to="/resume">
             <a className="more">
@@ -66,66 +82,6 @@ function HomePage() {
             </a>{" "}
           </NavLink>
         </p>
-        {/* <div className="icons">
-          <a
-            href="https://codepen.io/pen/"
-            target="_blank"
-            rel="noreferrer"
-            className="icon i-facebook"
-          >
-            <FacebookIcon />
-          </a>
-          <a
-            href="https://codepen.io/pen/"
-            target="_blank"
-            rel="noreferrer"
-            className="icon i-facebook"
-          >
-            <FacebookIcon />
-          </a>
-          <a
-            href="https://codepen.io/pen/"
-            target="_blank"
-            rel="noreferrer"
-            className="icon i-facebook"
-          >
-            <FacebookIcon />
-          </a>
-          <a
-            href="https://codepen.io/pen/"
-            target="_blank"
-            rel="noreferrer"
-            className="icon i-github"
-          >
-            <GithubIcon />
-          </a>
-          <a
-            href="https://codepen.io/pen/"
-            target="_blank"
-            rel="noreferrer"
-            className="icon i-youtube"
-          >
-            <YoutubeIcon />
-          </a>
-        </div> */}
-        <br />
-        <br />
-        <div className="ConfSquareItem">
-          <a
-            href="https://confsquare.com/"
-            target="_blank"
-            rel="noreferrer"
-            onClick={ClickHandlerConfsquareBtn}
-          >
-            <ConfsquareItem
-              icon={confsquareLogo}
-              title={t("HomePage.Form1_Title")}
-              cont1={t("HomePage.Form1_Desc1")}
-              cont2={t("HomePage.Form1_Desc2")}
-            />
-          </a>
-        </div>
-        <br />
         <div className="HomeItems">
           <ProjectsSection />
           <p className="more">
@@ -135,6 +91,22 @@ function HomePage() {
               </a>{" "}
             </NavLink>
           </p>
+          <br />
+          <div className="ConfSquareItem">
+            <a
+              href="https://confsquare.com/"
+              target="_blank"
+              rel="noreferrer"
+              onClick={ClickHandlerConfsquareBtn}
+            >
+              <ConfsquareItem
+                icon={confsquareLogo}
+                title={t("HomePage.Form1_Title")}
+                cont1={t("HomePage.Form1_Desc1")}
+                cont2={t("HomePage.Form1_Desc2")}
+              />
+            </a>
+          </div>
           <br />
           <NavLink to="/contact" exact onClick={ClickHandlerContactBtn}>
             <HomeItem
@@ -155,6 +127,28 @@ const HomePageStyled = styled.header`
   width: 100%;
   height: 100vh;
   position: relative;
+  .styles_typicalWrapper__1_Uvh {
+    color: var(--white-color);
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    position: relative;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+    @media screen and (max-width: 642px) {
+      font-size: 1rem;
+      img {
+        height: 185px;
+      }
+    }
+    @media screen and (max-width: 571px) {
+      font-size: 2rem;
+      img {
+        height: 185px;
+      }
+    }
+  }
   .ConfSquareItem {
     a {
       color: inherit; /* blue colors for links too */
@@ -192,13 +186,12 @@ const HomePageStyled = styled.header`
     }
     .main-title {
       // font-family: "Barlow Condensed", sans-serif;
-Î      font-family: "Share Tech", sans-serif;
       color: var(--white-color);
       text-transform: uppercase;
       text-align: left;
       font-size: 5rem;
-      font-weight: 700;
-      text-align: center;
+      font-weight: 900;
+      text-align: left;
       position: relative;
       padding-bottom: 1rem;
       letter-spacing: 3px;

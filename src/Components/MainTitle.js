@@ -36,10 +36,10 @@ const MainTitleStyled = styled.div`
   }
   h1 {
     // font-family: 'Barlow Condensed', sans-serif;
-    font-family: "Share Tech", sans-serif;
+    // font-family: "Share Tech", sans-serif;
     color: var(--white-color);
     font-size: 3.1rem;
-    font-weight: 300;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: left
     position: relative;
