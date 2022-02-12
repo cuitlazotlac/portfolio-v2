@@ -17,10 +17,9 @@ function Title({ title, span }) {
 const TitleStyled = styled.div`
   position: relative;
   h2 {
-    font-family: "Share Tech", sans-serif;
     color: var(--white-color);
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 0.7rem;
@@ -31,10 +30,9 @@ const TitleStyled = styled.div`
       font-size: 2rem;
     }
     span {
-      font-weight: 700;
+      font-weight: 900;
       color: var(--span-color);
       font-size: 3.5rem;
-      font-family: "Share Tech", sans-serif;
       position: absolute;
       left: 0;
       top: 45%;

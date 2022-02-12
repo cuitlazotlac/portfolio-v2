@@ -18,15 +18,14 @@ const SmallTitleStyled = styled.div`
     svg {
       font-size: 3rem;
       @media screen and (max-width: 670px) {
-        font-size: 2,4rem;
+        font-size: 2, 4rem;
       }
     }
   }
   h3 {
     color: var(--white-color);
     font-size: 2.5rem;
-    // font-family: "Barlow Condensed", sans-serif;
-    font-family: "Share Tech", sans-serif;
+    font-weight: 800;
     @media screen and (max-width: 670px) {
       font-size: 1.7rem;
     }
