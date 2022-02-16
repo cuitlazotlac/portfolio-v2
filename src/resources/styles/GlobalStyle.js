@@ -58,8 +58,7 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-weight: 200;
     font-size: 1.1rem;
-    // font-family: monospace;
-    
+    // font-family: monospace;    
 }
 body{
     background-color: var(--background-dark-color);

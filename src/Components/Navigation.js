@@ -6,6 +6,7 @@ import { DropdownButton, Dropdown, Badge } from "react-bootstrap";
 
 // import avatar from "../resources/img/hve_favicon.svg";
 import avatar from "../resources/img/hve_favicon.svg";
+// import avatar from "../resources/img/group109.svg";
 import behance from "../resources/img/social-media-btn/behance.svg";
 import github from "../resources/img/social-media-btn/github.svg";
 import mail from "../resources/img/social-media-btn/mail.svg";
