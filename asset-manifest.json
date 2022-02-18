@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio-v2/static/js/main.e6359efc.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.e6359efc.chunk.js.map",
+    "main.js": "/portfolio-v2/static/js/main.616decbc.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.616decbc.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.9aefca6b.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.9aefca6b.js.map",
     "static/css/2.3bbd0373.chunk.css": "/portfolio-v2/static/css/2.3bbd0373.chunk.css",
@@ -10,6 +10,8 @@
     "index.html": "/portfolio-v2/index.html",
     "static/css/2.3bbd0373.chunk.css.map": "/portfolio-v2/static/css/2.3bbd0373.chunk.css.map",
     "static/js/2.313b06c4.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.313b06c4.chunk.js.LICENSE.txt",
+    "static/media/Degarism Studio - Alliance No.1 Light.946e0e59.otf": "/portfolio-v2/static/media/Degarism Studio - Alliance No.1 Light.946e0e59.otf",
+    "static/media/Degarism Studio - Alliance No.2 Light.db1d4da8.otf": "/portfolio-v2/static/media/Degarism Studio - Alliance No.2 Light.db1d4da8.otf",
     "static/media/anime_library.4024d74d.svg": "/portfolio-v2/static/media/anime_library.4024d74d.svg",
     "static/media/avatar.3b169913.svg": "/portfolio-v2/static/media/avatar.3b169913.svg",
     "static/media/behance.810b9754.svg": "/portfolio-v2/static/media/behance.810b9754.svg",
@@ -41,6 +43,6 @@
     "static/js/runtime-main.9aefca6b.js",
     "static/css/2.3bbd0373.chunk.css",
     "static/js/2.313b06c4.chunk.js",
-    "static/js/main.e6359efc.chunk.js"
+    "static/js/main.616decbc.chunk.js"
   ]
 }
