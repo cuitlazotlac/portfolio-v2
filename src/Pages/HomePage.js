@@ -55,15 +55,15 @@ function HomePage() {
         <Typical
           loop={Infinity}
           steps={[
-            "Hey I'm Hayssem 🇨🇦",
+            "Hey I'm Hayssem",
             5000,
-            "Salut, moi c'est Hayssem 🇫🇷",
+            "Salut, moi c'est Hayssem",
             5000,
-            "Hola soy Hayssem 🇲🇽",
+            "Hola soy Hayssem",
             5000,
-            "مرحبا انا هيسم 🇪🇬",
+            "مرحبا انا هيسم",
             5000,
-            "녕하세요 헤이셈입니다 🇰🇷",
+            "녕하세요 헤이셈입니다",
             5000,
           ]}
         />
@@ -131,6 +131,7 @@ const HomePageStyled = styled.header`
     color: var(--white-color);
     text-align: left;
     font-size: 3rem;
+    font-family: "Alliance No.2";
     font-weight: 900;
     text-align: left;
     position: relative;

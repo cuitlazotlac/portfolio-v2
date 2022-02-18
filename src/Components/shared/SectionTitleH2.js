@@ -17,6 +17,7 @@ function SectionTitleH2({ title, span }) {
 const SectionTitleH2Styled = styled.div`
   position: relative;
   h2 {
+    font-family: "Alliance No.2"
     color: var(--white-color);
     font-size: 3rem;
     font-weight: 900;

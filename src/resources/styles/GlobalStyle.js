@@ -59,6 +59,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 200;
     font-size: 1.1rem;
     // font-family: monospace;    
+    font-family: "Alliance No.1"
 }
 body{
     background-color: var(--background-dark-color);
