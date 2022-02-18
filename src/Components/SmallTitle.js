@@ -23,6 +23,7 @@ const SmallTitleStyled = styled.div`
     }
   }
   h3 {
+    font-family: "Alliance No.2"
     color: var(--white-color);
     font-size: 2.5rem;
     font-weight: 800;

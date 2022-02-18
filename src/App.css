@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 
 .App-logo {
@@ -36,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Alliance No.1";
+  src: local("Alliance No.1"),
+    url("./resources/font/Degarism Studio - Alliance No.1 Light.otf")
+      format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alliance No.2";
+  src: local("Alliance No.2"),
+    url("./resources/font/Degarism Studio - Alliance No.2 Light.otf")
+      format("opentype");
+  font-weight: normal;
 }

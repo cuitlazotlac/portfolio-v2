@@ -26,13 +26,12 @@ const ButtonStyled = styled.button`
   transition: all 0.4s ease-in-out;
   margin-right: 1rem;
   margin-bottom: 0.6rem;
-  // border: 2.5px solid var(--border-color);
   border: 1px solid var(--border-color);
   background: none;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-  border-radius: 2.5px;
+  box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
+  // border-radius: 2.5px;
   transform-style: preserve-3d;
   overflow: hidden;
   &:active,

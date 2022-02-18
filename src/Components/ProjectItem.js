@@ -37,20 +37,21 @@ const ProjectItemStyles = styled.div`
     }
   }
   .projectItem__info {
+    font-family: "Alliance No.1";
     margin-top: 1rem;
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 12px;
   }
   .projectItem__title {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 900;
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
   .projectItem__desc {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     margin-top: 1rem;
   }
   @media only screen and (max-width: 768px) {
