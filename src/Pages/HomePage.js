@@ -4,7 +4,8 @@ import Particle from "../Components/Particle";
 import { NavLink } from "react-router-dom";
 
 import HomeItem from "../Components/HomeItem";
-// import MainTitle from "../Components/MainTitle";
+import LinkButton from "../Components/shared/LinkButton";
+
 import ConfsquareItem from "../Components/ConfsquareItem";
 import ProjectsSection from "../Components/ProjectsSection";
 
@@ -65,6 +66,8 @@ function HomePage() {
             5000,
             "녕하세요 헤이셈입니다",
             5000,
+            "01001000 01100101 01111001 00100000 01101001 01110100 00100111 01110011 00100000 01001000 01100001 01111001 01110011 01110011 01100101 01101101",
+            5000,
           ]}
         />
         {/* <h2 className="sub-title">{t("HomePage.SubTitle")}</h2> */}
@@ -86,10 +89,18 @@ function HomePage() {
           <ProjectsSection />
           <p className="more">
             <NavLink to="/portfolios">
-              <a className="more">
+              {/* <a className="more">
                 {t("HomePage.AllProjects")} <i class="fas fa-arrow-right"></i>
-              </a>{" "}
+              </a>{" "} */}
+              {/* <a
+            href="https://drive.google.com/file/d/1XqK292myheQ53gTAYmz20vpO4cv5Q7Fq/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            onClick={ClickHandler}
+          > */}
+              <LinkButton title={t("AboutPage.CV")} />
             </NavLink>
+            {/* </a> */}
           </p>
           <br />
           <div className="ConfSquareItem">
@@ -130,8 +141,7 @@ const HomePageStyled = styled.header`
   .styles_typicalWrapper__1_Uvh {
     color: var(--white-color);
     text-align: left;
-    font-size: 3rem;
-    font-family: "Alliance No.2";
+    font-size: 4rem;
     font-weight: 900;
     text-align: left;
     position: relative;
