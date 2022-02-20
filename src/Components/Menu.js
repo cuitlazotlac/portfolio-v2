@@ -50,7 +50,6 @@ const MenuItemStyled = styled.div`
     border: 1px solid var(--border-color);
     transition: all 0.3s ease-in-out;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-    border-radius: 2.5px;
     transform-style: preserve-3d;
     width: 100%;
     padding: 1rem;
@@ -67,20 +66,20 @@ const MenuItemStyled = styled.div`
       overflow: hidden;
       word-wrap: break-word;
       h6 {
-        // font-family: "Barlow Condensed", sans-serif;
-        font-family: "Share Tech", sans-serif;
-        font-size: 1.7rem;
+        font-weight: 700;
+        font-size: 1.3rem;
         border-top: 1px solid var(--border-color);
-        margin-top: 5px;
-        margin-bottom: 5px;
+        border-bottom: 1px solid var(--border-color);
+        margin-top: 30px;
+        margin-bottom: -10px;
         text-align: left;
         word-wrap: break-word;
       }
       p {
         font-size: 1rem;
         // border-top: 1px solid var(--border-color);
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
       }
       .tech {
         font-family: monospace;
@@ -89,8 +88,6 @@ const MenuItemStyled = styled.div`
         font-size: 0.8rem;
       }
       img {
-        // width: 100%;
-        opacity: 80%;
         transition: all 0.2s ease-in-out;
         max-width: 85%;
         max-height: 65%;
@@ -132,8 +129,8 @@ const MenuItemStyled = styled.div`
           position: absolute;
           left: 2%;
           top: 4%;
-          height: 0;
-          width: 0;
+          max-height: 0;
+          max-width: 0;
           transition: all 0.4s ease-in-out;
         }
       }

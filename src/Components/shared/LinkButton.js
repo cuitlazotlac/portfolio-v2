@@ -1,27 +1,30 @@
 import React from "react";
 import styled from "styled-components";
 
-
-function PrimaryButton({ title }) {
-  return <PrimaryButtonStyled>{title}</PrimaryButtonStyled>;
+function LinkButton({ title }) {
+  return (
+    <LinkButtonStyled>
+      {title}
+      <span className="span_icon">→</span>
+    </LinkButtonStyled>
+  );
 }
 
-const PrimaryButtonStyled = styled.button`
+const LinkButtonStyled = styled.button`
   outline: none;
   background-color: var(--background-light-color-2);
-  font-size: inherit;
+  font-size: 0.95rem;
   color: var(--white-color);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
   margin-right: 1rem;
   margin-bottom: 0.6rem;
-  padding: 14px 28px;
+  padding: 5px 55px;
   border: 1px solid var(--border-color);
   background: none;
-  font-weight: 900;
+  font-weight: 500;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-  // border-radius: 2.5px;
   transform-style: preserve-3d;
   overflow: hidden;
   &:active,
@@ -39,10 +42,28 @@ const PrimaryButtonStyled = styled.button`
     transform-style: preserve-3d;
     transition: all 0.2s ease-in-out;
     box-shadow: 5px 10px var(--second-light-color);
+    .span_icon{
+        color: var(--white-color);
+        background-color:red;
+    }
   }
-  //   &:not(:last-child) {
-  //     margin-right: 0.6rem;
-  //   }
+  .span_icon {
+    font-size: 1rem;
+    color: var(--white-color);
+    margin-left: 0.335rem;
+    margin-top: -1px;
+    -webkit-transition: padding-left 0.25s ease-in-out;
+    transition: padding-left 0.25s ease-in-out;
+    &:hover {
+        background-color: var(--border-color);
+        color: var(--txt-button);
+        border: 1px solid var(--background-light-color);
+        transform: scale(1.1);
+        transform: translate(7px, -7px);
+        transform-style: preserve-3d;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 5px 10px var(--second-light-color);
+  }
 `;
 
-export default PrimaryButton;
+export default LinkButton;

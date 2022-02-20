@@ -391,8 +391,7 @@ const NavigationStyled = styled.nav`
     li {
       display: block;
       a {
-        font-family: "Alliance No.1";
-        font-weight: 900;
+        font-weight: 600;
         display: block;
         padding: 0.45rem 0;
         position: relative;

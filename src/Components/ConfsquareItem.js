@@ -32,8 +32,8 @@ function ConfsquareItem({ title, icon, cont1, cont2 }) {
 const ConfsquareItemStyled = styled.div`
   .left-content {
   }
-  background: url("https://confsquare.com/_next/static/images/peeps-e9a28f121b895b484e28a7dd071141ab.png")
-    rgba(255, 193, 7, 1);
+  // background: url("https://confsquare.com/_next/static/images/peeps-e9a28f121b895b484e28a7dd071141ab.png")
+  //   rgba(255, 193, 7, 1);
   background-repeat: no-repeat;
   background-position: unset;
   padding: 1.5rem 2rem;
@@ -42,7 +42,7 @@ const ConfsquareItemStyled = styled.div`
   border: 1px solid var(--border-color);
   transition: all 0.3s ease-in-out;
   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-  border-radius: 2.5px;
+  // border-radius: 2.5px;
   transform-style: preserve-3d;
   width: 100%;
   padding: 1rem;
@@ -86,23 +86,19 @@ const ConfsquareItemStyled = styled.div`
       text-align: center;
     }
     h6 {
-      font-family: "Lexend", sans-serif;
       color: #000;
       font-size: 1.2rem;
       padding-bottom: 0.6rem;
       font-weight: 900;
-      background: rgba(245, 245, 245, 0.85);
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
         font-size: 1.1rem;
       }
     }
     p {
-      font-family: "Lexend", sans-serif;
       font-size: 1rem;
       font-weight: 400;
       color: #000;
-      background: rgba(245, 245, 245, 0.85);
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
         font-size: 0.9rem;
