@@ -1,23 +1,23 @@
 import { v4 as uuidv4 } from "uuid";
 
-import cryto from "../resources/img/project-icons/defi_app.svg";
-import blockchain from "../resources/img/project-icons/crypto.svg";
+import dapp_farmer from "../resources/img/project-icons/dapp_farmer.svg";
+import crypto_watcher from "../resources/img/project-icons/crypto_watcher.svg";
 import sun from "../resources/img/project-icons/weather_tracker.svg";
 import manga from "../resources/img/project-icons/anime_library.svg";
-import taco from "../resources/img/project-icons/mex_mtl_api.svg";
+import taco from "../resources/img/project-icons/mex_mtl.svg";
 
 const showcases = [
   {
     id: uuidv4(),
     name: "Crypto Watcher",
     desc: "💱 👓 CryptoWatcher is a price-tracking website for cryptocurrencies. This web application is using https://www.coingecko.com/en/api to get Crypto datas",
-    img: cryto,
+    img: crypto_watcher,
   },
   {
     id: uuidv4(),
     name: "DeFi DApp Token Farm",
     desc: "👨🏽‍🌾🪙 DeFi App - reproducing a Digital bank where we can earn interest for depositing cryptocurrency",
-    img: blockchain,
+    img: dapp_farmer,
   },
   {
     id: uuidv4(),

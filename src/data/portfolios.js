@@ -1,12 +1,12 @@
 import clapperboard from "../resources/img/project-icons/what_movie.svg";
-import co2 from "../resources/img/project-icons/carb_calculator.svg";
+import co2 from "../resources/img/project-icons/carb_one.svg";
 import corona from "../resources/img/project-icons/covid_dashboard.svg";
-import cryto from "../resources/img/project-icons/defi_app.svg";
-import controller from "../resources/img/project-icons/py_game.svg";
-import blockchain from "../resources/img/project-icons/crypto.svg";
+import cryto from "../resources/img/project-icons/dapp_farmer.svg";
+import controller from "../resources/img/project-icons/pygame.svg";
+import blockchain from "../resources/img/project-icons/crypto_watcher.svg";
 import manga from "../resources/img/project-icons/anime_library.svg";
 import sun from "../resources/img/project-icons/weather_tracker.svg";
-import taco from "../resources/img/project-icons/mex_mtl_api.svg";
+import taco from "../resources/img/project-icons/mex_mtl.svg";
 
 const portfolios = [
   {

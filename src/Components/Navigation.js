@@ -391,7 +391,7 @@ const NavigationStyled = styled.nav`
     li {
       display: block;
       a {
-        font-weight: 600;
+        font-weight: 200;
         display: block;
         padding: 0.45rem 0;
         position: relative;
