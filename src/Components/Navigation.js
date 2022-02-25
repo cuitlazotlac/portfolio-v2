@@ -313,9 +313,9 @@ const NavigationStyled = styled.nav`
     display: grid;
     grid-template-columns: 50% 25% 25%;
     .avatar {
-      width: 90%;
-      height: 100%;
-      margin-left: 0.5rem;
+      width: 95%;
+      height: 75%;
+      margin-left: 0.2rem;
       grid-column-start: 1;
       grid-column-end: 2;
     }
@@ -391,7 +391,7 @@ const NavigationStyled = styled.nav`
     li {
       display: block;
       a {
-        font-weight: 600;
+        font-weight: 200;
         display: block;
         padding: 0.45rem 0;
         position: relative;
