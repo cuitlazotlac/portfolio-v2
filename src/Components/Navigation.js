@@ -4,9 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { DropdownButton, Dropdown, Badge } from "react-bootstrap";
 
-// import avatar from "../resources/img/hve_favicon.svg";
 import avatar from "../resources/img/hve_favicon.svg";
-// import avatar from "../resources/img/group109.svg";
 import behance from "../resources/img/social-media-btn/behance.svg";
 import github from "../resources/img/social-media-btn/github.svg";
 import mail from "../resources/img/social-media-btn/mail.svg";
@@ -305,7 +303,7 @@ const NavigationStyled = styled.nav`
   align-items: center;
   height: 100%;
   width: 100%;
-  border-right: 2px solid var(--sidebar-dark-border);
+  border-right: 1px solid var(--sidebar-dark-border);
   .profile {
     width: 100%;
     height: 15%;

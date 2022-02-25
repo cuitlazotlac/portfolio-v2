@@ -149,13 +149,14 @@ h6{
   }
   //Nav Toggler
   .ham-burger-menu{
+    border: 1px solid var(--border-color);
       position: absolute;
       right: 5%;
       top: 3%; 
       display: none;
       z-index: 15;
       svg{
-          font-size: 3rem;
+          font-size: 2.4rem;
       }
     }
     .nav-toggle{

@@ -4,35 +4,25 @@ import styled from "styled-components";
 function LinkButton({ title }) {
   return (
     <LinkButtonStyled>
-      {title}
-      <span className="span_icon">→</span>
+      {title} <i class="fas fa-arrow-right"></i>
     </LinkButtonStyled>
   );
 }
 
 const LinkButtonStyled = styled.button`
-  outline: none;
   background-color: var(--background-light-color-2);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--white-color);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  margin-right: 1rem;
-  margin-bottom: 0.6rem;
   padding: 5px 55px;
   border: 1px solid var(--border-color);
   background: none;
-  font-weight: 500;
+  font-weight: 400;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
+  // box-shadow: 0 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
   transform-style: preserve-3d;
   overflow: hidden;
-  &:active,
-  &:focus {
-    background-color: var(--second-light-color);
-    color: var(--font-light-white);
-    border: 1px solid var(--background-light-color);
-  }
   &:hover {
     background-color: var(--border-color);
     color: var(--txt-button);
