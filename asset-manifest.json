@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio-v2/static/js/main.070ae81e.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.070ae81e.chunk.js.map",
+    "main.js": "/portfolio-v2/static/js/main.3fb11f67.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.3fb11f67.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.9aefca6b.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.9aefca6b.js.map",
     "static/css/2.3bbd0373.chunk.css": "/portfolio-v2/static/css/2.3bbd0373.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/getFetch.cjs": "/portfolio-v2/static/media/getFetch.582d29c4.cjs",
     "static/media/github.685765ba.png": "/portfolio-v2/static/media/github.685765ba.png",
     "static/media/github.bb5b1fdf.svg": "/portfolio-v2/static/media/github.bb5b1fdf.svg",
-    "static/media/hve_favicon.7a46e220.svg": "/portfolio-v2/static/media/hve_favicon.7a46e220.svg",
+    "static/media/hve_favicon.c51231a2.svg": "/portfolio-v2/static/media/hve_favicon.c51231a2.svg",
     "static/media/linkedin.00e8acf9.svg": "/portfolio-v2/static/media/linkedin.00e8acf9.svg",
     "static/media/linkedin.e64e1e2b.png": "/portfolio-v2/static/media/linkedin.e64e1e2b.png",
     "static/media/mail.0c7fe2e6.png": "/portfolio-v2/static/media/mail.0c7fe2e6.png",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.9aefca6b.js",
     "static/css/2.3bbd0373.chunk.css",
     "static/js/2.535a86a7.chunk.js",
-    "static/js/main.070ae81e.chunk.js"
+    "static/js/main.3fb11f67.chunk.js"
   ]
 }
