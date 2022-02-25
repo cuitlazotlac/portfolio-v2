@@ -10,23 +10,41 @@ export default function ProjectItem({
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
-      <div className="projectItem__info">
-        <Link to="#">
-          <h3 className="projectItem__title">{title}</h3>
+      <div className="item">
+        <Link to="/portfolios" className="projectItem__img">
+          <img src={img} alt="project img" />
         </Link>
-        <p className="projectItem__desc">{desc}</p>
+        <div className="projectItem__info">
+          <Link to="/portfolios">
+            <h3 className="projectItem__title">{title}</h3>
+          </Link>
+          <p className="projectItem__desc">{desc}</p>
+        </div>
       </div>
     </ProjectItemStyles>
   );
 }
 
 const ProjectItemStyles = styled.div`
+  .item {
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
+    transform-style: preserve-3d;
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+    &:hover {
+      transform: scale(1.1);
+      transform: translate(7px, -7px);
+      transform-style: preserve-3d;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 5px 10px var(--second-light-color);
+    }
+  }
   .projectItem__img {
     width: 100%;
-    height: 400px;
+    // height: 300px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
@@ -37,17 +55,15 @@ const ProjectItemStyles = styled.div`
     }
   }
   .projectItem__info {
-    font-family: "Alliance No.1";
     margin-top: 1rem;
     background-color: var(--deep-dark);
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 12px;
   }
   .projectItem__title {
-    font-size: 1.3rem;
-    font-weight: 900;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
   }
   .projectItem__desc {
     font-size: 1rem;

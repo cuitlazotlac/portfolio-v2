@@ -66,37 +66,24 @@ function HomePage() {
             5000,
           ]}
         />
-        {/* <h2 className="sub-title">{t("HomePage.SubTitle")}</h2> */}
         <div className="desc">
           <p>{t("HomePage.Desc_Part1")}</p>
-          {/* <p>{t("HomePage.Desc_Part2")}</p> */}
           <p>{t("HomePage.Desc_Part3")}</p>
           <p>{t("HomePage.Desc_Part4")}</p>
         </div>
         <br />
         <p className="more">
-          <NavLink to="/resume">
-            <a className="more">
-              {t("HomePage.More")} <i class="fas fa-arrow-right"></i>
-            </a>{" "}
-          </NavLink>
+            <NavLink to="/resume">
+              <LinkButton title={t("HomePage.More")} />
+            </NavLink>
         </p>
+        
         <div className="HomeItems">
           <ProjectsSection />
           <p className="more">
             <NavLink to="/portfolios">
-              {/* <a className="more">
-                {t("HomePage.AllProjects")} <i class="fas fa-arrow-right"></i>
-              </a>{" "} */}
-              {/* <a
-            href="https://drive.google.com/file/d/1XqK292myheQ53gTAYmz20vpO4cv5Q7Fq/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-            onClick={ClickHandler}
-          > */}
               <LinkButton title={t("AboutPage.CV")} />
             </NavLink>
-            {/* </a> */}
           </p>
           <br />
           <div className="ConfSquareItem">
@@ -119,7 +106,6 @@ function HomePage() {
             <HomeItem
               title={t("HomePage.Form4_Title")}
               cont1={t("HomePage.Form4_Desc1")}
-              // cont2={t("HomePage.Form4_Desc2")}
             />
           </NavLink>
           <br />

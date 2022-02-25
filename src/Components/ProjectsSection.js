@@ -25,10 +25,6 @@ export default function ProjectsSection() {
           title={t("HomePage.CarousselTitle")}
           span={t("HomePage.CarousselSubtitle")}
         />
-        {/* <Title
-          title={t("HomePage.CarousselTitle")}
-          span={t("HomePage.CarousselSubtitle")}
-        /> */}
 
         <div className="projects__allItems">
           <Swiper
@@ -70,12 +66,13 @@ export default function ProjectsSection() {
 }
 
 const ProjectSectionStyle = styled.div`
-  // font-family: "Noto Sans JP", sans-serif;
-  // padding: 10rem 0;
   padding-top: 4rem;
+  padding-bottom: 4rem;
+
   .projectItem__title {
-    font-weight: 700;
     font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
   }
   .projectItem__desc {
     font-weight: 200;
