@@ -38,8 +38,8 @@
     "Title": "About + Resume",
     "Desc": "Let's get to know each other",
     "Subtitle": "I am Hayssem Elsayed",
-    "Description": "Technical Project & Product Manager + Product Owner & Scrum Master Certified",
-    "Description2": "Passionate Technical Project Manager and Product Manager with over six years of hands-on experience leading successful features, products, and digital initiatives by leading projects, sprints, ensuring high-quality delivery, exercising collaborative team and stakeholder management. I strive to always be up to speed on different topics including coding and design to be able to deliver and discuss with all stakeholders.",
+    "Description": "Technical Product Manager + Product Owner & Scrum Master Certified",
+    "Description2": "Passionate Technical Product Manager with over six years of hands-on experience leading successful features, products, and digital initiatives by leading projects, sprints, ensuring high-quality delivery, exercising collaborative team and stakeholder management. I strive to always be up to speed on different topics including coding and design to be able to deliver and discuss with all stakeholders.",
     "Description3": "I fled from a traditional path and explored my creativity, by trying my hands on various techniques and technologies. Product Management is more than just a profession for me, and I try to dig deep into it. Today, I like to use my skills for critical thinking, empathy, and creativity to create viable and impactful solutions.",
     "SkillsTitle": "My Skills",
     "ResumeTitle": "Resume",
@@ -68,11 +68,11 @@
     "Education": "Education",
     "Certification": "Certifications"
   },
-  "Experience1": {
+  "Manager_Talan": {
     "Year": "Oct 2020 - Present",
-    "Title": "Talan Americas",
-    "SubTitle": "IT & Operations Manager",
-    "Region": "Montreal, CA - Canada",
+    "Title": "IT & Operations Manager",
+    "SubTitle": "Talan Americas | Montreal, CAN",
+    "Region": "",
     "Perimeter": "Perimeter: New Products",
     "Text": "Lorem Ipsum",
     "Task1": "• Defined a global consultant follow-up strategy for the company's most important client.",

@@ -175,7 +175,7 @@ const ContactPageStyled = styled.section`
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       @media screen and (max-width: 502px) {
-        margin-left: 10px;
+        // margin-left: 10px;
         // width: 85%;
       }
       img {

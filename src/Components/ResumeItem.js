@@ -14,7 +14,6 @@ function ResumeItem({
   responsability_4,
   responsability_5,
   responsability_6,
-  achievement,
   technologies,
 }) {
   return (
@@ -25,7 +24,7 @@ function ResumeItem({
       <div className="right-content">
         <h5>{title}</h5>
         <h6>{subTitle}</h6>
-        <p>{region}</p>
+        <h7>{region}</h7>
         <p>{perimeter}</p>
         <p>{text}</p>
         <ul>
@@ -36,8 +35,7 @@ function ResumeItem({
           <li>{responsability_5}</li>
           <li>{responsability_6}</li>
         </ul>
-        <p>{achievement}</p>
-        <p>{technologies}</p>
+        <p className="tech">{technologies}</p>
       </div>
     </ResumeItemStyled>
   );
@@ -50,13 +48,14 @@ const ResumeItemStyled = styled.div`
   }
   .left-content {
     max-width: 50%;
-    padding-left: 20px;
+    padding-left: 17px;
     position: relative;
     &::before {
       content: "";
       position: absolute;
-      left: -8px;
-      top: 5px;
+      left: -8.2px;
+      top: 6.5px;
+      color: red;
       height: 15px;
       width: 15px;
       border-radius: 50%;
@@ -77,9 +76,9 @@ const ResumeItemStyled = styled.div`
     &::before {
       content: "";
       position: absolute;
-      left: 0;
+      left: 5px;
       top: 15px;
-      height: 2px;
+      height: 1.8px;
       width: 3rem;
       background-color: var(--border-color);
       @media screen and (max-width: 670px) {
@@ -94,17 +93,28 @@ const ResumeItemStyled = styled.div`
     }
     h5 {
       color: var(--white-color);
-      font-size: 2.3rem;
+      font-size: 1.8rem;
       font-weight: 900;
-      padding-bottom: 0.4rem;
       @media screen and (max-width: 670px) {
         font-size: 1rem;
         font-weight: 700;
       }
     }
     h6 {
-      padding-bottom: 0.6rem;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      padding-bottom: 0;
+      @media screen and (max-width: 670px) {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+    }
+    h7 {
+      color: var(--white-color);
+      font-size: 1.2rem;
+      font-weight: light;
       @media screen and (max-width: 670px) {
         font-size: 0.8rem;
         font-weight: 400;
@@ -116,6 +126,11 @@ const ResumeItemStyled = styled.div`
         font-size: 0.6rem;
         font-weight: 400;
       }
+    }
+    .tech {
+      font-size: 1.1rem;
+      font-weight: 100;
+      font-family: monospace;
     }
     li {
       @media screen and (max-width: 670px) {

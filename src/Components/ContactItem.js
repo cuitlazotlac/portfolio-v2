@@ -19,13 +19,12 @@ const ContactItemStyled = styled.div`
   align-items: center;
   border: 1px solid var(--border-color);
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-  // border-radius: 2.5px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
   transform-style: preserve-3d;
   width: 100%;
   padding: 1rem;
   overflow: hidden;
-  &:hover{
+  &:hover {
     transform: scale(1.1);
     transform: translate(7px, -7px);
     transform-style: preserve-3d;
@@ -37,7 +36,6 @@ const ContactItemStyled = styled.div`
   }
   .left-content {
     padding: 1.5rem;
-    // border: 1px solid var(--border-color);
     font-size: 2rem;
     display: flex;
     align-items: center;

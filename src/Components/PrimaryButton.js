@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-
 function PrimaryButton({ title }) {
   return <PrimaryButtonStyled>{title}</PrimaryButtonStyled>;
 }
@@ -13,15 +12,16 @@ const PrimaryButtonStyled = styled.button`
   color: var(--white-color);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  width: 160px;
+  height: 55.9px;
   margin-right: 1rem;
   margin-bottom: 0.6rem;
   padding: 14px 28px;
   border: 1px solid var(--border-color);
   background: none;
-  font-weight: 900;
+  font-weight: 400;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
-  // border-radius: 2.5px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
   transform-style: preserve-3d;
   overflow: hidden;
   &:active,

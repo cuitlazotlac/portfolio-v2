@@ -20,7 +20,7 @@ const CertificationItemStyled = styled.div`
   display: flex;
   margin-bottom: 0;
   &:not(:last-child) {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
   }
   .left-content {
     max-width: 50%;
@@ -66,19 +66,10 @@ const CertificationItemStyled = styled.div`
         background-color: var(--border-color);
       }
     }
-    // h5 {
-    //   color: var(--white-color);
-    //   font-size: 2.3rem;
-    //   font-weight: 900;
-    //   padding-bottom: 0.4rem;
-    //   @media screen and (max-width: 670px) {
-    //     font-size: 1rem;
-    //     font-weight: 700;
-    //   }
-    // }
     h6 {
       padding-bottom: 0rem;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
       @media screen and (max-width: 670px) {
         font-size: 0.8rem;
         font-weight: 400;

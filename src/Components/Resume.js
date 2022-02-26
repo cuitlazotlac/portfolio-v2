@@ -37,20 +37,19 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
-            year={t("Experience1.Year")}
-            title={t("Experience1.Title")}
-            subTitle={t("Experience1.SubTitle")}
-            region={t("Experience1.Region")}
-            // perimeter={t("Experience1.Perimeter")}
-            // text={t("Experience1.Text")}
-            responsability_1={t("Experience1.Task1")}
-            responsability_2={t("Experience1.Task2")}
-            responsability_3={t("Experience1.Task3")}
+            year={t("Manager_Talan.Year")}
+            title={t("Manager_Talan.Title")}
+            subTitle={t("Manager_Talan.SubTitle")}
+            region={t("Manager_Talan.Region")}
+            // perimeter={t("Manager_Talan.Perimeter")}
+            text={t("Manager_Talan.Text")}
+            responsability_1={t("Manager_Talan.Task1")}
+            responsability_2={t("Manager_Talan.Task2")}
+            responsability_3={t("Manager_Talan.Task3")}
             // responsability_4={t("Experience1.Task4")}
             // responsability_5={t("Experience1.Task5")}
             // responsability_6={t("Experience1.Task6")}
-            // achievement={t("Experience1.Achievement")}
-            // technologies={t("Experience1.Technologies")}
+            // technologies={t("Manager_Talan.Technologies")}
           />
           <ResumeItem
             year={t("Experience2.Year")}
@@ -132,13 +131,13 @@ function Resume() {
           <SmallTitle icon={cert} title={t("ResumePage.Certification")} />
         </div>
         <div className="resume-content">
-        <CertificationItem
+          <CertificationItem
             year={t("Certification13.Year")}
             title={t("Certification13.Title")}
             subTitle={t("Certification13.SubTitle")}
             // text={t("Certification0.Text")}
           />
-        <CertificationItem
+          <CertificationItem
             year={t("Certification12.Year")}
             title={t("Certification12.Title")}
             subTitle={t("Certification12.SubTitle")}
@@ -241,7 +240,7 @@ const ResumeStyled = styled.section`
     margin-top: 4rem;
   }
   .resume-content {
-    border-left: 2px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
   }
 `;
 export default Resume;
