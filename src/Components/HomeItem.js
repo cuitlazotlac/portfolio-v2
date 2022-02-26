@@ -29,7 +29,6 @@ const HomeItemStyled = styled.div`
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 50px rgba(0, 0, 0, 0);
     transform-style: preserve-3d;
     width: 100%;
-    padding: 1rem;
     overflow: hidden;
     a {
       color: inherit; /* blue colors for links too */

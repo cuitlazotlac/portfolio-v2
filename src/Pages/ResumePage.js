@@ -18,7 +18,6 @@ function ResumePage() {
       <Title title={t("AboutPage.Title")} span={t("AboutPage.Desc")} />
       <ImageSection />
       <br/>
-      {/* <Skills /> */}
       <Resume />
     </MainLayout>
   );

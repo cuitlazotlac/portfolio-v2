@@ -19,6 +19,7 @@ function ConfsquareItem({ title, icon, cont1, cont2 }) {
 const ConfsquareItemStyled = styled.div`
   background-repeat: no-repeat;
   background-position: unset;
+  color: inherit; /* blue colors for links too */
   padding: 1.5rem 2rem;
   display: flex;
   align-items: center;
@@ -68,7 +69,6 @@ const ConfsquareItemStyled = styled.div`
       text-align: center;
     }
     h6 {
-      color: #000;
       font-size: 1.2rem;
       padding-bottom: 0.6rem;
       font-weight: 900;
@@ -80,7 +80,6 @@ const ConfsquareItemStyled = styled.div`
     p {
       font-size: 1rem;
       font-weight: 200;
-      color: #000;
       @media screen and (max-width: 670px) {
         background: rgba(245, 245, 245, 0.55);
         font-size: 0.9rem;

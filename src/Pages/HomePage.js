@@ -73,16 +73,16 @@ function HomePage() {
         </div>
         <br />
         <p className="more">
-            <NavLink to="/resume">
-              <LinkButton title={t("HomePage.More")} />
-            </NavLink>
+          <NavLink to="/resume">
+            <LinkButton title={t("HomePage.More")} />
+          </NavLink>
         </p>
-        
+
         <div className="HomeItems">
           <ProjectsSection />
           <p className="more">
             <NavLink to="/portfolios">
-              <LinkButton title={t("AboutPage.CV")} />
+              <LinkButton title={t("HomePage.AllProjects")} />
             </NavLink>
           </p>
           <br />
