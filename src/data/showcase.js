@@ -16,7 +16,7 @@ const showcases = [
   {
     id: uuidv4(),
     name: "DeFi DApp Token Farm",
-    desc: "👨🏽‍🌾🪙 DeFi App - reproducing a Digital bank where we can earn interest for depositing cryptocurrency",
+    desc: "👨🏽‍🌾🪙 DeFi App - quick smart contract project, reproducing a Digital bank where we can earn interest for depositing cryptocurrency",
     img: dapp_farmer,
   },
   {

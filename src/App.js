@@ -1,21 +1,22 @@
 import { useState } from "react";
 import { useEffect } from "react";
+
 import Sidebar from "./Components/Sidebar";
 import styled from "styled-components";
+
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ResumePage from "./Pages/ResumePage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 // import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
-// import Brightness4Icon from "@material-ui/icons/Brightness4";
+
 import MenuIcon from "@material-ui/icons/Menu";
 import { Route, Switch as Switching } from "react-router";
-// import Switch from "@material-ui/core/Switch";
 import { IconButton } from "@material-ui/core";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import ReactGA from "react-ga";
-import HomeParticle from "./Components/HomeParticle";
+// import HomeParticle from "./Components/HomeParticle";
 
 function App() {
   // const [theme, setTheme] = useState("dark-theme");
@@ -67,9 +68,8 @@ function App() {
       </div>
       <MainContentStyled>
         {/* <div className="lines">
-          <HomeParticle />
-        </div> */}
-
+            <HomeParticle />
+          </div> */}
         <Switching>
           <Route path="/home" exact>
             <HomePage />
@@ -84,8 +84,8 @@ function App() {
             <PortfoliosPage />
           </Route>
           {/* <Route path="/blogs" exact>
-            <BlogsPage />
-          </Route> */}
+              <BlogsPage />
+            </Route> */}
           <Route path="/contact" exact>
             <ContactPage />
           </Route>

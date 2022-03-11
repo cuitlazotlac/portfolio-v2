@@ -69,7 +69,7 @@
     "Certification": "Certifications"
   },
   "Manager_Talan": {
-    "Year": "Oct 2020 - Present",
+    "Year": "10/2020 - Present",
     "Title": "IT & Operations Manager",
     "SubTitle": "Talan Americas | Montreal, CAN",
     "Region": "",
@@ -85,7 +85,7 @@
     "Technologies": "Technologies"
   },
   "Experience2": {
-    "Year": "Oct 2019 - Present",
+    "Year": "10/2019 - Present",
     "Title": "Société Générale Corporate & Investment Banking",
     "SubTitle": "Product Manager",
     "Region": "Montreal, CA - Canada",
@@ -101,7 +101,7 @@
     "Technologies": "Technologies"
   },
   "Experience3": {
-    "Year": "Oct 2018 - Oct 2019",
+    "Year": "10/2018 - 10/2019",
     "Title": "Société Générale Corporate & Investment Banking",
     "SubTitle": "Product Manager",
     "Region": "Montreal, CA - Canada",
@@ -117,7 +117,7 @@
     "Technologies": "Technologies"
   },
   "Experience4": {
-    "Year": "Oct 2017 - Oct 2018",
+    "Year": "10/2017 - 10/2018",
     "Title": "BNP Paribas Cardif",
     "SubTitle": "Technical Project Manager",
     "Region": "Paris - France",
@@ -133,7 +133,7 @@
     "Technologies": "Technologies"
   },
   "Experience5": {
-    "Year": "Sept 2016 - Oct 2017",
+    "Year": "07/2016 - 10/2017",
     "Title": "Société Générale",
     "SubTitle": "Business Analyst",
     "Region": "Paris - France",
@@ -149,7 +149,7 @@
     "Technologies": "Technologies"
   },
   "StartUp1": {
-    "Year": "2021 - Present",
+    "Year": "01/2021 - Present",
     "Title": "Confsquare",
     "SubTitle": "Co-Founder",
     "Region": "Montreal, CA - Canada",
@@ -165,91 +165,91 @@
     "Technologies": "React, Javascript, HTML, CSS, Docker, Firebase"
   },
   "Certification2": {
-    "Year": "Jan 2021",
+    "Year": "01/2021",
     "Title": "ITIL v4 Foundation",
     "SubTitle": "PeopleCert/Axelos - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification1": {
-    "Year": "Mar 2021",
+    "Year": "03/2021",
     "Title": "Professional Scrum Product Owner II",
     "SubTitle": "Scrum.org - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification3": {
-    "Year": "Nov 2020",
+    "Year": "11/2020",
     "Title": "Professional Scrum Product Owner I",
     "SubTitle": "Scrum.org - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification4": {
-    "Year": "Oct 2020",
+    "Year": "10/2020",
     "Title": "Professional Scrum Master I",
     "SubTitle": "Scrum.org - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification5": {
-    "Year": "Jun 2019",
+    "Year": "06/2019",
     "Title": "RPA Developer Level 2 - Orchestrator",
     "SubTitle": "UIPath - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification6": {
-    "Year": "Jun 2019",
+    "Year": "06/2019",
     "Title": "RPA Developer Foundation Training",
     "SubTitle": "UIPath - Remote",
     "Text": "ITIL frameworks is built to enhance the quality of IT Service Management. ITIL certified professionals can earn 40 percent more than their non-certified peers"
   },
   "Certification7": {
-    "Year": "Jun 2017",
+    "Year": "06/2017",
     "Title": "IELTS",
     "SubTitle": "British Council - Paris, FRA",
     "Text": "Score : 6.5/9"
   },
   "Certification8": {
-    "Year": "Jun 2017",
+    "Year": "06/2017",
     "Title": "TOEIC",
     "SubTitle": "ETS Global - Paris, FRA",
     "Text": "Score : 830/990"
   },
   "Certification9": {
-    "Year": "Aug 2021",
+    "Year": "08/2021",
     "Title": "Foundations of User Experience (UX) Design",
     "SubTitle": "Google",
     "Text": "Score : 830/990"
   },
   "Certification10": {
-    "Year": "Aug 2021",
+    "Year": "08/2021",
     "Title": "Certified Cryptocurrency Expert",
     "SubTitle": "Blockchain Council",
     "Text": "Score : 830/990"
   },
   "Certification11": {
-    "Year": "Sept 2021",
+    "Year": "09/2021",
     "Title": "Certified Blockchain Expert",
     "SubTitle": "Blockchain Council",
     "Text": "Score : 830/990"
   },
   "Certification12": {
-    "Year": "Oct 2021",
+    "Year": "10/2021",
     "Title": "IBM Blockchain Essentials V2",
     "SubTitle": "IBM",
     "Text": "Score : 830/990"
   },
   "Certification13": {
-    "Year": "Oct 2021",
+    "Year": "10/2021",
     "Title": "IBM Blockchain Foundation Developer V2",
     "SubTitle": "IBM",
     "Text": "Score : 830/990"
   },
   "Education1": {
-    "Year": "Jun 2016 - Sept 2017",
+    "Year": "06/2016 - 07/2017",
     "Title": "Master’s degree IT Project and Business Strategy",
     "SubTitle": "Paris 7 Diderot University - Paris, FRA",
     "Text": "Obtained with distinction"
   },
   "Education2": {
-    "Year": "Sept 2015 - Jun 2016",
+    "Year": "09/2015 - 06/2016",
     "Title": "Master’s degree Social Science and Economics ",
     "SubTitle": "Paris 7 Diderot University - Paris, FRA",
     "Text": "Obtained with distinction"
