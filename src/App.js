@@ -1,96 +1,89 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+// import { Route, Switch as Switching } from "react-router";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Sidebar from "./Components/Sidebar";
 import styled from "styled-components";
+import MenuIcon from "@material-ui/icons/Menu";
+import { IconButton } from "@material-ui/core";
 
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ResumePage from "./Pages/ResumePage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
-// import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 
-import MenuIcon from "@material-ui/icons/Menu";
-import { Route, Switch as Switching } from "react-router";
-import { IconButton } from "@material-ui/core";
-// import { BrowserRouter } from "react-router-dom";
 import ReactGA from "react-ga";
-// import HomeParticle from "./Components/HomeParticle";
 
 function App() {
-  // const [theme, setTheme] = useState("dark-theme");
   const [theme] = useState("light-theme");
-  // const [checked, setChecked] = useState(false);
-  // const [setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
   useEffect(() => {
     document.documentElement.className = theme;
 
-    ReactGA.initialize("UA-208876305-1");
-    //to report page view
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.initialize("UA-208876305-1");
+    // //to report page view
+    // ReactGA.pageview(window.location.pathname + window.location.search);
   }, [theme]);
 
-  // const themeToggler = () => {
-  //   if (theme === "light-theme") {
-  //     setTheme("dark-theme");
-  //     setChecked(false);
-  //   } else {
-  //     setTheme("light-theme");
-  //     setChecked(true);
-  //   }
-  // };
-
-  // setTimeout(function () {
-  //   var count = 1;
-  //   if (count == 1) {
-  //     count = 2;
-  //     window.location.href = "/home";
-  //   }
-  // }, 5000);
-
-  // window.location.href = "/home";
-  // if (window.location.href !== "https://cuitlazotlac.github.io/home") {
-  //   if (window.location.href !== "http://localhost:3000/home") {
-  //     window.location.replace("/home");
-  //   }
-  // }
-
   return (
+    //   <div className="App">
+    //     <Sidebar navToggle={navToggle} />
+    //     <div className="ham-burger-menu">
+    //       <IconButton onClick={() => setNavToggle(!navToggle)}>
+    //         <MenuIcon />
+    //       </IconButton>
+    //     </div>
+    //     <MainContentStyled>
+    //       <Switching>
+    //         <Route path="/home" exact>
+    //           <HomePage />
+    //         </Route>
+    //         <Route path="/about" exact>
+    //           <AboutPage />
+    //         </Route>
+    //         <Route path="/resume" exact>
+    //           <ResumePage />
+    //         </Route>
+    //         <Route path="/portfolios" exact>
+    //           <PortfoliosPage />
+    //         </Route>
+    //         <Route path="/contact" exact>
+    //           <ContactPage />
+    //         </Route>
+    //       </Switching>
+    //     </MainContentStyled>
+    //   </div>
+    // );
     <div className="App">
-      <Sidebar navToggle={navToggle} />
-      <div className="ham-burger-menu">
-        <IconButton onClick={() => setNavToggle(!navToggle)}>
-          <MenuIcon />
-        </IconButton>
-      </div>
-      <MainContentStyled>
-        {/* <div className="lines">
-            <HomeParticle />
-          </div> */}
-        <Switching>
-          <Route path="/home" exact>
-            <HomePage />
-          </Route>
-          <Route path="/about" exact>
-            <AboutPage />
-          </Route>
-          <Route path="/resume" exact>
-            <ResumePage />
-          </Route>
-          <Route path="/portfolios" exact>
-            <PortfoliosPage />
-          </Route>
-          {/* <Route path="/blogs" exact>
-              <BlogsPage />
-            </Route> */}
-          <Route path="/contact" exact>
-            <ContactPage />
-          </Route>
-        </Switching>
-      </MainContentStyled>
+      <Router>
+        <Sidebar navToggle={navToggle} />
+        <div className="ham-burger-menu">
+          <IconButton onClick={() => setNavToggle(!navToggle)}>
+            <MenuIcon />
+          </IconButton>
+        </div>
+        <Switch>
+          <MainContentStyled>
+            <Route path="/home">
+              <HomePage />
+            </Route>
+            <Route path="/about">
+              <AboutPage />
+            </Route>
+            <Route path="/resume">
+              <ResumePage />
+            </Route>
+            <Route path="/portfolios">
+              <PortfoliosPage />
+            </Route>
+            <Route path="/contact">
+              <ContactPage />
+            </Route>
+          </MainContentStyled>
+        </Switch>
+      </Router>
     </div>
   );
 }
